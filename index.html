@@ -229,8 +229,7 @@ nav button.on .ic{transform:translateY(-3px) scale(1.12)}
       <h3>Asking $/sqft vs the local median</h3>
       <div id="priceVerdict" style="font-size:14px;margin:6px 0 10px"></div>
       <div id="ppsfChart"></div>
-      <div class="note">Medians are my area estimates, not an appraisal — they move over time.
-        For this exact home's real price history, tap below.</div>
+      <div class="note">Medians refresh automatically from homes that actually sold nearby. Not an appraisal.<br>For this exact home's price history, tap below.</div>
       <a class="linkbtn" id="histLink" target="_blank">📈 See price history on Redfin</a>
     </div>
     <div class="card">
@@ -258,6 +257,13 @@ nav button.on .ic{transform:translateY(-3px) scale(1.12)}
       <a class="linkbtn" id="photoLink" target="_blank">📷 Open live listing photos</a>
     </div>
     <div class="card">
+      <h2>Tune Scout's nose 🎛️</h2>
+      <h3>My weights are a guess. Make the score yours — it re-scores instantly and remembers.</h3>
+      <div id="tuner"></div>
+      <button class="btn ghost" onclick="resetMult()">↺ Back to Scout's defaults</button>
+    </div>
+
+    <div class="card">
       <h2>Walkthrough checklist ✅</h2><h3>Tap as you tour — it saves with the home</h3>
       <div class="toggles" id="inspectToggles"></div>
     </div>
@@ -283,11 +289,13 @@ nav button.on .ic{transform:translateY(-3px) scale(1.12)}
       <div id="amenList" style="margin-top:10px"></div>
     </div>
     <div class="card">
-      <h2>Commute 🚗</h2><h3>Real traffic, from this address</h3>
+      <h2>Commute 🚗</h2><h3>Measured from this exact address — not a city-wide guess</h3>
+      <div id="driveOut" style="font-size:13px;color:var(--muted);margin-bottom:8px">Tap "Sniff out the area" above and I'll measure both drives.</div>
       <div class="btn2">
-        <a class="linkbtn" id="mapWife" target="_blank">Wife → Placentia</a>
-        <a class="linkbtn" id="mapParth" target="_blank">You → Monterey Park</a>
+        <a class="linkbtn" id="mapWife" target="_blank">🚦 Wife → Placentia</a>
+        <a class="linkbtn" id="mapParth" target="_blank">🚦 You → Monterey Park</a>
       </div>
+      <div class="note">Measured times are free-flow (no live traffic). The buttons above open Maps with real traffic.</div>
     </div>
     <div class="card">
       <h2>Hazard & safety maps ⚠️</h2><h3>State-run, free, no account</h3>
@@ -337,6 +345,11 @@ nav button.on .ic{transform:translateY(-3px) scale(1.12)}
       <h2>The pack 🐾</h2><h3 id="savedCount">Tick 2–3 to compare</h3>
       <div id="savedList"></div>
       <button class="btn" id="cmpBtn" onclick="compare()" style="display:none">⚖️ Compare selected</button>
+      <div class="btn2" style="margin-top:10px">
+        <button class="btn ghost" onclick="exportPack()" style="margin-top:0">⬇️ Back up pack</button>
+        <button class="btn ghost" onclick="$('impFile').click()" style="margin-top:0">⬆️ Restore</button>
+      </div>
+      <input type="file" id="impFile" accept="application/json" style="display:none" onchange="importPack(this.files[0])">
     </div>
     <div class="card" id="cmpCard" style="display:none"><h2>Side by side</h2><div class="cmptable" id="cmpTable"></div></div>
   </section>
@@ -448,22 +461,34 @@ function render(){
  const price=num('price'),beds=num('beds'),baths=num('baths'),sqft=num('sqft'),lot=num('lot'),
  year=num('year'),hoa=num('hoa'),down=num('down'),rate=num('rate'),term=num('term'),city=$('city').value;
  const c=CITY[city]||[30,35,520];const crit=[];let got=0,poss=0;
- const add=(n,ok,w,warn)=>{poss+=w;if(ok==='pass'){got+=w;crit.push([n,'pass','fits'])}else if(ok==='warn'){got+=w*.5;crit.push([n,'warnT',warn||'partial'])}else crit.push([n,'miss','no'])};
- add('Under $750K',price<=750000?'pass':(price<=790000?'warn':'miss'),14,price<=790000?'negotiable':'over');
- add('No HOA',hoa===0?'pass':'miss',10);add('3+ beds',beds>=3?'pass':'miss',8);add('2+ baths',baths>=2?'pass':'miss',6);
- add('Wife ≤25m ('+c[0]+'m)',c[0]<=25?'pass':(c[0]<=50?'warn':'miss'),10,c[0]+'m stretch');
- add('You ≤45m ('+c[1]+'m)',c[1]<=45?'pass':'miss',6);
- add('Newer ('+(year||'?')+')',year>=2005?'pass':(year>=1985?'warn':'miss'),5,'older');
- add('Lot ratio',(sqft&&lot/sqft>=4)?'pass':(sqft&&lot/sqft>=3?'warn':'miss'),5,'tight');
+ // measured drive beats my city-level guess when we have it
+ const dw=(window._drive&&window._drive.wife)?window._drive.wife.rush:null;
+ const dp=(window._drive&&window._drive.parth)?window._drive.parth.rush:null;
+ const wMin=dw!=null?dw:c[0], pMin=dp!=null?dp:c[1];
+ const add=(id,n,ok,w,warn)=>{const m=MULT(id);if(m===0){crit.push([n,'miss','off']);return}
+  w=w*m;poss+=w;
+  if(ok==='pass'){got+=w;crit.push([n,'pass','fits'])}
+  else if(ok==='warn'){got+=w*.5;crit.push([n,'warnT',warn||'partial'])}
+  else crit.push([n,'miss','no'])};
+ add('price','Under $750K',price<=750000?'pass':(price<=790000?'warn':'miss'),14,price<=790000?'negotiable':'over');
+ add('hoa','No HOA',hoa===0?'pass':'miss',10);
+ add('beds','3+ beds',beds>=3?'pass':'miss',8);
+ add('baths','2+ baths',baths>=2?'pass':'miss',6);
+ add('wife','Wife ≤25m ('+wMin+'m'+(dw!=null?' measured':'')+')',wMin<=25?'pass':(wMin<=50?'warn':'miss'),10,wMin+'m stretch');
+ add('you','You ≤45m ('+pMin+'m'+(dp!=null?' measured':'')+')',pMin<=45?'pass':'miss',6);
+ add('newer','Newer ('+(year||'?')+')',year>=2005?'pass':(year>=1985?'warn':'miss'),5,'older');
+ add('lot','Lot ratio',(sqft&&lot/sqft>=4)?'pass':(sqft&&lot/sqft>=3?'warn':'miss'),5,'tight');
  // Features only count once you've told Scout about them.
  // Unticked = unknown, not "missing" — so it never punishes a home for facts it lacks.
- var known=8,unknown=0;
- FEATURES.forEach(function(f){var k=f[0],l=f[1],w=f[2];
-  if(feat[k]){poss+=w;got+=w;known++;crit.push([l,'pass','fits'])}
+ var known=0,unknown=0;
+ ['price','hoa','beds','baths','wife','you','newer','lot'].forEach(function(id){if(MULT(id)>0)known++});
+ FEATURES.forEach(function(f){var k=f[0],l=f[1],w=f[2],m=MULT(k);
+  if(m===0){crit.push([l,'miss','off']);return}
+  if(feat[k]){poss+=w*m;got+=w*m;known++;crit.push([l,'pass','fits'])}
   else{unknown++;crit.push([l,'miss','not set'])}});
  const fit=Math.round(100*got/poss);
- $('knownNote').textContent=unknown?('Scored on '+known+' of 22 criteria — tap the features this home has to refine it.')
-                                   :'All 22 criteria scored.';
+ $('knownNote').textContent=unknown?('Scored on '+known+' known criteria · '+unknown+' still unset — tap the features this home has.')
+                                   :'Everything scored.';
  $('fitNum').textContent=fit;
  const col=fit>=75?'#3E8B5A':fit>=55?'#C9902F':'#C6543B';
  $('gaugeArc').style.strokeDashoffset=GA_C*(1-fit/100);$('gaugeArc').style.stroke=col;
@@ -530,6 +555,7 @@ function collect(){return{id:editId||('L'+Date.now()),addr:$('addr').value,city:
  price:num('price'),beds:num('beds'),baths:num('baths'),sqft:num('sqft'),lot:num('lot'),year:num('year'),hoa:num('hoa'),
  down:num('down'),rate:num('rate'),term:num('term'),tax:num('tax'),ins:num('ins'),pmi:num('pmi'),
  feat:{...feat},scam:{...scam},inspect:{...inspect},photos:[...photos],note:$('note').value,
+ url:(window._srcUrl||''),
  fit:parseInt($('fitNum').textContent)||0,
  trust:(function(){const mm=$('trustStamp').textContent.match(/(\d+)\s*$/);return mm?+mm[1]:0})(),
  monthly:monthly(num('price'),num('down'),num('rate'),num('term'),num('tax'),num('ins'),num('pmi'),num('hoa')).total,
@@ -539,6 +565,7 @@ async function saveListing(){try{const o=collect();await dbPut(o);editId=o.id;bu
  catch(e){alert('Could not save — Private/Incognito mode blocks storage. Open the app normally.')}}
 
 async function renderSaved(){let items=[];try{items=await dbAll()}catch(e){}
+ items=items.filter(function(o){return o&&o.id&&String(o.id).charAt(0)!=='_'});
  items.sort((a,b)=>b.fit-a.fit);window._saved=items;const box=$('savedList');
  if(!items.length){box.innerHTML=`<div class="empty"><span class="big">🐕</span>No homes in the pack yet.<br>Score one, then tap 🦴 Save.</div>`;$('cmpBtn').style.display='none';return}
  const pick=[...items].sort((a,b)=>b.fit-a.fit||a.monthly-b.monthly)[0];
@@ -556,6 +583,7 @@ async function renderSaved(){let items=[];try{items=await dbAll()}catch(e){}
    <input type="checkbox" class="cmpsel" value="${o.id}" onchange="cmpToggle()">${img}
    <div class="meta" onclick="loadSaved('${o.id}')">
      <div class="a">${o.addr}</div><div class="p">${money(o.price)}</div>
+     <div style="margin:3px 0">${liveBadge(o)}</div>
      <div class="s">Fit ${o.fit} · Trust ${o.trust} · ${money(o.monthly)}/mo · ${o.beds}bd/${o.baths}ba</div>
    </div>
    <button class="tog" onclick="delSaved('${o.id}')">🗑️</button></div>`}).join('');
@@ -628,8 +656,11 @@ function priceChart(){
  const fair=med*sqft;
  const col=delta<=-8?'#3E8B5A':delta<=8?'#C9902F':'#C6543B';
  const word=delta<=-8?'Priced under the area':delta<=8?'About right for the area':'Asking above the area';
+ const mk=(window._mkt&&window._mkt.cities&&window._mkt.cities[city])||null;
+ const src=(mk&&mk.n)?`real median of ${mk.n} homes sold in the last ${window._mkt.window_days} days`:'my area estimate';
  $('priceVerdict').innerHTML=`<b style="color:${col}">${word}</b> — `+
   `$${Math.round(ppsf)}/sqft vs ~$${med} local median (${delta>0?'+':''}${delta.toFixed(1)}%).<br>`+
+  `<span style="font-size:11px;color:var(--muted)">median source: ${src}</span><br>`+
   `<span style="color:var(--muted)">At the median this home would list near <b class="mono">${money(fair)}</b>`+
   (fair<price?` — about ${money(price-fair)} of daylight to argue with.`:` — he's asking under that.`)+`</span>`;
  // bars: this home + every city median, sorted
@@ -773,6 +804,7 @@ async function sniffArea(){
   if(window._home)window._map.removeLayer(window._home);
   window._home=L.marker([lat,lon]).addTo(window._map).bindPopup('<b>🏠 This home</b><br>'+addr).openPopup();
   setTimeout(function(){window._map.invalidateSize()},150);
+  measureDrives(lat,lon);
   // amenities
   $('amenNote').textContent='Sniffing the neighbourhood…';
   const R=3200;
@@ -894,7 +926,148 @@ function supp(){
  $('supp').innerHTML=t;
 }
 
-openDB().catch(()=>{});renderPhotoStrip();render();
+
+
+/* ---------- importance tuning (persisted) ---------- */
+const CRIT_LIST=[
+ ['price','Under $750K'],['hoa','No HOA'],['beds','3+ bedrooms'],['baths','2+ bathrooms'],
+ ['wife','Wife\u2019s commute'],['you','Your commute'],['newer','Newer build'],['lot','Big lot vs house']
+].concat(FEATURES.map(function(f){return [f[0],f[1]]}));
+const LEVELS=[['off','Off',0],['nice','Nice',0.5],['want','Want',1],['must','Must',2]];
+window._mult={};
+function MULT(id){var v=window._mult[id];return v===undefined?1:v}
+function buildTuner(){
+ var box=$('tuner');if(!box)return;box.innerHTML='';
+ CRIT_LIST.forEach(function(c){
+  var id=c[0],label=c[1],cur=MULT(id);
+  var row=document.createElement('div');
+  row.style.cssText='display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:1px dotted var(--line)';
+  var lab=document.createElement('div');lab.style.cssText='flex:1;font-size:13px';lab.textContent=label;
+  row.appendChild(lab);
+  var seg=document.createElement('div');seg.style.cssText='display:flex;gap:4px';
+  LEVELS.forEach(function(L){
+   var b=document.createElement('button');
+   b.textContent=L[1];
+   var on=Math.abs(cur-L[2])<0.01;
+   b.style.cssText='border:1px solid '+(on?'var(--ink)':'var(--line)')+';background:'+(on?'var(--ink)':'#fff')+
+     ';color:'+(on?'var(--paper)':'var(--muted)')+';border-radius:14px;padding:5px 9px;font-size:11px;font-weight:600';
+   b.onclick=function(){window._mult[id]=L[2];saveMult();buildTuner();render();buzz(8)};
+   seg.appendChild(b)});
+  row.appendChild(seg);box.appendChild(row)})
+}
+async function saveMult(){try{await dbPut({id:'_settings',mult:window._mult})}catch(e){}}
+async function loadMult(){try{
+  const r=await new Promise(function(res,rej){const q=dbTx('readonly').get('_settings');
+    q.onsuccess=function(){res(q.result)};q.onerror=function(){rej()}});
+  if(r&&r.mult)window._mult=r.mult;
+ }catch(e){}
+ buildTuner();render();
+}
+function resetMult(){window._mult={};saveMult();buildTuner();render();buzz([15,30])}
+
+/* ---------- measured drive (free routing, no traffic) ---------- */
+const OFFICES={wife:'774 S Placentia Ave, Placentia, CA 92870',
+               parth:'1055 Corporate Center Dr, Monterey Park, CA 91754'};
+
+async function geo(q){
+ const r=await fetch('https://nominatim.openstreetmap.org/search?format=json&limit=1&q='+encodeURIComponent(q));
+ const j=await r.json();
+ if(!j.length)throw new Error('no geocode');
+ return [+j[0].lat,+j[0].lon];
+}
+async function officeCoords(){
+ if(window._offices)return window._offices;
+ const w=await geo(OFFICES.wife);
+ await new Promise(r=>setTimeout(r,1100));            // be polite to the free service
+ const p=await geo(OFFICES.parth);
+ window._offices={wife:w,parth:p};
+ return window._offices;
+}
+async function route(from,to){
+ const u='https://router.project-osrm.org/route/v1/driving/'+from[1]+','+from[0]+';'+to[1]+','+to[0]+'?overview=false';
+ const r=await fetch(u);const j=await r.json();
+ if(!j.routes||!j.routes.length)throw new Error('no route');
+ const rt=j.routes[0];
+ const free=Math.round(rt.duration/60);
+ return {mi:+(rt.distance/1609.34).toFixed(1), free:free, rush:Math.round(free*1.4)};
+}
+async function measureDrives(lat,lon){
+ try{
+  $('driveOut').textContent='Measuring both drives…';
+  const off=await officeCoords();
+  const w=await route([lat,lon],off.wife);
+  const p=await route([lat,lon],off.parth);
+  window._drive={wife:w,parth:p};
+  const line=function(icon,name,d,cap){
+   const col=d.rush<=cap?'#3E8B5A':d.rush<=cap+12?'#C9902F':'#C6543B';
+   return '<div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dotted var(--line)">'+
+    '<span>'+icon+' '+name+'</span><span class="mono" style="font-weight:600;color:'+col+'">'+
+    d.mi+' mi · '+d.free+'m free-flow · <b>~'+d.rush+'m rush</b></span></div>'};
+  $('driveOut').innerHTML=line('👩','Wife → Placentia',w,25)+line('👨','You → Monterey Park',p,45)+
+   '<div style="font-size:11px;margin-top:6px">Rush estimate = free-flow × 1.4 (typical LA/OC peak). Fit score now uses these instead of my city guess.</div>';
+  render();
+ }catch(e){
+  $('driveOut').innerHTML='<span style="color:var(--muted)">Free routing service is busy — use the Maps buttons for real traffic.</span>';
+ }
+}
+
+/* ---------- live data published by the emailer (free, same origin) ---------- */
+window._watch=null;
+async function loadLive(){
+ try{
+  const m=await fetch('./market.json',{cache:'no-store'});
+  if(m.ok){const j=await m.json();
+   Object.keys(j.cities||{}).forEach(function(c){
+    if(CITY[c]&&j.cities[c].ppsf&&j.cities[c].n) CITY[c][2]=j.cities[c].ppsf});
+   window._mkt=j; render();}
+ }catch(e){}
+ try{
+  const w=await fetch('./watch.json',{cache:'no-store'});
+  if(w.ok){const j=await w.json();window._watch=j.listings||{};}
+ }catch(e){}
+}
+function liveBadge(o){
+ if(!window._watch||!o.url)return '';
+ const r=window._watch[o.url];
+ if(!r)return '';
+ if(r.status==='sold'){
+  const sp=r.sold_price?money(r.sold_price):'';
+  const d=(r.sold_price&&o.price)?r.sold_price-o.price:0;
+  return `<span style="background:#14312B;color:#EBD9B6;border-radius:4px;padding:2px 7px;font-size:10px;font-weight:700">
+    SOLD${sp?' '+sp:''}${d?(d<0?' ('+money(d)+' under ask)':' (+'+money(d)+')'):''}</span>`}
+ if(r.status==='off_market')
+  return '<span style="background:#63706A;color:#fff;border-radius:4px;padding:2px 7px;font-size:10px;font-weight:700">OFF MARKET / PENDING</span>';
+ if(r.price&&o.price&&r.price<o.price)
+  return `<span style="background:#C6543B;color:#fff;border-radius:4px;padding:2px 7px;font-size:10px;font-weight:700">🔻 NOW ${money(r.price)} (−${money(o.price-r.price)})</span>`;
+ if(r.dom!=null&&r.dom>=60)
+  return `<span style="background:#C9902F;color:#fff;border-radius:4px;padding:2px 7px;font-size:10px;font-weight:700">⏱ ${r.dom} DAYS — seller tiring</span>`;
+ return '';
+}
+
+/* ---------- back up / restore the pack ---------- */
+async function exportPack(){
+ try{
+  const items=await dbAll();
+  const blob=new Blob([JSON.stringify({exported:new Date().toISOString(),homes:items},null,1)],
+    {type:'application/json'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+  a.download='scout-pack-'+new Date().toISOString().slice(0,10)+'.json';a.click();
+  buzz([15,30,15]);
+ }catch(e){alert('Could not export.')}
+}
+function importPack(f){
+ if(!f)return;const rd=new FileReader();
+ rd.onload=async function(){
+  try{
+   const j=JSON.parse(rd.result);const homes=j.homes||[];
+   if(!homes.length){alert('No homes in that file.');return}
+   for(const o of homes){await dbPut(o)}
+   alert('Restored '+homes.length+' home'+(homes.length>1?'s':'')+' 🐾');renderSaved();
+  }catch(e){alert('That file did not look like a Scout backup.')}};
+ rd.readAsText(f);
+}
+
+openDB().then(function(){loadMult();loadLive()}).catch(()=>{});renderPhotoStrip();render();
 if(!fromLink()){/* normal launch */}
 window.addEventListener('hashchange',fromLink);
 </script>
