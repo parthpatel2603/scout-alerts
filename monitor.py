@@ -40,8 +40,8 @@ MARKET_FILE = "market.json"    # published for Scout
 EMAIL_EVERY_HOURS = 6
 BACKLOG_TRIGGER   = 50
 
-SCOUT_URL = os.environ.get("SCOUT_URL",
-    "https://parthpatel2603.github.io/scout-alerts/")
+SCOUT_URL = (os.environ.get("SCOUT_URL") or "").strip() or \
+    "https://parthpatel2603.github.io/scout-alerts/"
 
 # ---------------- STATE ----------------
 def load_state():
@@ -184,7 +184,8 @@ def scout_link(row):
          "year":int(row.get("year_built") or 0),"hoa":int(row.get("hoa_fee") or 0),
          "url":row.get("property_url") or ""}
     base = SCOUT_URL if SCOUT_URL.endswith("/") else SCOUT_URL+"/"
-    return base + "#" + urlencode(p, quote_via=quote)
+    # query string, not #fragment: mail clients rewrite links and can drop fragments
+    return base + "?" + urlencode(p, quote_via=quote)
 
 def card(row, drop=None):
     fit = fit_score(row, row["_city_key"])
