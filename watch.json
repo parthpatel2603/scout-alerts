@@ -1,12 +1,10 @@
 {
- "backlog": [],
- "last_email": "2026-07-16T19:04:59.618798",
- "tracked": {
+ "updated": "2026-07-16",
+ "listings": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 764800,
    "first_price": 0,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 2
   },
@@ -14,7 +12,6 @@
    "price": 735000,
    "first_price": 0,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 0
   },
@@ -22,7 +19,6 @@
    "price": 780000,
    "first_price": 0,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 3
   },
@@ -30,7 +26,6 @@
    "price": 768000,
    "first_price": 0,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 3
   },
@@ -38,7 +33,6 @@
    "price": 699000,
    "first_price": 0,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 0
   },
@@ -46,7 +40,6 @@
    "price": 600000,
    "first_price": 0,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 0
   },
@@ -54,7 +47,6 @@
    "price": 668000,
    "first_price": 0,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 3
   },
@@ -62,7 +54,6 @@
    "price": 239000,
    "first_price": 239000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 104
   },
@@ -70,7 +61,6 @@
    "price": 115000,
    "first_price": 115000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 91
   },
@@ -78,7 +68,6 @@
    "price": 389000,
    "first_price": 389000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 41
   },
@@ -86,7 +75,6 @@
    "price": 199999,
    "first_price": 199999,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 222
   },
@@ -94,7 +82,6 @@
    "price": 424900,
    "first_price": 424900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 20
   },
@@ -102,7 +89,6 @@
    "price": 199900,
    "first_price": 199900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 49
   },
@@ -110,7 +96,6 @@
    "price": 258000,
    "first_price": 258000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 101
   },
@@ -118,7 +103,6 @@
    "price": 439000,
    "first_price": 439000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 105
   },
@@ -126,7 +110,6 @@
    "price": 229000,
    "first_price": 229000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 175
   },
@@ -134,7 +117,6 @@
    "price": 245000,
    "first_price": 245000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 41
   },
@@ -142,7 +124,6 @@
    "price": 209000,
    "first_price": 209000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 62
   },
@@ -150,7 +131,6 @@
    "price": 749888,
    "first_price": 749888,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 23
   },
@@ -158,7 +138,6 @@
    "price": 665000,
    "first_price": 665000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 20
   },
@@ -166,7 +145,6 @@
    "price": 169000,
    "first_price": 169000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 232
   },
@@ -174,7 +152,6 @@
    "price": 299000,
    "first_price": 299000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 23
   },
@@ -182,7 +159,6 @@
    "price": 318995,
    "first_price": 318995,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 78
   },
@@ -190,7 +166,6 @@
    "price": 770000,
    "first_price": 770000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 86
   },
@@ -198,7 +173,6 @@
    "price": 699000,
    "first_price": 699000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 55
   },
@@ -206,7 +180,6 @@
    "price": 778000,
    "first_price": 778000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 88
   },
@@ -214,7 +187,6 @@
    "price": 329995,
    "first_price": 329995,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 4
   },
@@ -222,7 +194,6 @@
    "price": 237995,
    "first_price": 237995,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 113
   },
@@ -230,7 +201,6 @@
    "price": 249000,
    "first_price": 249000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 15
   },
@@ -238,7 +208,6 @@
    "price": 360000,
    "first_price": 360000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 20
   },
@@ -246,7 +215,6 @@
    "price": 399000,
    "first_price": 399000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 58
   },
@@ -254,7 +222,6 @@
    "price": 308000,
    "first_price": 308000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 34
   },
@@ -262,7 +229,6 @@
    "price": 159000,
    "first_price": 159000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 81
   },
@@ -270,7 +236,6 @@
    "price": 206000,
    "first_price": 206000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 28
   },
@@ -278,7 +243,6 @@
    "price": 145000,
    "first_price": 145000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 91
   },
@@ -286,7 +250,6 @@
    "price": 250000,
    "first_price": 250000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 28
   },
@@ -294,7 +257,6 @@
    "price": 168000,
    "first_price": 168000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 92
   },
@@ -302,7 +264,6 @@
    "price": 715000,
    "first_price": 715000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 7
   },
@@ -310,7 +271,6 @@
    "price": 188000,
    "first_price": 188000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 23
   },
@@ -318,7 +278,6 @@
    "price": 239888,
    "first_price": 239888,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 28
   },
@@ -326,7 +285,6 @@
    "price": 199999,
    "first_price": 199999,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 85
   },
@@ -334,7 +292,6 @@
    "price": 249999,
    "first_price": 249999,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 312
   },
@@ -342,7 +299,6 @@
    "price": 209900,
    "first_price": 209900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 150
   },
@@ -350,7 +306,6 @@
    "price": 238000,
    "first_price": 238000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 8
   },
@@ -358,7 +313,6 @@
    "price": 318000,
    "first_price": 318000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 103
   },
@@ -366,7 +320,6 @@
    "price": 199990,
    "first_price": 199990,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 132
   },
@@ -374,7 +327,6 @@
    "price": 216000,
    "first_price": 216000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 453
   },
@@ -382,7 +334,6 @@
    "price": 239888,
    "first_price": 239888,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 63
   },
@@ -390,7 +341,6 @@
    "price": 268000,
    "first_price": 268000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 80
   },
@@ -398,7 +348,6 @@
    "price": 188000,
    "first_price": 188000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 63
   },
@@ -406,7 +355,6 @@
    "price": 195000,
    "first_price": 195000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 166
   },
@@ -414,7 +362,6 @@
    "price": 189000,
    "first_price": 189000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 88
   },
@@ -422,7 +369,6 @@
    "price": 298800,
    "first_price": 298800,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 70
   },
@@ -430,7 +376,6 @@
    "price": 149000,
    "first_price": 149000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 98
   },
@@ -438,7 +383,6 @@
    "price": 188000,
    "first_price": 188000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 49
   },
@@ -446,7 +390,6 @@
    "price": 198880,
    "first_price": 198880,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 168
   },
@@ -454,7 +397,6 @@
    "price": 145000,
    "first_price": 145000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 67
   },
@@ -462,7 +404,6 @@
    "price": 188000,
    "first_price": 188000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 33
   },
@@ -470,7 +411,6 @@
    "price": 688800,
    "first_price": 688800,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 85
   },
@@ -478,7 +418,6 @@
    "price": 379900,
    "first_price": 379900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 106
   },
@@ -486,7 +425,6 @@
    "price": 230000,
    "first_price": 230000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 111
   },
@@ -494,7 +432,6 @@
    "price": 750000,
    "first_price": 750000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 37
   },
@@ -502,7 +439,6 @@
    "price": 775000,
    "first_price": 775000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 8
   },
@@ -510,7 +446,6 @@
    "price": 650000,
    "first_price": 650000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 283
   },
@@ -518,7 +453,6 @@
    "price": 789000,
    "first_price": 789000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 69
   },
@@ -526,7 +460,6 @@
    "price": 699000,
    "first_price": 699000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 29
   },
@@ -534,7 +467,6 @@
    "price": 210000,
    "first_price": 210000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 10
   },
@@ -542,7 +474,6 @@
    "price": 645000,
    "first_price": 645000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 91
   },
@@ -550,7 +481,6 @@
    "price": 178000,
    "first_price": 178000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 40
   },
@@ -558,7 +488,6 @@
    "price": 125000,
    "first_price": 125000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 160
   },
@@ -566,7 +495,6 @@
    "price": 725000,
    "first_price": 725000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 24
   },
@@ -574,7 +502,6 @@
    "price": 245000,
    "first_price": 245000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 44
   },
@@ -582,7 +509,6 @@
    "price": 179000,
    "first_price": 179000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 14
   },
@@ -590,7 +516,6 @@
    "price": 348000,
    "first_price": 348000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 15
   },
@@ -598,7 +523,6 @@
    "price": 735000,
    "first_price": 735000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 132
   },
@@ -606,7 +530,6 @@
    "price": 735000,
    "first_price": 735000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 8
   },
@@ -614,7 +537,6 @@
    "price": 229000,
    "first_price": 229000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 36
   },
@@ -622,7 +544,6 @@
    "price": 750000,
    "first_price": 750000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 48
   },
@@ -630,7 +551,6 @@
    "price": 659000,
    "first_price": 659000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 20
   },
@@ -638,7 +558,6 @@
    "price": 219900,
    "first_price": 219900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 106
   },
@@ -646,7 +565,6 @@
    "price": 690000,
    "first_price": 690000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 22
   },
@@ -654,7 +572,6 @@
    "price": 189999,
    "first_price": 189999,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 21
   },
@@ -662,7 +579,6 @@
    "price": 310000,
    "first_price": 310000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 63
   },
@@ -670,7 +586,6 @@
    "price": 649999,
    "first_price": 649999,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 20
   },
@@ -678,7 +593,6 @@
    "price": 697000,
    "first_price": 697000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 124
   },
@@ -686,7 +600,6 @@
    "price": 170000,
    "first_price": 170000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 15
   },
@@ -694,7 +607,6 @@
    "price": 219900,
    "first_price": 219900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 48
   },
@@ -702,7 +614,6 @@
    "price": 650000,
    "first_price": 650000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 83
   },
@@ -710,7 +621,6 @@
    "price": 699999,
    "first_price": 699999,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 4
   },
@@ -718,7 +628,6 @@
    "price": 779999,
    "first_price": 779999,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 21
   },
@@ -726,7 +635,6 @@
    "price": 658000,
    "first_price": 658000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 14
   },
@@ -734,7 +642,6 @@
    "price": 649000,
    "first_price": 649000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 30
   },
@@ -742,7 +649,6 @@
    "price": 189900,
    "first_price": 189900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 34
   },
@@ -750,7 +656,6 @@
    "price": 788000,
    "first_price": 788000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 6
   },
@@ -758,7 +663,6 @@
    "price": 674900,
    "first_price": 674900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 50
   },
@@ -766,7 +670,6 @@
    "price": 670000,
    "first_price": 670000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 38
   },
@@ -774,7 +677,6 @@
    "price": 599900,
    "first_price": 599900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 17
   },
@@ -782,7 +684,6 @@
    "price": 720000,
    "first_price": 720000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 22
   },
@@ -790,7 +691,6 @@
    "price": 174900,
    "first_price": 174900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 85
   },
@@ -798,7 +698,6 @@
    "price": 775000,
    "first_price": 775000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 38
   },
@@ -806,7 +705,6 @@
    "price": 668000,
    "first_price": 668000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 34
   },
@@ -814,7 +712,6 @@
    "price": 790000,
    "first_price": 790000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 21
   },
@@ -822,7 +719,6 @@
    "price": 670000,
    "first_price": 670000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 16
   },
@@ -830,7 +726,6 @@
    "price": 539000,
    "first_price": 539000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 59
   },
@@ -838,7 +733,6 @@
    "price": 739999,
    "first_price": 739999,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 56
   },
@@ -846,7 +740,6 @@
    "price": 749999,
    "first_price": 749999,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 12
   },
@@ -854,7 +747,6 @@
    "price": 785000,
    "first_price": 785000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 13
   },
@@ -862,7 +754,6 @@
    "price": 749000,
    "first_price": 749000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 129
   },
@@ -870,7 +761,6 @@
    "price": 730000,
    "first_price": 730000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 6
   },
@@ -878,7 +768,6 @@
    "price": 539000,
    "first_price": 539000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 24
   },
@@ -886,7 +775,6 @@
    "price": 730000,
    "first_price": 730000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 84
   },
@@ -894,7 +782,6 @@
    "price": 780000,
    "first_price": 780000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 27
   },
@@ -902,7 +789,6 @@
    "price": 686888,
    "first_price": 686888,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 44
   },
@@ -910,7 +796,6 @@
    "price": 224900,
    "first_price": 224900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 48
   },
@@ -918,7 +803,6 @@
    "price": 709000,
    "first_price": 709000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 22
   },
@@ -926,7 +810,6 @@
    "price": 117900,
    "first_price": 117900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 84
   },
@@ -934,7 +817,6 @@
    "price": 749900,
    "first_price": 749900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 23
   },
@@ -942,7 +824,6 @@
    "price": 756000,
    "first_price": 756000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 34
   },
@@ -950,7 +831,6 @@
    "price": 774900,
    "first_price": 774900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 55
   },
@@ -958,7 +838,6 @@
    "price": 719000,
    "first_price": 719000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 14
   },
@@ -966,7 +845,6 @@
    "price": 229900,
    "first_price": 229900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 77
   },
@@ -974,7 +852,6 @@
    "price": 689000,
    "first_price": 689000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 28
   },
@@ -982,7 +859,6 @@
    "price": 669000,
    "first_price": 669000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 64
   },
@@ -990,7 +866,6 @@
    "price": 719900,
    "first_price": 719900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 25
   },
@@ -998,7 +873,6 @@
    "price": 699500,
    "first_price": 699500,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 31
   },
@@ -1006,7 +880,6 @@
    "price": 700000,
    "first_price": 700000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 10
   },
@@ -1014,7 +887,6 @@
    "price": 685000,
    "first_price": 685000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 80
   },
@@ -1022,7 +894,6 @@
    "price": 700000,
    "first_price": 700000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 71
   },
@@ -1030,7 +901,6 @@
    "price": 699900,
    "first_price": 699900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 124
   },
@@ -1038,7 +908,6 @@
    "price": 699999,
    "first_price": 699999,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 45
   },
@@ -1046,7 +915,6 @@
    "price": 729000,
    "first_price": 729000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 38
   },
@@ -1054,7 +922,6 @@
    "price": 778000,
    "first_price": 778000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 14
   },
@@ -1062,7 +929,6 @@
    "price": 719000,
    "first_price": 719000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 32
   },
@@ -1070,7 +936,6 @@
    "price": 719999,
    "first_price": 719999,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 16
   },
@@ -1078,7 +943,6 @@
    "price": 664000,
    "first_price": 664000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 373
   },
@@ -1086,7 +950,6 @@
    "price": 739999,
    "first_price": 739999,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 180
   },
@@ -1094,7 +957,6 @@
    "price": 189900,
    "first_price": 189900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 32
   },
@@ -1102,7 +964,6 @@
    "price": 730000,
    "first_price": 730000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 76
   },
@@ -1110,7 +971,6 @@
    "price": 669000,
    "first_price": 669000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 57
   },
@@ -1118,7 +978,6 @@
    "price": 650000,
    "first_price": 650000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 90
   },
@@ -1126,7 +985,6 @@
    "price": 720000,
    "first_price": 720000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 16
   },
@@ -1134,7 +992,6 @@
    "price": 569000,
    "first_price": 569000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 8
   },
@@ -1142,7 +999,6 @@
    "price": 729888,
    "first_price": 729888,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 105
   },
@@ -1150,7 +1006,6 @@
    "price": 250000,
    "first_price": 250000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 165
   },
@@ -1158,7 +1013,6 @@
    "price": 699000,
    "first_price": 699000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 282
   },
@@ -1166,7 +1020,6 @@
    "price": 569000,
    "first_price": 569000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 41
   },
@@ -1174,7 +1027,6 @@
    "price": 699900,
    "first_price": 699900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 15
   },
@@ -1182,7 +1034,6 @@
    "price": 689900,
    "first_price": 689900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 63
   },
@@ -1190,7 +1041,6 @@
    "price": 658000,
    "first_price": 658000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 14
   },
@@ -1198,7 +1048,6 @@
    "price": 658000,
    "first_price": 658000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 14
   },
@@ -1206,7 +1055,6 @@
    "price": 658000,
    "first_price": 658000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 14
   },
@@ -1214,7 +1062,6 @@
    "price": 728000,
    "first_price": 728000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 14
   },
@@ -1222,7 +1069,6 @@
    "price": 699000,
    "first_price": 699000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 36
   },
@@ -1230,7 +1076,6 @@
    "price": 199900,
    "first_price": 199900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 92
   },
@@ -1238,7 +1083,6 @@
    "price": 680000,
    "first_price": 680000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 38
   },
@@ -1246,7 +1090,6 @@
    "price": 184000,
    "first_price": 184000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 20
   },
@@ -1254,7 +1097,6 @@
    "price": 769900,
    "first_price": 769900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 36
   },
@@ -1262,7 +1104,6 @@
    "price": 140000,
    "first_price": 140000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 527
   },
@@ -1270,7 +1111,6 @@
    "price": 760000,
    "first_price": 760000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 84
   },
@@ -1278,7 +1118,6 @@
    "price": 780000,
    "first_price": 780000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 14
   },
@@ -1286,7 +1125,6 @@
    "price": 729900,
    "first_price": 729900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 40
   },
@@ -1294,7 +1132,6 @@
    "price": 788000,
    "first_price": 788000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 64
   },
@@ -1302,7 +1139,6 @@
    "price": 710800,
    "first_price": 710800,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 346
   },
@@ -1310,7 +1146,6 @@
    "price": 790000,
    "first_price": 790000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 41
   },
@@ -1318,7 +1153,6 @@
    "price": 649000,
    "first_price": 649000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 21
   },
@@ -1326,7 +1160,6 @@
    "price": 680000,
    "first_price": 680000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 25
   },
@@ -1334,7 +1167,6 @@
    "price": 725000,
    "first_price": 725000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 35
   },
@@ -1342,7 +1174,6 @@
    "price": 739000,
    "first_price": 739000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 56
   },
@@ -1350,7 +1181,6 @@
    "price": 274000,
    "first_price": 274000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 77
   },
@@ -1358,7 +1188,6 @@
    "price": 715000,
    "first_price": 715000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 132
   },
@@ -1366,7 +1195,6 @@
    "price": 779900,
    "first_price": 779900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 34
   },
@@ -1374,7 +1202,6 @@
    "price": 750000,
    "first_price": 750000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 36
   },
@@ -1382,7 +1209,6 @@
    "price": 788800,
    "first_price": 788800,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 62
   },
@@ -1390,7 +1216,6 @@
    "price": 739999,
    "first_price": 739999,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 21
   },
@@ -1398,7 +1223,6 @@
    "price": 239000,
    "first_price": 239000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 162
   },
@@ -1406,7 +1230,6 @@
    "price": 749000,
    "first_price": 749000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 104
   },
@@ -1414,7 +1237,6 @@
    "price": 739000,
    "first_price": 739000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 101
   },
@@ -1422,7 +1244,6 @@
    "price": 749900,
    "first_price": 749900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 63
   },
@@ -1430,7 +1251,6 @@
    "price": 758000,
    "first_price": 758000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 62
   },
@@ -1438,7 +1258,6 @@
    "price": 369900,
    "first_price": 369900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 57
   },
@@ -1446,7 +1265,6 @@
    "price": 580000,
    "first_price": 580000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 4
   },
@@ -1454,7 +1272,6 @@
    "price": 745000,
    "first_price": 745000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 8
   },
@@ -1462,7 +1279,6 @@
    "price": 289999,
    "first_price": 289999,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 6
   },
@@ -1470,7 +1286,6 @@
    "price": 689900,
    "first_price": 689900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 7
   },
@@ -1478,7 +1293,6 @@
    "price": 699000,
    "first_price": 699000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 58
   },
@@ -1486,7 +1300,6 @@
    "price": 734900,
    "first_price": 734900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 36
   },
@@ -1494,7 +1307,6 @@
    "price": 777998,
    "first_price": 777998,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 56
   },
@@ -1502,10 +1314,8 @@
    "price": 718000,
    "first_price": 718000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
    "status": "active",
    "dom": 32
   }
- },
- "drops": []
+ }
 }
