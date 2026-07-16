@@ -151,13 +151,8 @@ nav button.on .ic{transform:translateY(-3px) scale(1.12)}
 
 <main>
   <section class="tabpage active" id="tab-listing">
-    <div class="quick">
-      <button class="qbtn" onclick="load('a')">Sansinena Ln<span class="est">EST</span></button>
-      <button class="qbtn" onclick="load('b')">E Francis Ave<span class="est">EST</span></button>
-      <button class="qbtn" onclick="load('c')">Pomona ranch<span class="est">EST</span></button>
-    </div>
     <div class="card">
-      <label>Address</label><input id="addr" value="1601 Sansinena Ln, La Habra, CA 90631" oninput="render()">
+      <label>Address</label><input id="addr" value="" placeholder="Paste or type the address" oninput="render()">
       <label>City</label>
       <select id="city" onchange="cityChange()">
         <option>Brea</option><option selected>La Habra</option><option>Diamond Bar</option>
@@ -165,15 +160,15 @@ nav button.on .ic{transform:translateY(-3px) scale(1.12)}
         <option>Chino Hills</option><option>Pomona</option><option>Glendora</option>
         <option>Azusa</option><option>Claremont</option><option>Montclair</option>
       </select>
-      <label>List price ($)</label><input id="price" value="739000" inputmode="decimal" oninput="render()">
+      <label>List price ($)</label><input id="price" value="" inputmode="decimal" oninput="render()">
       <div class="row3">
-        <div><label>Beds</label><input id="beds" value="3" inputmode="decimal" oninput="render()"></div>
-        <div><label>Baths</label><input id="baths" value="2" inputmode="decimal" oninput="render()"></div>
-        <div><label>Sqft</label><input id="sqft" value="1320" inputmode="decimal" oninput="render()"></div>
+        <div><label>Beds</label><input id="beds" value="" inputmode="decimal" oninput="render()"></div>
+        <div><label>Baths</label><input id="baths" value="" inputmode="decimal" oninput="render()"></div>
+        <div><label>Sqft</label><input id="sqft" value="" inputmode="decimal" oninput="render()"></div>
       </div>
       <div class="row3">
-        <div><label>Lot sqft</label><input id="lot" value="6500" inputmode="decimal" oninput="render()"></div>
-        <div><label>Year</label><input id="year" value="1962" inputmode="decimal" oninput="render()"></div>
+        <div><label>Lot sqft</label><input id="lot" value="" inputmode="decimal" oninput="render()"></div>
+        <div><label>Year</label><input id="year" value="" inputmode="decimal" oninput="render()"></div>
         <div><label>HOA/mo</label><input id="hoa" value="0" inputmode="decimal" oninput="render()"></div>
       </div>
     </div>
@@ -202,6 +197,7 @@ nav button.on .ic{transform:translateY(-3px) scale(1.12)}
         </div>
       </div>
       <div class="bubble"><span class="mood" id="scoutMood">🐶</span><span id="scoutSay">Punch in a home and I'll take a sniff.</span></div>
+      <div id="knownNote" style="font-size:11px;color:var(--muted);text-align:center;margin-top:8px"></div>
       <div class="crit" id="critList" style="margin-top:14px"></div>
     </div>
     <div class="card">
@@ -228,6 +224,15 @@ nav button.on .ic{transform:translateY(-3px) scale(1.12)}
       </div>
     </div>
     <div class="card"><h2>True monthly cost</h2><div class="ledger" id="ledger"></div><div class="note" id="cashNote"></div></div>
+    <div class="card">
+      <h2>Is he asking too much? 📊</h2>
+      <h3>Asking $/sqft vs the local median</h3>
+      <div id="priceVerdict" style="font-size:14px;margin:6px 0 10px"></div>
+      <div id="ppsfChart"></div>
+      <div class="note">Medians are my area estimates, not an appraisal — they move over time.
+        For this exact home's real price history, tap below.</div>
+      <a class="linkbtn" id="histLink" target="_blank">📈 See price history on Redfin</a>
+    </div>
     <div class="card">
       <h2>Negotiation target 🎯</h2><h3>Your comfy payment → the offer that gets you there</h3>
       <label>Target monthly payment ($)</label>
@@ -258,6 +263,26 @@ nav button.on .ic{transform:translateY(-3px) scale(1.12)}
     </div>
   </section>
 
+  <section class="tabpage" id="tab-area">
+    <div class="card">
+      <h2>Where is it? 🗺️</h2><h3>Free map — no tracking, no key</h3>
+      <div id="mapBox" style="border-radius:12px;overflow:hidden;border:1px solid var(--line);background:var(--sage);height:230px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px">Tap "Sniff out the area" to load</div>
+      <button class="btn brass" onclick="sniffArea()" id="areaBtn">🐕 Sniff out the area</button>
+      <div class="btn2" style="margin-top:10px">
+        <a class="linkbtn" id="mapOpen" target="_blank">📍 Open in Maps</a>
+        <a class="linkbtn" id="mapStreet" target="_blank">👀 Street View</a>
+      </div>
+    </div>
+    <div class="card">
+      <h2>What's nearby? 🛒</h2><h3 id="amenNote">Distances are straight-line, not drive time</h3>
+      <div id="amenList"><div class="empty" style="padding:20px"><span class="big">🐾</span>Nothing sniffed yet.</div></div>
+    </div>
+    <div class="card">
+      <h2>Search nearby in Maps 🔎</h2><h3>Opens Google Maps around this address</h3>
+      <div class="toggles" id="nearBtns"></div>
+    </div>
+  </section>
+
   <section class="tabpage" id="tab-saved">
     <div class="card">
       <h2>The pack 🐾</h2><h3 id="savedCount">Tick 2–3 to compare</h3>
@@ -275,6 +300,7 @@ nav button.on .ic{transform:translateY(-3px) scale(1.12)}
   <button class="on" onclick="tab('listing',this)"><span class="ic">🏠</span>Home</button>
   <button onclick="tab('fit',this)"><span class="ic">🎯</span>Fit</button>
   <button onclick="tab('cost',this)"><span class="ic">💵</span>Cost</button>
+  <button onclick="tab('area',this)"><span class="ic">🗺️</span>Area</button>
   <button onclick="tab('trust',this)"><span class="ic">🐽</span>Sniff</button>
   <button onclick="tab('saved',this);renderSaved()"><span class="ic">🐾</span>Pack</button>
 </nav>
@@ -346,15 +372,6 @@ function addPhotos(files){[...files].slice(0,6-photos.length).forEach(f=>{const 
   c.getContext('2d').drawImage(img,0,0,c.width,c.height);photos.push(c.toDataURL('image/jpeg',0.5));renderPhotoStrip()};img.src=rd.result};
  rd.readAsDataURL(f)});$('photoInput').value=''}
 
-const SEEDS={
-a:{addr:'1601 Sansinena Ln, La Habra, CA 90631',city:'La Habra',price:739000,beds:3,baths:2,sqft:1320,lot:6500,year:1962,hoa:0,feat:['hvac','nocarpet','bigkitchen','light','yard','dish','laundry']},
-b:{addr:'335 E Francis Ave, La Habra, CA 90631',city:'La Habra',price:815000,beds:3,baths:3,sqft:1650,lot:5200,year:2017,hoa:0,feat:['hvac','nocarpet','smart','bigkitchen','light','dish','laundry','pantry','garage','noceil']},
-c:{addr:'Mission Blvd area, Pomona, CA 91766',city:'Pomona',price:648000,beds:3,baths:2,sqft:1410,lot:6000,year:1978,hoa:0,feat:['hvac','garage','yard','laundry','dish']}};
-function load(k){const s=SEEDS[k];editId=null;photos=[];prevFit=0;['addr','city','price','beds','baths','sqft','lot','year','hoa'].forEach(f=>$(f).value=s[f]);
- FEATURES.forEach(([kk],i)=>{feat[kk]=s.feat.includes(kk);ft.children[i].classList.toggle('on',feat[kk])});
- SCAMS.forEach(([kk],i)=>{scam[kk]=false;st.children[i].classList.remove('on')});
- INSPECT.forEach((_,i)=>{inspect[i]=false;it.children[i].classList.remove('on')});
- $('note').value='';cityChange();renderPhotoStrip()}
 function clearForm(){editId=null;photos=[];prevFit=0;$('note').value='';
  SCAMS.forEach(([k],i)=>{scam[k]=false;st.children[i].classList.remove('on')});
  FEATURES.forEach(([k],i)=>{feat[k]=false;ft.children[i].classList.remove('on')});
@@ -383,8 +400,15 @@ function render(){
  add('You ≤45m ('+c[1]+'m)',c[1]<=45?'pass':'miss',6);
  add('Newer ('+(year||'?')+')',year>=2005?'pass':(year>=1985?'warn':'miss'),5,'older');
  add('Lot ratio',(sqft&&lot/sqft>=4)?'pass':(sqft&&lot/sqft>=3?'warn':'miss'),5,'tight');
- FEATURES.forEach(([k,l,w])=>add(l,feat[k]?'pass':'miss',w));
+ // Features only count once you've told Scout about them.
+ // Unticked = unknown, not "missing" — so it never punishes a home for facts it lacks.
+ var known=8,unknown=0;
+ FEATURES.forEach(function(f){var k=f[0],l=f[1],w=f[2];
+  if(feat[k]){poss+=w;got+=w;known++;crit.push([l,'pass','fits'])}
+  else{unknown++;crit.push([l,'miss','not set'])}});
  const fit=Math.round(100*got/poss);
+ $('knownNote').textContent=unknown?('Scored on '+known+' of 22 criteria — tap the features this home has to refine it.')
+                                   :'All 22 criteria scored.';
  $('fitNum').textContent=fit;
  const col=fit>=75?'#3E8B5A':fit>=55?'#C9902F':'#C6543B';
  $('gaugeArc').style.strokeDashoffset=GA_C*(1-fit/100);$('gaugeArc').style.stroke=col;
@@ -429,6 +453,7 @@ function render(){
  $('vFlood').href=`https://msc.fema.gov/portal/search?AddressQuery=${ea}`;
  $('vCrime').href=`https://www.google.com/search?q=${ec}+crime+map+neighborhood+safety`;
  $('photoLink').href=`https://www.redfin.com/city/search?query=${ea}`;
+ priceChart();
  negotiate();
 }
 
@@ -534,6 +559,118 @@ function fromLink(){
    }else{document.getElementById('srcBtn').href=url}
  }
  return true;
+}
+
+/* ---------- price position chart ---------- */
+function priceChart(){
+ const price=num('price'),sqft=num('sqft'),city=$('city').value;
+ const med=(CITY[city]||[0,0,520])[2];
+ const ppsf=sqft?price/sqft:0;
+ if(!ppsf){$('ppsfChart').innerHTML='';$('priceVerdict').innerHTML='<span style="color:var(--muted)">Enter price and sqft to compare.</span>';return}
+ const delta=(ppsf-med)/med*100;
+ const fair=med*sqft;
+ const col=delta<=-8?'#3E8B5A':delta<=8?'#C9902F':'#C6543B';
+ const word=delta<=-8?'Priced under the area':delta<=8?'About right for the area':'Asking above the area';
+ $('priceVerdict').innerHTML=`<b style="color:${col}">${word}</b> — `+
+  `$${Math.round(ppsf)}/sqft vs ~$${med} local median (${delta>0?'+':''}${delta.toFixed(1)}%).<br>`+
+  `<span style="color:var(--muted)">At the median this home would list near <b class="mono">${money(fair)}</b>`+
+  (fair<price?` — about ${money(price-fair)} of daylight to argue with.`:` — he's asking under that.`)+`</span>`;
+ // bars: this home + every city median, sorted
+ const rows=Object.keys(CITY).map(k=>[k,CITY[k][2],false]);
+ rows.push(['◀ THIS HOME',Math.round(ppsf),true]);
+ rows.sort((a,b)=>b[1]-a[1]);
+ const max=Math.max(...rows.map(r=>r[1]))*1.05;
+ const bh=22,gap=6,H=rows.length*(bh+gap),W=320,lw=104;
+ let svg=`<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto">`;
+ rows.forEach((r,i)=>{const y=i*(bh+gap),w=(W-lw-38)*(r[1]/max);
+  const fill=r[2]?col:(r[0]===city?'#5B8C86':'#C7D0C4');
+  svg+=`<text x="0" y="${y+15}" font-size="10" fill="${r[2]?col:'#63706A'}" font-weight="${r[2]||r[0]===city?'700':'400'}" font-family="-apple-system,Roboto,sans-serif">${r[0]}</text>`;
+  svg+=`<rect x="${lw}" y="${y+2}" width="${w}" height="${bh-4}" rx="3" fill="${fill}"/>`;
+  svg+=`<text x="${lw+w+5}" y="${y+15}" font-size="10" fill="#63706A" font-family="Roboto Mono,monospace">$${r[1]}</text>`});
+ svg+=`</svg>`;
+ $('ppsfChart').innerHTML=svg;
+ $('histLink').href=`https://www.redfin.com/city/search?query=${encodeURIComponent($('addr').value)}`;
+}
+
+/* ---------- area: free maps + amenities (OpenStreetMap) ---------- */
+const NEARBY=[['Groceries','grocery store'],['Costco','Costco'],['Walmart','Walmart'],['Target','Target'],
+['Home Depot','Home Depot'],['Mall','shopping mall'],['Transit','train station'],['Bus','bus stop'],
+['Auto shop','auto repair'],['Barber','barber'],['Cinema','movie theater'],['Gym','gym'],
+['Pharmacy','pharmacy'],['Hospital','hospital'],['Park','park'],['Restaurants','restaurants']];
+(function(){const nb=$('nearBtns');NEARBY.forEach(([label,q])=>{
+ const a=document.createElement('a');a.className='tog';a.target='_blank';a.textContent=label;
+ a.onclick=()=>{a.href='https://www.google.com/maps/search/'+encodeURIComponent(q)+'/@'+
+   (window._ll?window._ll[0]+','+window._ll[1]+',14z':'')+'?q='+encodeURIComponent(q+' near '+$('addr').value);buzz(8)};
+ nb.appendChild(a)})})();
+
+function hav(a,b,c,d){const R=6371,t=x=>x*Math.PI/180;
+ const dl=t(c-a),dg=t(d-b);const h=Math.sin(dl/2)**2+Math.cos(t(a))*Math.cos(t(c))*Math.sin(dg/2)**2;
+ return R*2*Math.asin(Math.sqrt(h))}
+const AMEN=[
+ ['🛒','Groceries','node["shop"~"^(supermarket|grocery)$"]'],
+ ['🏬','Big box / wholesale','node["shop"~"^(department_store|wholesale|doityourself|hardware)$"]'],
+ ['🏙️','Mall','node["shop"="mall"]'],
+ ['🚉','Train / transit','node["railway"="station"]'],
+ ['🚌','Bus stop','node["highway"="bus_stop"]'],
+ ['🔧','Auto repair','node["shop"="car_repair"]'],
+ ['💈','Barber','node["shop"="hairdresser"]'],
+ ['🎬','Cinema','node["amenity"="cinema"]'],
+ ['💊','Pharmacy','node["amenity"="pharmacy"]'],
+ ['🏥','Hospital','node["amenity"="hospital"]'],
+ ['🌳','Park','way["leisure"="park"]'],
+ ['🍽️','Restaurants','node["amenity"="restaurant"]']];
+
+async function sniffArea(){
+ const addr=$('addr').value.trim();
+ if(!addr){alert('Add an address first.');return}
+ const btn=$('areaBtn');btn.textContent='🐕 Sniffing…';buzz(10);
+ try{
+  const g=await fetch('https://nominatim.openstreetmap.org/search?format=json&limit=1&q='+encodeURIComponent(addr),
+    {headers:{'Accept':'application/json'}});
+  const gj=await g.json();
+  if(!gj.length){throw new Error('Address not found on the map')}
+  const lat=+gj[0].lat,lon=+gj[0].lon;window._ll=[lat,lon];
+  const d=0.006;
+  $('mapBox').innerHTML=`<iframe width="100%" height="230" frameborder="0" style="border:0;display:block"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=${lon-d}%2C${lat-d}%2C${lon+d}%2C${lat+d}&layer=mapnik&marker=${lat}%2C${lon}"></iframe>`;
+  $('mapOpen').href=`https://www.google.com/maps/search/?api=1&query=${lat},${lon}`;
+  $('mapStreet').href=`https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${lat},${lon}`;
+  $('amenList').innerHTML='<div class="empty" style="padding:16px">🐽 Sniffing the neighbourhood…</div>';
+  const R=3200;
+  const q='[out:json][timeout:25];('+AMEN.map(a=>a[2]+'(around:'+R+','+lat+','+lon+');').join('')+');out center 220;';
+  const r=await fetch('https://overpass-api.de/api/interpreter',{method:'POST',body:'data='+encodeURIComponent(q)});
+  const j=await r.json();
+  const els=(j.elements||[]).map(e=>({t:e.tags||{},lat:e.lat||(e.center&&e.center.lat),lon:e.lon||(e.center&&e.center.lon)}))
+    .filter(e=>e.lat&&e.lon);
+  const match=(t,i)=>{const s=t.shop||'',a=t.amenity||'',rw=t.railway||'',hw=t.highway||'',le=t.leisure||'';
+   switch(i){case 0:return s==='supermarket'||s==='grocery';
+    case 1:return ['department_store','wholesale','doityourself','hardware'].includes(s);
+    case 2:return s==='mall';case 3:return rw==='station';case 4:return hw==='bus_stop';
+    case 5:return s==='car_repair';case 6:return s==='hairdresser';case 7:return a==='cinema';
+    case 8:return a==='pharmacy';case 9:return a==='hospital';case 10:return le==='park';
+    case 11:return a==='restaurant'}return false};
+  let html='',found=0;
+  AMEN.forEach((cat,i)=>{
+   const hits=els.filter(e=>match(e.t,i)).map(e=>({n:e.t.name||'(unnamed)',d:hav(lat,lon,e.lat,e.lon)}))
+     .sort((a,b)=>a.d-b.d);
+   if(!hits.length)return;found++;
+   const near=hits[0];const mi=(near.d*0.621371).toFixed(1);
+   const col=near.d<1.6?'#3E8B5A':near.d<3?'#C9902F':'#C6543B';
+   html+=`<div style="display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px dotted var(--line)">
+     <span style="font-size:19px">${cat[0]}</span>
+     <div style="flex:1;min-width:0">
+       <div style="font-size:13px;font-weight:600">${cat[1]} <span style="color:var(--muted);font-weight:400">· ${hits.length} within 2mi</span></div>
+       <div style="font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">nearest: ${near.n}</div>
+     </div>
+     <span class="mono" style="font-size:13px;font-weight:600;color:${col}">${mi} mi</span></div>`});
+  $('amenList').innerHTML=html||'<div class="empty" style="padding:16px">Nothing mapped nearby — try the Maps buttons below.</div>';
+  $('amenNote').textContent=found+' categories found · straight-line distance, not drive time';
+  btn.textContent='🐕 Sniff again';buzz([15,30,15]);
+ }catch(e){
+  $('mapBox').innerHTML='<div style="padding:20px;font-size:13px;color:var(--muted);text-align:center">Map service busy or offline.<br>Use the Maps buttons below — they always work.</div>';
+  $('amenList').innerHTML='<div class="empty" style="padding:16px">Couldn\'t reach the free map service. Try again in a moment.</div>';
+  btn.textContent='🐕 Try again';
+ }
 }
 
 openDB().catch(()=>{});renderPhotoStrip();render();

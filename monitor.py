@@ -50,22 +50,33 @@ def save_state(s):
 
 # ---------------- SCORING ----------------
 def fit_score(row, city_key):
-    w,p,g = 0,0,[]
-    def add(ok, wt): 
-        nonlocal w,p
-        p+=wt; w+= wt if ok else 0
+    """Mirrors Scout's scorer exactly, using only the criteria the MLS knows.
+    Features (solar, floors, etc.) aren't in listing data, so they're left to
+    Scout once you tick them — same denominator on both sides."""
+    got = poss = 0
+    def add(state, wt):
+        nonlocal got, poss
+        poss += wt
+        if state == 'pass': got += wt
+        elif state == 'warn': got += wt * 0.5
     price = row.get("list_price") or 1e9
-    add(price<=750_000, 14)
-    add((row.get("beds") or 0)>=BEDS_MIN, 8)
-    add(((row.get("full_baths") or 0)+(row.get("half_baths") or 0)*.5)>=BATHS_MIN, 6)
-    add((row.get("hoa_fee") or 0)==0, 10)
-    yr = row.get("year_built") or 0
-    add(yr>=2005, 5)
-    wife,parth,_ = CITIES[city_key]
-    add(wife<=50, 10); add(parth<=45, 6)
+    beds  = row.get("beds") or 0
+    baths = (row.get("full_baths") or 0)+(row.get("half_baths") or 0)*.5
+    hoa   = row.get("hoa_fee") or 0
+    yr    = row.get("year_built") or 0
+    wife, parth, _ = CITIES[city_key]
     sf, lot = row.get("sqft") or 0, row.get("lot_sqft") or 0
-    add(sf>0 and lot/sf>=4, 6)
-    return round(100*w/p) if p else 0
+    ratio = lot/sf if sf else 0
+
+    add('pass' if price <= 750_000 else ('warn' if price <= 790_000 else 'miss'), 14)
+    add('pass' if hoa == 0 else 'miss', 10)
+    add('pass' if beds >= BEDS_MIN else 'miss', 8)
+    add('pass' if baths >= BATHS_MIN else 'miss', 6)
+    add('pass' if wife <= 25 else ('warn' if wife <= 50 else 'miss'), 10)
+    add('pass' if parth <= 45 else 'miss', 6)
+    add('pass' if yr >= 2005 else ('warn' if yr >= 1985 else 'miss'), 5)
+    add('pass' if ratio >= 4 else ('warn' if ratio >= 3 else 'miss'), 5)
+    return round(100*got/poss) if poss else 0
 
 def trust_score(row, median_ppsf):
     t, reasons = 100, []
