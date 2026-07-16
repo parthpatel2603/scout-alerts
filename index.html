@@ -265,21 +265,70 @@ nav button.on .ic{transform:translateY(-3px) scale(1.12)}
 
   <section class="tabpage" id="tab-area">
     <div class="card">
-      <h2>Where is it? 🗺️</h2><h3>Free map — no tracking, no key</h3>
-      <div id="mapBox" style="border-radius:12px;overflow:hidden;border:1px solid var(--line);background:var(--sage);height:230px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px">Tap "Sniff out the area" to load</div>
-      <button class="btn brass" onclick="sniffArea()" id="areaBtn">🐕 Sniff out the area</button>
+      <h2>Where is it? 🗺️</h2><h3>Free maps — no key, no tracking</h3>
+      <div id="mapBox" style="border-radius:12px;overflow:hidden;border:1px solid var(--line);background:var(--sage);height:340px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px;text-align:center;padding:16px">Tap "Sniff out the area" to load the map</div>
+      <div class="btn2" style="margin-top:10px">
+        <button class="btn brass" onclick="sniffArea()" id="areaBtn" style="margin-top:0">🐕 Sniff out the area</button>
+        <button class="btn ghost" onclick="bigMap()" style="margin-top:0">⛶ Full screen</button>
+      </div>
       <div class="btn2" style="margin-top:10px">
         <a class="linkbtn" id="mapOpen" target="_blank">📍 Open in Maps</a>
         <a class="linkbtn" id="mapStreet" target="_blank">👀 Street View</a>
       </div>
     </div>
     <div class="card">
-      <h2>What's nearby? 🛒</h2><h3 id="amenNote">Distances are straight-line, not drive time</h3>
-      <div id="amenList"><div class="empty" style="padding:20px"><span class="big">🐾</span>Nothing sniffed yet.</div></div>
+      <h2>What's nearby? 🛒</h2>
+      <h3 id="amenNote">Sniff first, then tap a category to pin it on the map</h3>
+      <div class="toggles" id="amenChips"></div>
+      <div id="amenList" style="margin-top:10px"></div>
     </div>
     <div class="card">
-      <h2>Search nearby in Maps 🔎</h2><h3>Opens Google Maps around this address</h3>
-      <div class="toggles" id="nearBtns"></div>
+      <h2>Commute 🚗</h2><h3>Real traffic, from this address</h3>
+      <div class="btn2">
+        <a class="linkbtn" id="mapWife" target="_blank">Wife → Placentia</a>
+        <a class="linkbtn" id="mapParth" target="_blank">You → Monterey Park</a>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Hazard & safety maps ⚠️</h2><h3>State-run, free, no account</h3>
+      <div id="hazLinks"></div>
+    </div>
+  </section>
+
+  <section class="tabpage" id="tab-recs">
+    <div class="card">
+      <h2>Official records 🏛️</h2><h3 id="cntyNote">Free public sources for this address</h3>
+      <div id="recLinks"></div>
+    </div>
+
+    <div class="card">
+      <h2>Seller intel — what did they pay? 🕵️</h2>
+      <h3>Prop 13 quirk: assessed value tracks the last sale, capped at +2%/yr. Work it backwards and you learn their hand.</h3>
+      <div class="row">
+        <div><label>Assessed value ($)</label><input id="av" value="" inputmode="decimal" placeholder="from assessor" oninput="prop13()"></div>
+        <div><label>Last sale year</label><input id="ay" value="" inputmode="decimal" placeholder="e.g. 2004" oninput="prop13()"></div>
+      </div>
+      <div class="note" id="p13out">Grab both from the Assessor link above (30 seconds, free), then I'll do the math.</div>
+    </div>
+
+    <div class="card">
+      <h2>Your tax reality check 🧾</h2>
+      <h3>California reassesses at your purchase price — the seller's low bill is not your bill</h3>
+      <div class="note" id="supp"></div>
+    </div>
+
+    <div class="card">
+      <h2>Hazard & safety maps ⚠️</h2><h3>State-run, free, no account</h3>
+      <div id="hazLinks"></div>
+    </div>
+
+    <div class="card">
+      <h2>What I can't get you 🚫</h2>
+      <div class="note">
+        <b>Building plans</b> — not public; the architect holds copyright. Request from the city as records (usually a fee).<br><br>
+        <b>Owner name &amp; sale price via API</b> — public record, but no county here offers it free to an app. The links above get you there in two taps.<br><br>
+        <b>Permit history</b> — most of your cities have no open permit data. The search link opens the right city portal.
+      </div>
     </div>
   </section>
 
@@ -297,12 +346,11 @@ nav button.on .ic{transform:translateY(-3px) scale(1.12)}
 <canvas id="confetti"></canvas>
 
 <nav>
-  <button class="on" onclick="tab('listing',this)"><span class="ic">🏠</span>Home</button>
-  <button onclick="tab('fit',this)"><span class="ic">🎯</span>Fit</button>
-  <button onclick="tab('cost',this)"><span class="ic">💵</span>Cost</button>
-  <button onclick="tab('area',this)"><span class="ic">🗺️</span>Area</button>
-  <button onclick="tab('trust',this)"><span class="ic">🐽</span>Sniff</button>
-  <button onclick="tab('saved',this);renderSaved()"><span class="ic">🐾</span>Pack</button>
+  <button class="on" onclick="tab('fetch',this)"><span class="ic">🦮</span>Fetch</button>
+  <button onclick="tab('verdict',this)"><span class="ic">🐽</span>Verdict</button>
+  <button onclick="tab('bones',this)"><span class="ic">🦴</span>Bones</button>
+  <button onclick="tab('turf',this)"><span class="ic">🗺️</span>Turf</button>
+  <button onclick="tab('pack',this);renderSaved()"><span class="ic">🐾</span>Pack</button>
 </nav>
 
 <script>
@@ -343,8 +391,15 @@ const it=document.getElementById('inspectToggles');
 INSPECT.forEach((l,i)=>{inspect[i]=false;const b=document.createElement('div');b.className='tog chk';b.textContent=l;b.onclick=()=>{inspect[i]=!inspect[i];b.classList.toggle('on');buzz(8)};it.appendChild(b)});
 
 const $=id=>document.getElementById(id),num=id=>parseFloat($(id).value)||0,money=n=>'$'+Math.round(n).toLocaleString();
-function tab(name,el){document.querySelectorAll('.tabpage').forEach(p=>p.classList.remove('active'));$('tab-'+name).classList.add('active');
- document.querySelectorAll('nav button').forEach(b=>b.classList.remove('on'));el.classList.add('on');buzz(6);window.scrollTo({top:0,behavior:'smooth'})}
+/* Five tabs, each gathering related sections */
+const TABS={fetch:['listing'],verdict:['fit','trust'],bones:['cost','recs'],turf:['area'],pack:['saved']};
+function tab(name,el){
+ document.querySelectorAll('.tabpage').forEach(function(p){p.classList.remove('active')});
+ (TABS[name]||[name]).forEach(function(id){var s=$('tab-'+id);if(s)s.classList.add('active')});
+ document.querySelectorAll('nav button').forEach(b=>b.classList.remove('on'));
+ if(el)el.classList.add('on');buzz(6);window.scrollTo({top:0,behavior:'smooth'});
+ if(name==='turf'&&window._map)setTimeout(function(){window._map.invalidateSize()},200);
+}
 function cityChange(){const cty=COUNTY[$('city').value]||'LA';$('tax').value=TAXRATE[cty];render()}
 
 /* confetti */
@@ -376,7 +431,7 @@ function clearForm(){editId=null;photos=[];prevFit=0;$('note').value='';
  SCAMS.forEach(([k],i)=>{scam[k]=false;st.children[i].classList.remove('on')});
  FEATURES.forEach(([k],i)=>{feat[k]=false;ft.children[i].classList.remove('on')});
  INSPECT.forEach((_,i)=>{inspect[i]=false;it.children[i].classList.remove('on')});
- renderPhotoStrip();render();tab('listing',document.querySelector('nav button'))}
+ renderPhotoStrip();render();tab('fetch',document.querySelectorAll('nav button')[0])}
 
 function monthly(price,down,rate,term,taxPct,ins,pmiPct,hoa){
  const loan=Math.max(price-down,0),r=rate/100/12,n=term*12;
@@ -454,6 +509,8 @@ function render(){
  $('vCrime').href=`https://www.google.com/search?q=${ec}+crime+map+neighborhood+safety`;
  $('photoLink').href=`https://www.redfin.com/city/search?query=${ea}`;
  priceChart();
+ buildRecords();
+ prop13();
  negotiate();
 }
 
@@ -511,7 +568,7 @@ function loadSaved(id){const o=(window._saved||[]).find(x=>x.id===id);if(!o)retu
  FEATURES.forEach(([k],i)=>{feat[k]=!!(o.feat&&o.feat[k]);ft.children[i].classList.toggle('on',feat[k])});
  SCAMS.forEach(([k],i)=>{scam[k]=!!(o.scam&&o.scam[k]);st.children[i].classList.toggle('on',scam[k])});
  INSPECT.forEach((_,i)=>{inspect[i]=!!(o.inspect&&o.inspect[i]);it.children[i].classList.toggle('on',inspect[i])});
- renderPhotoStrip();render();tab('listing',document.querySelector('nav button'))}
+ renderPhotoStrip();render();tab('fetch',document.querySelectorAll('nav button')[0])}
 async function delSaved(id){if(!confirm('Remove this home from the pack?'))return;await dbDel(id);renderSaved()}
 
 function compare(){const ids=[...document.querySelectorAll('.cmpsel:checked')].map(c=>c.value);
@@ -548,7 +605,7 @@ function fromLink(){
  renderPhotoStrip();render();
  // land straight on the Fit tab with the verdict
  var navb=document.querySelectorAll('nav button');
- tab('fit',navb[1]);
+ tab('verdict',navb[1]);
  var s=$('scoutSay').textContent;
  $('scoutSay').textContent='Fetched from your alert! '+s;
  if(url){
@@ -593,84 +650,248 @@ function priceChart(){
 }
 
 /* ---------- area: free maps + amenities (OpenStreetMap) ---------- */
-const NEARBY=[['Groceries','grocery store'],['Costco','Costco'],['Walmart','Walmart'],['Target','Target'],
-['Home Depot','Home Depot'],['Mall','shopping mall'],['Transit','train station'],['Bus','bus stop'],
-['Auto shop','auto repair'],['Barber','barber'],['Cinema','movie theater'],['Gym','gym'],
-['Pharmacy','pharmacy'],['Hospital','hospital'],['Park','park'],['Restaurants','restaurants']];
-(function(){const nb=$('nearBtns');NEARBY.forEach(([label,q])=>{
- const a=document.createElement('a');a.className='tog';a.target='_blank';a.textContent=label;
- a.onclick=()=>{a.href='https://www.google.com/maps/search/'+encodeURIComponent(q)+'/@'+
-   (window._ll?window._ll[0]+','+window._ll[1]+',14z':'')+'?q='+encodeURIComponent(q+' near '+$('addr').value);buzz(8)};
- nb.appendChild(a)})})();
 
+
+
+
+
+/* ---------- Turf: Leaflet map (streets + satellite) & amenities ---------- */
+let _lf=null;
+function loadLeaflet(){
+ if(_lf)return _lf;
+ _lf=new Promise(function(res,rej){
+  var c=document.createElement('link');c.rel='stylesheet';
+  c.href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';document.head.appendChild(c);
+  var s=document.createElement('script');s.src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+  s.onload=res;s.onerror=rej;document.head.appendChild(s);
+ });
+ return _lf;
+}
+function bigMap(){
+ var b=$('mapBox');
+ if(b.style.position==='fixed'){
+   b.style.cssText='border-radius:12px;overflow:hidden;border:1px solid var(--line);height:340px';
+ }else{
+   b.style.cssText='position:fixed;inset:0;z-index:80;height:100vh;width:100vw;border-radius:0;border:0';
+ }
+ if(window._map)setTimeout(function(){window._map.invalidateSize()},120);
+ buzz(8);
+}
 function hav(a,b,c,d){const R=6371,t=x=>x*Math.PI/180;
  const dl=t(c-a),dg=t(d-b);const h=Math.sin(dl/2)**2+Math.cos(t(a))*Math.cos(t(c))*Math.sin(dg/2)**2;
  return R*2*Math.asin(Math.sqrt(h))}
 const AMEN=[
- ['🛒','Groceries','node["shop"~"^(supermarket|grocery)$"]'],
- ['🏬','Big box / wholesale','node["shop"~"^(department_store|wholesale|doityourself|hardware)$"]'],
- ['🏙️','Mall','node["shop"="mall"]'],
- ['🚉','Train / transit','node["railway"="station"]'],
- ['🚌','Bus stop','node["highway"="bus_stop"]'],
- ['🔧','Auto repair','node["shop"="car_repair"]'],
- ['💈','Barber','node["shop"="hairdresser"]'],
- ['🎬','Cinema','node["amenity"="cinema"]'],
- ['💊','Pharmacy','node["amenity"="pharmacy"]'],
- ['🏥','Hospital','node["amenity"="hospital"]'],
- ['🌳','Park','way["leisure"="park"]'],
- ['🍽️','Restaurants','node["amenity"="restaurant"]']];
+ ['🛒','Groceries',   e=>['supermarket','grocery'].includes(e.shop)],
+ ['🏬','Big box / DIY',e=>['department_store','wholesale','doityourself','hardware'].includes(e.shop)],
+ ['🏙️','Mall',        e=>e.shop==='mall'],
+ ['🚉','Train',       e=>e.railway==='station'],
+ ['🚌','Bus stop',    e=>e.highway==='bus_stop'],
+ ['🔧','Auto shop',   e=>e.shop==='car_repair'],
+ ['💈','Barber',      e=>e.shop==='hairdresser'],
+ ['🎬','Cinema',      e=>e.amenity==='cinema'],
+ ['💊','Pharmacy',    e=>e.amenity==='pharmacy'],
+ ['🏥','Hospital',    e=>e.amenity==='hospital'],
+ ['🏫','School',      e=>e.amenity==='school'],
+ ['🌳','Park',        e=>e.leisure==='park'],
+ ['🏋️','Gym',         e=>e.leisure==='fitness_centre'],
+ ['🍽️','Restaurants', e=>e.amenity==='restaurant'],
+ ['⛽','Gas',         e=>e.amenity==='fuel'],
+ ['🏦','Bank/ATM',    e=>['bank','atm'].includes(e.amenity)]];
 
+window._cats={}; window._layers={};
+function chipLabel(i){
+ var c=AMEN[i],hits=(window._cats[i]||[]);
+ if(!hits.length)return c[0]+' '+c[1];
+ return c[0]+' '+c[1]+' · '+(hits[0].d*0.621371).toFixed(1)+'mi';
+}
+function buildChips(){
+ var box=$('amenChips');box.innerHTML='';
+ AMEN.forEach(function(c,i){
+  var hits=(window._cats[i]||[]);
+  var b=document.createElement('div');
+  b.className='tog'+(hits.length?'':' ');
+  b.style.opacity=hits.length?1:.4;
+  b.textContent=chipLabel(i);
+  b.onclick=function(){ if(!hits.length)return; toggleCat(i,b); };
+  box.appendChild(b);
+ });
+}
+function toggleCat(i,btn){
+ buzz(8);
+ var on=btn.classList.toggle('on');
+ if(!window._map)return;
+ if(on){
+  var g=L.layerGroup();
+  (window._cats[i]||[]).slice(0,40).forEach(function(p){
+   L.circleMarker([p.lat,p.lon],{radius:6,color:'#14312B',weight:2,fillColor:'#C9902F',fillOpacity:.95})
+    .bindPopup('<b>'+AMEN[i][0]+' '+p.n+'</b><br>'+(p.d*0.621371).toFixed(2)+' mi away').addTo(g)});
+  g.addTo(window._map);window._layers[i]=g;
+ }else if(window._layers[i]){window._map.removeLayer(window._layers[i]);delete window._layers[i]}
+ renderAmenList();
+}
+function renderAmenList(){
+ var sel=Object.keys(window._layers).map(Number);
+ if(!sel.length){$('amenList').innerHTML='<div style="font-size:12px;color:var(--muted)">Tap any category above to pin it on the map and see the nearest one.</div>';return}
+ var h='';
+ sel.sort(function(a,b){return (window._cats[a][0].d)-(window._cats[b][0].d)});
+ sel.forEach(function(i){
+  var c=AMEN[i],hits=window._cats[i],n=hits[0],mi=(n.d*0.621371).toFixed(1);
+  var col=n.d<1.6?'#3E8B5A':n.d<3?'#C9902F':'#C6543B';
+  h+='<div style="display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px dotted var(--line)">'+
+   '<span style="font-size:19px">'+c[0]+'</span><div style="flex:1;min-width:0">'+
+   '<div style="font-size:13px;font-weight:600">'+c[1]+' <span style="color:var(--muted);font-weight:400">· '+hits.length+' within 2mi</span></div>'+
+   '<div style="font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">nearest: '+n.n+'</div></div>'+
+   '<span class="mono" style="font-size:13px;font-weight:700;color:'+col+'">'+mi+' mi</span></div>'});
+ $('amenList').innerHTML=h;
+}
 async function sniffArea(){
  const addr=$('addr').value.trim();
- if(!addr){alert('Add an address first.');return}
+ if(!addr){alert('Add an address on the Fetch tab first.');return}
  const btn=$('areaBtn');btn.textContent='🐕 Sniffing…';buzz(10);
  try{
-  const g=await fetch('https://nominatim.openstreetmap.org/search?format=json&limit=1&q='+encodeURIComponent(addr),
-    {headers:{'Accept':'application/json'}});
+  await loadLeaflet();
+  const g=await fetch('https://nominatim.openstreetmap.org/search?format=json&limit=1&q='+encodeURIComponent(addr));
   const gj=await g.json();
-  if(!gj.length){throw new Error('Address not found on the map')}
+  if(!gj.length)throw new Error('not found');
   const lat=+gj[0].lat,lon=+gj[0].lon;window._ll=[lat,lon];
-  const d=0.006;
-  $('mapBox').innerHTML=`<iframe width="100%" height="230" frameborder="0" style="border:0;display:block"
-    src="https://www.openstreetmap.org/export/embed.html?bbox=${lon-d}%2C${lat-d}%2C${lon+d}%2C${lat+d}&layer=mapnik&marker=${lat}%2C${lon}"></iframe>`;
-  $('mapOpen').href=`https://www.google.com/maps/search/?api=1&query=${lat},${lon}`;
-  $('mapStreet').href=`https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${lat},${lon}`;
-  $('amenList').innerHTML='<div class="empty" style="padding:16px">🐽 Sniffing the neighbourhood…</div>';
+  $('mapOpen').href='https://www.google.com/maps/search/?api=1&query='+lat+','+lon;
+  $('mapStreet').href='https://www.google.com/maps/@?api=1&map_action=pano&viewpoint='+lat+','+lon;
+  // build map once
+  if(!window._map){
+   $('mapBox').innerHTML='';$('mapBox').style.display='block';
+   const map=L.map('mapBox',{zoomControl:true}).setView([lat,lon],15);
+   const streets=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+     {maxZoom:19,attribution:'© OpenStreetMap'});
+   const sat=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+     {maxZoom:19,attribution:'© Esri'});
+   const hybrid=L.layerGroup([sat,L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}.png',{maxZoom:19})]);
+   streets.addTo(map);
+   L.control.layers({'🗺️ Streets':streets,'🛰️ Satellite':sat,'🏷️ Satellite + labels':hybrid},null,{collapsed:false}).addTo(map);
+   window._map=map;
+  }
+  window._map.setView([lat,lon],15);
+  if(window._home)window._map.removeLayer(window._home);
+  window._home=L.marker([lat,lon]).addTo(window._map).bindPopup('<b>🏠 This home</b><br>'+addr).openPopup();
+  setTimeout(function(){window._map.invalidateSize()},150);
+  // amenities
+  $('amenNote').textContent='Sniffing the neighbourhood…';
   const R=3200;
-  const q='[out:json][timeout:25];('+AMEN.map(a=>a[2]+'(around:'+R+','+lat+','+lon+');').join('')+');out center 220;';
-  const r=await fetch('https://overpass-api.de/api/interpreter',{method:'POST',body:'data='+encodeURIComponent(q)});
+  const qq='[out:json][timeout:30];('+
+    'node["shop"](around:'+R+','+lat+','+lon+');'+
+    'node["amenity"](around:'+R+','+lat+','+lon+');'+
+    'node["railway"="station"](around:'+R+','+lat+','+lon+');'+
+    'node["highway"="bus_stop"](around:'+R+','+lat+','+lon+');'+
+    'way["leisure"~"^(park|fitness_centre)$"](around:'+R+','+lat+','+lon+');'+
+    ');out center 600;';
+  const r=await fetch('https://overpass-api.de/api/interpreter',{method:'POST',body:'data='+encodeURIComponent(qq)});
   const j=await r.json();
-  const els=(j.elements||[]).map(e=>({t:e.tags||{},lat:e.lat||(e.center&&e.center.lat),lon:e.lon||(e.center&&e.center.lon)}))
-    .filter(e=>e.lat&&e.lon);
-  const match=(t,i)=>{const s=t.shop||'',a=t.amenity||'',rw=t.railway||'',hw=t.highway||'',le=t.leisure||'';
-   switch(i){case 0:return s==='supermarket'||s==='grocery';
-    case 1:return ['department_store','wholesale','doityourself','hardware'].includes(s);
-    case 2:return s==='mall';case 3:return rw==='station';case 4:return hw==='bus_stop';
-    case 5:return s==='car_repair';case 6:return s==='hairdresser';case 7:return a==='cinema';
-    case 8:return a==='pharmacy';case 9:return a==='hospital';case 10:return le==='park';
-    case 11:return a==='restaurant'}return false};
-  let html='',found=0;
-  AMEN.forEach((cat,i)=>{
-   const hits=els.filter(e=>match(e.t,i)).map(e=>({n:e.t.name||'(unnamed)',d:hav(lat,lon,e.lat,e.lon)}))
-     .sort((a,b)=>a.d-b.d);
-   if(!hits.length)return;found++;
-   const near=hits[0];const mi=(near.d*0.621371).toFixed(1);
-   const col=near.d<1.6?'#3E8B5A':near.d<3?'#C9902F':'#C6543B';
-   html+=`<div style="display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px dotted var(--line)">
-     <span style="font-size:19px">${cat[0]}</span>
-     <div style="flex:1;min-width:0">
-       <div style="font-size:13px;font-weight:600">${cat[1]} <span style="color:var(--muted);font-weight:400">· ${hits.length} within 2mi</span></div>
-       <div style="font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">nearest: ${near.n}</div>
-     </div>
-     <span class="mono" style="font-size:13px;font-weight:600;color:${col}">${mi} mi</span></div>`});
-  $('amenList').innerHTML=html||'<div class="empty" style="padding:16px">Nothing mapped nearby — try the Maps buttons below.</div>';
-  $('amenNote').textContent=found+' categories found · straight-line distance, not drive time';
+  const els=(j.elements||[]).map(function(e){var t=e.tags||{};return{
+    shop:t.shop||'',amenity:t.amenity||'',railway:t.railway||'',highway:t.highway||'',leisure:t.leisure||'',
+    n:t.name||'(unnamed)',lat:e.lat||(e.center&&e.center.lat),lon:e.lon||(e.center&&e.center.lon)}})
+    .filter(function(e){return e.lat&&e.lon});
+  window._cats={};window._layers={};
+  AMEN.forEach(function(c,i){
+   window._cats[i]=els.filter(c[2]).map(function(e){return{n:e.n,lat:e.lat,lon:e.lon,d:hav(lat,lon,e.lat,e.lon)}})
+     .sort(function(a,b){return a.d-b.d})});
+  buildChips();renderAmenList();
+  var found=Object.keys(window._cats).filter(function(i){return window._cats[i].length}).length;
+  $('amenNote').textContent=found+' categories found · tap to pin · straight-line distance, not drive time';
   btn.textContent='🐕 Sniff again';buzz([15,30,15]);
  }catch(e){
-  $('mapBox').innerHTML='<div style="padding:20px;font-size:13px;color:var(--muted);text-align:center">Map service busy or offline.<br>Use the Maps buttons below — they always work.</div>';
-  $('amenList').innerHTML='<div class="empty" style="padding:16px">Couldn\'t reach the free map service. Try again in a moment.</div>';
+  $('mapBox').innerHTML='<div style="padding:20px;font-size:13px;color:var(--muted);text-align:center">Free map service is busy or you\'re offline.<br>The Maps buttons below always work.</div>';
+  $('amenNote').textContent='Couldn\'t reach the free map service — try again shortly.';
   btn.textContent='🐕 Try again';
  }
+}
+
+/* ---------- records: county-aware official sources ---------- */
+const CNTY_NAME={LA:'Los Angeles County',OC:'Orange County',SB:'San Bernardino County'};
+const CNTY_LINKS={
+ LA:[['🏛️','Assessor — owner, assessed value, parcel','https://portal.assessor.lacounty.gov/'],
+     ['📜','Recorder — deeds & sale history','https://www.lavote.gov/home/records/property-document-recording'],
+     ['🧾','Property tax bill & delinquency','https://vcheck.ttc.lacounty.gov/'],
+     ['🗺️','Parcel map viewer','https://public.gis.lacounty.gov/public/']],
+ OC:[['🏛️','Assessor — owner & assessed value','https://www.ocgov.com/gov/assessor'],
+     ['📜','Clerk-Recorder — deeds & sale history','https://cr.ocgov.com/'],
+     ['🧾','Property tax bill','https://tax.ocgov.com/'],
+     ['🗺️','OC parcel / GIS viewer','https://www.ocgis.com/ocpw/landrecords/']],
+ SB:[['🏛️','Assessor — owner & assessed value','https://arc.sbcounty.gov/'],
+     ['📜','Recorder — deeds & sale history','https://arc.sbcounty.gov/recorder/'],
+     ['🧾','Property tax bill','https://mytaxcollector.com/'],
+     ['🗺️','Parcel viewer','https://arc.sbcounty.gov/assessor/']]};
+
+function recLink(icon,label,href,sub){
+ return `<a class="linkbtn" target="_blank" href="${href}" style="text-align:left;display:flex;gap:10px;align-items:center">
+   <span style="font-size:17px">${icon}</span>
+   <span style="flex:1"><span style="display:block">${label}</span>
+   ${sub?`<span style="font-size:11px;color:var(--muted);font-weight:400">${sub}</span>`:''}</span>
+   <span style="color:var(--brass)">→</span></a>`}
+
+function buildRecords(){
+ const city=$('city').value,cty=COUNTY[city]||'LA',addr=$('addr').value.trim();
+ const ea=encodeURIComponent(addr||city+', CA');
+ $('cntyNote').textContent=CNTY_NAME[cty]+' · '+city+' — free public sources';
+ let h='';
+ (CNTY_LINKS[cty]||[]).forEach(([i,l,u])=>h+=recLink(i,l,u,''));
+ // permits & planning are city-level; search links land on the right portal
+ h+=recLink('🔨','Building permit history',
+   'https://www.google.com/search?q='+encodeURIComponent(city+' CA building permit search records'),
+   'City portal — was that addition permitted?');
+ h+=recLink('📐','Zoning & planning',
+   'https://www.google.com/search?q='+encodeURIComponent(city+' CA zoning map parcel lookup'),
+   'What you may build / add later');
+ h+=recLink('🚧','Code enforcement / violations',
+   'https://www.google.com/search?q='+encodeURIComponent(city+' CA code enforcement complaint search'),
+   'Open violations transfer to you');
+ h+=recLink('💧','Mello-Roos / special assessments',
+   'https://www.google.com/search?q='+encodeURIComponent(addr||city+' CA')+'+Mello-Roos+special+assessment+district',
+   'Acts like a hidden HOA on newer builds');
+ $('recLinks').innerHTML=h;
+
+ let z='';
+ z+=recLink('🌎','Earthquake fault / liquefaction / landslide','https://maps.conservation.ca.gov/cgs/EQZApp/app/','CA Geological Survey — Alquist-Priolo zones');
+ z+=recLink('🔥','Fire hazard severity zone','https://egis.fire.ca.gov/FHSZ/','CAL FIRE — drives insurance cost');
+ z+=recLink('🌊','FEMA flood zone','https://msc.fema.gov/portal/search?AddressQuery='+ea,'Lender may require flood insurance');
+ z+=recLink('🛡️','Megan\'s Law offender map','https://www.meganslaw.ca.gov/','Legal to check; illegal to use against a seller');
+ z+=recLink('🏭','EPA environmental hazards','https://enviro.epa.gov/envirofacts/','Nearby contamination sites');
+ $('hazLinks').innerHTML=z;
+}
+
+/* ---------- Prop 13 reverse-engineering ---------- */
+function prop13(){
+ const av=num('av'),ay=num('ay'),ask=num('price');
+ const city=$('city').value,cty=COUNTY[city]||'LA',rate=TAXRATE[cty];
+ const yr=new Date().getFullYear();
+ if(!av||!ay||ay<1975||ay>yr){
+   $('p13out').innerHTML='Grab both from the Assessor link above (30 seconds, free), then I\'ll do the math.';
+   supp();return}
+ const held=Math.max(yr-ay,0);
+ const paid=av/Math.pow(1.02,held);           // Prop 13: base year value grows ≤2%/yr
+ const theirTax=av*rate/100/12;
+ const yourTax=ask?ask*rate/100/12:0;
+ const gain=ask?ask-paid:0;
+ const gpct=paid?gain/paid*100:0;
+ $('p13out').innerHTML=
+  `They likely bought in <b>${ay}</b> for roughly <b class="mono">${money(paid)}</b> — held <b>${held} years</b>.<br>`+
+  (ask?`<br>Asking <b class="mono">${money(ask)}</b> means a gain of <b class="mono" style="color:var(--good)">${money(gain)}</b> (${gpct.toFixed(0)}%).<br>`:'')+
+  `<br><b>Why this matters:</b> a seller sitting on ${gpct>150?'that much':'this'} equity has <b>room to move on price</b> — they're not underwater, and every month it doesn't sell costs them. `+
+  (held>=10?`Owning ${held} years often means original systems and deferred maintenance — both are negotiating levers. `:``)+
+  (held<=3?`A quick re-sale after ${held} years is worth asking about — flip, or something wrong? `:``)+
+  `<br><br>Their property tax today: <b class="mono">${money(theirTax)}/mo</b>`+
+  (yourTax?` · yours would be <b class="mono">${money(yourTax)}/mo</b> — ${money(yourTax-theirTax)} more, because California reassesses at your price.`:'.');
+ supp();
+}
+function supp(){
+ const ask=num('price'),av=num('av'),city=$('city').value,cty=COUNTY[city]||'LA',rate=TAXRATE[cty];
+ const yourAnnual=ask*rate/100;
+ let t=`At ${money(ask)} in ${city} (${CNTY_NAME[cty]}, ~${rate}%), expect roughly <b class="mono">${money(yourAnnual)}/yr</b> `+
+   `(<b class="mono">${money(yourAnnual/12)}/mo</b>) in property tax — already in your Cost tab.`;
+ if(av&&ask&&av<ask){
+   const bump=(ask-av)*rate/100;
+   t+=`<br><br>⚠️ <b>Supplemental tax bill:</b> the seller is assessed at ${money(av)}. After you buy, the county reassesses to ${money(ask)} `+
+      `and sends a <b>one-time catch-up bill</b> for the difference — roughly <b class="mono">${money(bump)}</b> prorated for your first year. `+
+      `It arrives months later and surprises first-time buyers. Budget for it.`}
+ $('supp').innerHTML=t;
 }
 
 openDB().catch(()=>{});renderPhotoStrip();render();
