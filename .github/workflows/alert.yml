@@ -1,12 +1,12 @@
-name: Pocket Agent Listing Alert
+name: Scout Listing Alert
 
 on:
   schedule:
-    - cron: "0 */2 * * *"     # every 2 hours (UTC) — gives the 6h/50 logic room to fire
-  workflow_dispatch:          # lets you run it manually from the Actions tab too
+    - cron: "0 */2 * * *"     # every 2 hours (UTC); the 6h/50 rule decides when to email
+  workflow_dispatch:          # manual "Run workflow" button
 
 permissions:
-  contents: write             # needed to commit the updated seen.json back
+  contents: write
 
 jobs:
   scan:
@@ -26,13 +26,14 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           ALERT_TO: ${{ secrets.ALERT_TO }}
+          SCOUT_URL: ${{ secrets.SCOUT_URL }}
         run: python monitor.py
 
-      - name: Save state
+      - name: Publish state + data for Scout
         run: |
-          git config user.name "pocket-agent-bot"
+          git config user.name "scout-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add seen.json || true
-          git commit -m "update seen listings [skip ci]" || echo "nothing to commit"
+          git add seen.json watch.json market.json || true
+          git commit -m "scout: update tracking + market data [skip ci]" || echo "nothing to commit"
+          git pull --rebase --autostash || true
           git push || echo "nothing to push"
-
