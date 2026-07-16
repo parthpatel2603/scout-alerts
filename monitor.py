@@ -35,6 +35,10 @@ STATE_FILE = "seen.json"
 EMAIL_EVERY_HOURS = 6
 BACKLOG_TRIGGER   = 50
 
+# Where Scout lives. Set the SCOUT_URL secret, or edit this default.
+SCOUT_URL = os.environ.get("SCOUT_URL",
+    "https://parthpatel2603.github.io/scout-alerts/")
+
 # ---------------- STATE ----------------
 def load_state():
     if os.path.exists(STATE_FILE):
@@ -111,6 +115,26 @@ def gather():
     return found
 
 # ---------------- EMAIL ----------------
+def scout_link(row):
+    """Encode this listing into a link that autofills Scout."""
+    from urllib.parse import urlencode, quote
+    city = row["_city_key"].replace(", CA", "")
+    addr = f'{row.get("street","")}, {row.get("city","")}, CA {row.get("zip_code","")}'.strip(", ")
+    params = {
+        "addr":  addr,
+        "city":  city,
+        "price": int(row.get("list_price") or 0),
+        "beds":  int(row.get("beds") or 0),
+        "baths": int((row.get("full_baths") or 0)),
+        "sqft":  int(row.get("sqft") or 0),
+        "lot":   int(row.get("lot_sqft") or 0),
+        "year":  int(row.get("year_built") or 0),
+        "hoa":   int(row.get("hoa_fee") or 0),
+        "url":   row.get("property_url") or "",
+    }
+    base = SCOUT_URL if SCOUT_URL.endswith("/") else SCOUT_URL + "/"
+    return base + "#" + urlencode(params, quote_via=quote)
+
 def card(row):
     fit = fit_score(row, row["_city_key"])
     trust, reasons = trust_score(row, row["_median"])
@@ -138,7 +162,10 @@ def card(row):
         <span style="background:{fcolor};color:#fff;border-radius:3px;padding:2px 8px;font-size:12px">Fit {fit}/100</span>
         <span style="background:{tcolor};color:#fff;border-radius:3px;padding:2px 8px;font-size:12px">Trust {trust}/100</span>
         <div style="margin:8px 0 4px">{rlist}</div>
-        <a href="{url}" style="font-size:13px;color:#A9772F;font-weight:600">View listing & all photos →</a>
+        <a href="{scout_link(row)}" style="display:inline-block;background:#14312B;color:#EBD9B6;
+           text-decoration:none;padding:9px 14px;border-radius:8px;font-size:13px;font-weight:700;
+           margin:8px 8px 4px 0">🐶 Score in Scout</a>
+        <a href="{url}" style="font-size:13px;color:#A9772F;font-weight:600">View listing &amp; all photos →</a>
       </td></tr></table>"""
 
 def send_email(rows):
