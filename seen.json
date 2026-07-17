@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-07-17T06:28:58.065054",
+ "last_email": "2026-07-17T17:46:01.834754",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 764800,
@@ -1068,7 +1068,7 @@
    "dom": 33
   },
   "https://www.realtor.com/realestateandhomes-detail/793-William-St_Pomona_CA_91768_M16539-95194": {
-   "price": 719999,
+   "price": 719000,
    "first_price": 719999,
    "first_seen": "2026-07-16",
    "last_seen": "2026-07-17",
@@ -1515,6 +1515,14 @@
    "last_seen": "2026-07-17",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1226-Pontenova-Ave_Hacienda-Heights_CA_91745_M21172-33604": {
+   "price": 699000,
+   "first_price": 699000,
+   "first_seen": "2026-07-17",
+   "last_seen": "2026-07-17",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []

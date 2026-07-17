@@ -934,7 +934,7 @@
    "dom": 33
   },
   "https://www.realtor.com/realestateandhomes-detail/793-William-St_Pomona_CA_91768_M16539-95194": {
-   "price": 719999,
+   "price": 719000,
    "first_price": 719999,
    "first_seen": "2026-07-16",
    "status": "active",
@@ -1325,6 +1325,13 @@
    "first_seen": "2026-07-17",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1226-Pontenova-Ave_Hacienda-Heights_CA_91745_M21172-33604": {
+   "price": 699000,
+   "first_price": 699000,
+   "first_seen": "2026-07-17",
+   "status": "active",
+   "dom": 0
   }
  }
 }
