@@ -1355,6 +1355,13 @@
    "first_seen": "2026-07-18",
    "status": "active",
    "dom": 14
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1389-Carvin-Ave_Rowland-Heights_CA_91748_M21528-80664": {
+   "price": 728800,
+   "first_price": 728800,
+   "first_seen": "2026-07-19",
+   "status": "active",
+   "dom": 9
   }
  }
 }

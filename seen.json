@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-07-18T05:54:41.102957",
+ "last_email": "2026-07-19T19:59:49.216715",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 764800,
@@ -1549,6 +1549,14 @@
    "last_seen": "2026-07-19",
    "status": "active",
    "dom": 14
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1389-Carvin-Ave_Rowland-Heights_CA_91748_M21528-80664": {
+   "price": 728800,
+   "first_price": 728800,
+   "first_seen": "2026-07-19",
+   "last_seen": "2026-07-19",
+   "status": "active",
+   "dom": 9
   }
  },
  "drops": []
