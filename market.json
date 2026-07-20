@@ -4,15 +4,15 @@
  "cities": {
   "Brea": {
    "ppsf": 559,
-   "n": 72
+   "n": 73
   },
   "La Habra": {
    "ppsf": 581,
    "n": 63
   },
   "Diamond Bar": {
-   "ppsf": 569,
-   "n": 68
+   "ppsf": 566,
+   "n": 69
   },
   "Rowland Heights": {
    "ppsf": 505,
@@ -27,8 +27,8 @@
    "n": 38
   },
   "Chino Hills": {
-   "ppsf": 507,
-   "n": 94
+   "ppsf": 505,
+   "n": 96
   },
   "Pomona": {
    "ppsf": 451,
@@ -47,8 +47,8 @@
    "n": 58
   },
   "Montclair": {
-   "ppsf": 391,
-   "n": 16
+   "ppsf": 378,
+   "n": 17
   }
  }
 }
