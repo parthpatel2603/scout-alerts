@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-07-21T07:42:47.648445",
+ "last_email": "2026-07-21T18:52:10.451262",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 764800,
@@ -64,7 +64,7 @@
    "first_seen": "2026-07-16",
    "last_seen": "2026-07-21",
    "status": "active",
-   "dom": 2185,
+   "dom": 109,
    "dropped": "2026-07-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/5700-Carbon-Canyon-Rd-Spc-62_Brea_CA_92823_M23087-11976": {
@@ -1575,6 +1575,30 @@
    "last_seen": "2026-07-21",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/21217-Washington-Ave-Spc-18_Walnut_CA_91789_M21259-97643": {
+   "price": 310000,
+   "first_price": 310000,
+   "first_seen": "2026-07-21",
+   "last_seen": "2026-07-21",
+   "status": "active",
+   "dom": 1148
+  },
+  "https://www.realtor.com/realestateandhomes-detail/243-E-Harrison-Ave_Pomona_CA_91767_M18378-28089": {
+   "price": 775000,
+   "first_price": 775000,
+   "first_seen": "2026-07-21",
+   "last_seen": "2026-07-21",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/5405-Yale-St_Montclair_CA_91763_M23103-71276": {
+   "price": 749000,
+   "first_price": 749000,
+   "first_seen": "2026-07-21",
+   "last_seen": "2026-07-21",
+   "status": "active",
+   "dom": 5
   }
  },
  "drops": []
