@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-07-22T09:18:13.312166",
+ "last_email": "2026-07-22T15:54:24.617187",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 764800,
@@ -1277,8 +1277,9 @@
    "first_price": 760000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-07-22",
-   "status": "active",
-   "dom": 90
+   "status": "sold",
+   "dom": 90,
+   "sold_price": 755000
   },
   "https://www.realtor.com/realestateandhomes-detail/917-Ashworth-Pl_Glendora_CA_91741_M17482-32539": {
    "price": 780000,
@@ -1624,6 +1625,14 @@
    "last_seen": "2026-07-22",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/11054-Wesley-Ave_Montclair_CA_91763_M16649-15063": {
+   "price": 720000,
+   "first_price": 720000,
+   "first_seen": "2026-07-22",
+   "last_seen": "2026-07-22",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
