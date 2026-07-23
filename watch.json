@@ -1449,6 +1449,13 @@
    "first_seen": "2026-07-23",
    "status": "active",
    "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1001-W-Lambert-Rd-Spc-10B_La-Habra_CA_90631_M20637-42516": {
+   "price": 235000,
+   "first_price": 235000,
+   "first_seen": "2026-07-23",
+   "status": "active",
+   "dom": 0
   }
  }
 }

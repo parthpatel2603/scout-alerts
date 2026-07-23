@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-07-23T07:44:57.342172",
+ "last_email": "2026-07-23T18:22:53.716559",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 764800,
@@ -1651,6 +1651,14 @@
   "https://www.realtor.com/realestateandhomes-detail/5383-Palo-Verde-St_Montclair_CA_91763_M22893-16018": {
    "price": 715000,
    "first_price": 715000,
+   "first_seen": "2026-07-23",
+   "last_seen": "2026-07-23",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1001-W-Lambert-Rd-Spc-10B_La-Habra_CA_90631_M20637-42516": {
+   "price": 235000,
+   "first_price": 235000,
    "first_seen": "2026-07-23",
    "last_seen": "2026-07-23",
    "status": "active",
