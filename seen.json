@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-07-24T09:12:23.353149",
+ "last_email": "2026-07-24T20:47:07.804692",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 764800,
@@ -1490,13 +1490,13 @@
    "dom": 15
   },
   "https://www.realtor.com/realestateandhomes-detail/5356-Alamitos-St_Montclair_CA_91763_M24453-85785": {
-   "price": 690000,
+   "price": 660000,
    "first_price": 699000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-07-24",
    "status": "active",
    "dom": 66,
-   "dropped": "2026-07-23"
+   "dropped": "2026-07-24"
   },
   "https://www.realtor.com/realestateandhomes-detail/5446-Granada-St_Montclair_CA_91763_M25539-78741": {
    "price": 734900,
@@ -1697,6 +1697,14 @@
    "last_seen": "2026-07-24",
    "status": "active",
    "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/432-Middlebury-Ct_Claremont_CA_91711_M13638-60236": {
+   "price": 785000,
+   "first_price": 785000,
+   "first_seen": "2026-07-24",
+   "last_seen": "2026-07-24",
+   "status": "active",
+   "dom": 28
   }
  },
  "drops": []
