@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-07-25T06:37:10.537909",
+ "last_email": "2026-07-25T15:47:30.903634",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 764800,
@@ -1180,7 +1180,7 @@
    "first_seen": "2026-07-16",
    "last_seen": "2026-07-25",
    "status": "active",
-   "dom": 49,
+   "dom": 0,
    "dropped": "2026-07-25"
   },
   "https://www.realtor.com/realestateandhomes-detail/2878-Foxtail-Way_Pomona_CA_91767_M92985-29719": {
@@ -1428,12 +1428,13 @@
    "dom": 113
   },
   "https://www.realtor.com/realestateandhomes-detail/18526-E-Petunia-St_Azusa_CA_91702_M18897-31323": {
-   "price": 739000,
+   "price": 690000,
    "first_price": 739000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-24",
-   "status": "off_market",
-   "dom": 109
+   "last_seen": "2026-07-25",
+   "status": "active",
+   "dom": 110,
+   "dropped": "2026-07-25"
   },
   "https://www.realtor.com/realestateandhomes-detail/411-Champlain-Dr_Claremont_CA_91711_M21402-89850": {
    "price": 749900,

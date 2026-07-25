@@ -1033,7 +1033,7 @@
    "first_price": 569000,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 49,
+   "dom": 0,
    "dropped": "2026-07-25"
   },
   "https://www.realtor.com/realestateandhomes-detail/2878-Foxtail-Way_Pomona_CA_91767_M92985-29719": {
@@ -1251,11 +1251,12 @@
    "dom": 113
   },
   "https://www.realtor.com/realestateandhomes-detail/18526-E-Petunia-St_Azusa_CA_91702_M18897-31323": {
-   "price": 739000,
+   "price": 690000,
    "first_price": 739000,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 109
+   "status": "active",
+   "dom": 110,
+   "dropped": "2026-07-25"
   },
   "https://www.realtor.com/realestateandhomes-detail/411-Champlain-Dr_Claremont_CA_91711_M21402-89850": {
    "price": 749900,
