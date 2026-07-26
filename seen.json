@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-07-26T07:46:41.998842",
+ "last_email": "2026-07-26T20:16:25.634755",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 764800,
@@ -687,7 +687,7 @@
    "first_seen": "2026-07-16",
    "last_seen": "2026-07-26",
    "status": "active",
-   "dom": 134
+   "dom": 68
   },
   "https://www.realtor.com/realestateandhomes-detail/1461-W-Mission-Blvd-Spc-106_Pomona_CA_91766_M95085-43171": {
    "price": 170000,
@@ -1062,12 +1062,13 @@
    "dom": 48
   },
   "https://www.realtor.com/realestateandhomes-detail/2723-Vine-St_Pomona_CA_91767_M15758-23473": {
-   "price": 778000,
+   "price": 768000,
    "first_price": 778000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-07-26",
    "status": "active",
-   "dom": 24
+   "dom": 24,
+   "dropped": "2026-07-26"
   },
   "https://www.realtor.com/realestateandhomes-detail/2243-Concord-Ave_Pomona_CA_91768_M10132-95388": {
    "price": 719000,
