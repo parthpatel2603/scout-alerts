@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-07-27T10:56:04.285468",
+ "last_email": "2026-07-27T18:00:08.910980",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 764800,
@@ -908,12 +908,13 @@
    "dom": 38
   },
   "https://www.realtor.com/realestateandhomes-detail/1450-W-9th-St_Pomona_CA_91766_M14967-32917": {
-   "price": 686888,
+   "price": 649888,
    "first_price": 686888,
    "first_seen": "2026-07-16",
    "last_seen": "2026-07-27",
    "status": "active",
-   "dom": 55
+   "dom": 55,
+   "dropped": "2026-07-27"
   },
   "https://www.realtor.com/realestateandhomes-detail/301-E-Foothill-Blvd-Spc-58_Pomona_CA_91767_M92100-97341": {
    "price": 224900,

@@ -795,11 +795,12 @@
    "dom": 38
   },
   "https://www.realtor.com/realestateandhomes-detail/1450-W-9th-St_Pomona_CA_91766_M14967-32917": {
-   "price": 686888,
+   "price": 649888,
    "first_price": 686888,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 55
+   "dom": 55,
+   "dropped": "2026-07-27"
   },
   "https://www.realtor.com/realestateandhomes-detail/301-E-Foothill-Blvd-Spc-58_Pomona_CA_91767_M92100-97341": {
    "price": 224900,
