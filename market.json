@@ -4,11 +4,11 @@
  "cities": {
   "Brea": {
    "ppsf": 568,
-   "n": 71
+   "n": 73
   },
   "La Habra": {
-   "ppsf": 578,
-   "n": 66
+   "ppsf": 576,
+   "n": 67
   },
   "Diamond Bar": {
    "ppsf": 563,
@@ -16,10 +16,10 @@
   },
   "Rowland Heights": {
    "ppsf": 506,
-   "n": 39
+   "n": 41
   },
   "Hacienda Heights": {
-   "ppsf": 533,
+   "ppsf": 530,
    "n": 54
   },
   "Walnut": {
@@ -31,8 +31,8 @@
    "n": 94
   },
   "Pomona": {
-   "ppsf": 443,
-   "n": 110
+   "ppsf": 437,
+   "n": 113
   },
   "Glendora": {
    "ppsf": 547,

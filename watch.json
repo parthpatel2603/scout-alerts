@@ -106,8 +106,9 @@
    "price": 439000,
    "first_price": 439000,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 118
+   "status": "sold",
+   "dom": 118,
+   "sold_price": 400000
   },
   "https://www.realtor.com/realestateandhomes-detail/1051-Site-Dr-Spc-236_Brea_CA_92821_M13177-28728": {
    "price": 229000,
@@ -523,12 +524,12 @@
    "dom": 27
   },
   "https://www.realtor.com/realestateandhomes-detail/15111-Pipeline-Ave-Spc-240_Chino-Hills_CA_91709_M12171-60912": {
-   "price": 348000,
+   "price": 342500,
    "first_price": 348000,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 28,
-   "dropped": "2026-07-26"
+   "dom": 71,
+   "dropped": "2026-07-29"
   },
   "https://www.realtor.com/realestateandhomes-detail/3495-Terrace-Dr_Chino-Hills_CA_91709_M17940-40270": {
    "price": 735000,
@@ -826,8 +827,9 @@
    "price": 117900,
    "first_price": 117900,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 97
+   "status": "sold",
+   "dom": 97,
+   "sold_price": 102000
   },
   "https://www.realtor.com/realestateandhomes-detail/1915-Ervilla-Pl_Pomona_CA_91767_M18105-86685": {
    "price": 749900,
