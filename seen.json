@@ -535,8 +535,9 @@
    "first_price": 699000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-07-29",
-   "status": "active",
-   "dom": 42
+   "status": "sold",
+   "dom": 42,
+   "sold_price": 790000
   },
   "https://www.realtor.com/realestateandhomes-detail/3825-Valley-Blvd-Spc-20_Walnut_CA_91789_M99242-66252": {
    "price": 210000,
