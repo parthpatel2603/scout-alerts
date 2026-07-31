@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-07-30T07:42:14.403998",
+ "last_email": "2026-07-31T17:12:52.639535",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 764800,
@@ -1091,12 +1091,13 @@
    "dom": 47
   },
   "https://www.realtor.com/realestateandhomes-detail/793-William-St_Pomona_CA_91768_M16539-95194": {
-   "price": 719000,
+   "price": 715000,
    "first_price": 719999,
    "first_seen": "2026-07-16",
    "last_seen": "2026-07-31",
    "status": "active",
-   "dom": 31
+   "dom": 31,
+   "dropped": "2026-07-31"
   },
   "https://www.realtor.com/realestateandhomes-detail/2178-Anne-Pl_Pomona_CA_91767_M17792-83293": {
    "price": 664000,

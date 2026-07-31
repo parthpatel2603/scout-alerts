@@ -957,11 +957,12 @@
    "dom": 47
   },
   "https://www.realtor.com/realestateandhomes-detail/793-William-St_Pomona_CA_91768_M16539-95194": {
-   "price": 719000,
+   "price": 715000,
    "first_price": 719999,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 31
+   "dom": 31,
+   "dropped": "2026-07-31"
   },
   "https://www.realtor.com/realestateandhomes-detail/2178-Anne-Pl_Pomona_CA_91767_M17792-83293": {
    "price": 664000,
