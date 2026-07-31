@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-30",
+ "updated": "2026-07-31",
  "window_days": 60,
  "cities": {
   "Brea": {
@@ -15,8 +15,8 @@
    "n": 74
   },
   "Rowland Heights": {
-   "ppsf": 506,
-   "n": 43
+   "ppsf": 505,
+   "n": 44
   },
   "Hacienda Heights": {
    "ppsf": 529,
@@ -31,8 +31,8 @@
    "n": 97
   },
   "Pomona": {
-   "ppsf": 439,
-   "n": 116
+   "ppsf": 437,
+   "n": 118
   },
   "Glendora": {
    "ppsf": 546,
@@ -43,8 +43,8 @@
    "n": 40
   },
   "Claremont": {
-   "ppsf": 528,
-   "n": 60
+   "ppsf": 531,
+   "n": 59
   },
   "Montclair": {
    "ppsf": 405,
