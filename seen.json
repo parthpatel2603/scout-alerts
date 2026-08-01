@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-01T07:26:17.533777",
+ "last_email": "2026-08-01T15:43:04.456550",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 764800,
@@ -1797,6 +1797,14 @@
    "last_seen": "2026-08-01",
    "status": "active",
    "dom": 3
+  },
+  "https://www.realtor.com/realestateandhomes-detail/733-S-Bender-Ave_Glendora_CA_91740_M22015-72730": {
+   "price": 779000,
+   "first_price": 779000,
+   "first_seen": "2026-08-01",
+   "last_seen": "2026-08-01",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
