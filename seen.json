@@ -825,8 +825,9 @@
    "first_price": 668000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-08-01",
-   "status": "active",
-   "dom": 50
+   "status": "sold",
+   "dom": 50,
+   "sold_price": 685000
   },
   "https://www.realtor.com/realestateandhomes-detail/1632-Via-Estrella_Pomona_CA_91768_M10374-80984": {
    "price": 790000,
