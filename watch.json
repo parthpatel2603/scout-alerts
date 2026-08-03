@@ -1254,11 +1254,12 @@
    "dom": 60
   },
   "https://www.realtor.com/realestateandhomes-detail/5825-N-Orangecrest-Ave_Azusa_CA_91702_M16673-65444": {
-   "price": 739999,
+   "price": 699999,
    "first_price": 739999,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 39
+   "dom": 39,
+   "dropped": "2026-08-03"
   },
   "https://www.realtor.com/realestateandhomes-detail/812-N-Loren-Ave-Trlr-18_Azusa_CA_91702_M93723-52283": {
    "price": 239000,
