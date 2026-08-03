@@ -421,8 +421,8 @@
    "price": 688800,
    "first_price": 688800,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 101
+   "status": "active",
+   "dom": 103
   },
   "https://www.realtor.com/realestateandhomes-detail/901-6th-Ave-Spc-159_Hacienda-Heights_CA_91745_M96955-31926": {
    "price": 379900,
@@ -873,7 +873,7 @@
    "dom": 95
   },
   "https://www.realtor.com/realestateandhomes-detail/902-E-Olive-St_Pomona_CA_91766_M28409-64101": {
-   "price": 689000,
+   "price": 695000,
    "first_price": 689000,
    "first_seen": "2026-07-16",
    "status": "active",
@@ -1474,8 +1474,9 @@
    "price": 590000,
    "first_price": 590000,
    "first_seen": "2026-07-23",
-   "status": "active",
-   "dom": 30
+   "status": "sold",
+   "dom": 30,
+   "sold_price": 645000
   },
   "https://www.realtor.com/realestateandhomes-detail/5383-Palo-Verde-St_Montclair_CA_91763_M22893-16018": {
    "price": 715000,
