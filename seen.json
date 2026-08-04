@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-04T10:15:50.389742",
+ "last_email": "2026-08-04T23:38:32.970319",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 764800,
@@ -481,8 +481,9 @@
    "first_price": 688800,
    "first_seen": "2026-07-16",
    "last_seen": "2026-08-04",
-   "status": "active",
-   "dom": 104
+   "status": "sold",
+   "dom": 104,
+   "sold_price": 729250
   },
   "https://www.realtor.com/realestateandhomes-detail/901-6th-Ave-Spc-159_Hacienda-Heights_CA_91745_M96955-31926": {
    "price": 379900,
@@ -963,12 +964,13 @@
    "dom": 42
   },
   "https://www.realtor.com/realestateandhomes-detail/165-Lincoln-Ave_Pomona_CA_91767_M10890-80771": {
-   "price": 756000,
+   "price": 749500,
    "first_price": 756000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-08-04",
    "status": "active",
-   "dom": 53
+   "dom": 53,
+   "dropped": "2026-08-04"
   },
   "https://www.realtor.com/realestateandhomes-detail/1430-Girona-Dr_Pomona_CA_91766_M19288-51480": {
    "price": 774900,
