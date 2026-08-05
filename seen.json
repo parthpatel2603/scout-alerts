@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-05T10:06:40.730497",
+ "last_email": "2026-08-05T22:19:00.199304",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 739000,
@@ -703,7 +703,7 @@
    "dom": 144
   },
   "https://www.realtor.com/realestateandhomes-detail/1461-W-Mission-Blvd-Spc-106_Pomona_CA_91766_M95085-43171": {
-   "price": 170000,
+   "price": 175000,
    "first_price": 170000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-08-05",
@@ -1558,13 +1558,13 @@
    "dropped": "2026-07-28"
   },
   "https://www.realtor.com/realestateandhomes-detail/548-N-Reservoir-St_Pomona_CA_91767_M27255-51477": {
-   "price": 709000,
+   "price": 699000,
    "first_price": 719000,
    "first_seen": "2026-07-17",
    "last_seen": "2026-08-05",
    "status": "active",
    "dom": 20,
-   "dropped": "2026-07-29"
+   "dropped": "2026-08-05"
   },
   "https://www.realtor.com/realestateandhomes-detail/1226-Pontenova-Ave_Hacienda-Heights_CA_91745_M21172-33604": {
    "price": 699000,
@@ -1843,6 +1843,14 @@
   "https://www.realtor.com/realestateandhomes-detail/158-Marywood-Ave_Claremont_CA_91711_M23504-69766": {
    "price": 585000,
    "first_price": 585000,
+   "first_seen": "2026-08-05",
+   "last_seen": "2026-08-05",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1813-Mirador-Dr_Azusa_CA_91702_M15011-47968": {
+   "price": 769000,
+   "first_price": 769000,
    "first_seen": "2026-08-05",
    "last_seen": "2026-08-05",
    "status": "active",
