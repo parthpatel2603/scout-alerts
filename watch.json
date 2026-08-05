@@ -799,8 +799,9 @@
    "price": 730000,
    "first_price": 730000,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 104
+   "status": "sold",
+   "dom": 104,
+   "sold_price": 730000
   },
   "https://www.realtor.com/realestateandhomes-detail/2570-Camphor-Pl_Pomona_CA_91766_M10002-01499": {
    "price": 780000,
