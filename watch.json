@@ -173,8 +173,9 @@
    "price": 770000,
    "first_price": 770000,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 109
+   "status": "sold",
+   "dom": 109,
+   "sold_price": 750000
   },
   "https://www.realtor.com/realestateandhomes-detail/208-S-Hillcrest-St_La-Habra_CA_90631_M17086-41341": {
    "price": 699000,
