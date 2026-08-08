@@ -995,12 +995,12 @@
    "dom": 37
   },
   "https://www.realtor.com/realestateandhomes-detail/1601-S-Garey-Ave-Spc-16_Pomona_CA_91766_M96237-18891": {
-   "price": 229900,
+   "price": 229000,
    "first_price": 229900,
    "first_seen": "2026-07-16",
    "last_seen": "2026-08-08",
    "status": "active",
-   "dom": 100
+   "dom": 0
   },
   "https://www.realtor.com/realestateandhomes-detail/902-E-Olive-St_Pomona_CA_91766_M28409-64101": {
    "price": 695000,
