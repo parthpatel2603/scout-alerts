@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-08T04:18:11.850537",
+ "last_email": "2026-08-08T11:06:11.171324",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 739000,
@@ -455,12 +455,13 @@
    "dom": 72
   },
   "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-306_Rowland-Heights_CA_91748_M18434-54175": {
-   "price": 198880,
+   "price": 188000,
    "first_price": 198880,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-29",
-   "status": "off_market",
-   "dom": 181
+   "last_seen": "2026-08-08",
+   "status": "active",
+   "dom": 0,
+   "dropped": "2026-08-08"
   },
   "https://www.realtor.com/realestateandhomes-detail/901-6th-Ave-Spc-417_City-of-Industry_CA_91745_M96201-99492": {
    "price": 145000,
