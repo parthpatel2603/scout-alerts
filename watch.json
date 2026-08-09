@@ -1414,8 +1414,9 @@
    "price": 728800,
    "first_price": 728800,
    "first_seen": "2026-07-19",
-   "status": "active",
-   "dom": 30
+   "status": "sold",
+   "dom": 30,
+   "sold_price": 660000
   },
   "https://www.realtor.com/realestateandhomes-detail/1719-Westwood-Pl_Pomona_CA_91768_M16913-72934": {
    "price": 738000,
