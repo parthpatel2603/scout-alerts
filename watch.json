@@ -1203,8 +1203,9 @@
    "price": 649000,
    "first_price": 649000,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 45
+   "status": "sold",
+   "dom": 45,
+   "sold_price": 662000
   },
   "https://www.realtor.com/realestateandhomes-detail/221-S-Ranburn-Ave_Azusa_CA_91702_M18599-18569": {
    "price": 680000,
