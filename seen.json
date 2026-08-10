@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-08T11:06:11.171324",
+ "last_email": "2026-08-10T18:37:31.177662",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 739000,
@@ -965,8 +965,9 @@
    "first_price": 749900,
    "first_seen": "2026-07-16",
    "last_seen": "2026-08-10",
-   "status": "active",
-   "dom": 48
+   "status": "sold",
+   "dom": 48,
+   "sold_price": 749900
   },
   "https://www.realtor.com/realestateandhomes-detail/165-Lincoln-Ave_Pomona_CA_91767_M10890-80771": {
    "price": 749500,
@@ -1960,6 +1961,14 @@
    "last_seen": "2026-08-10",
    "status": "active",
    "dom": 36
+  },
+  "https://www.realtor.com/realestateandhomes-detail/503-Garden-Ave_Pomona_CA_91767_M21710-49597": {
+   "price": 779999,
+   "first_price": 779999,
+   "first_seen": "2026-08-10",
+   "last_seen": "2026-08-10",
+   "status": "active",
+   "dom": 61
   }
  },
  "drops": []

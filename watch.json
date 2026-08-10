@@ -847,8 +847,9 @@
    "price": 749900,
    "first_price": 749900,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 48
+   "status": "sold",
+   "dom": 48,
+   "sold_price": 749900
   },
   "https://www.realtor.com/realestateandhomes-detail/165-Lincoln-Ave_Pomona_CA_91767_M10890-80771": {
    "price": 749500,
@@ -1722,6 +1723,13 @@
    "first_seen": "2026-08-08",
    "status": "active",
    "dom": 36
+  },
+  "https://www.realtor.com/realestateandhomes-detail/503-Garden-Ave_Pomona_CA_91767_M21710-49597": {
+   "price": 779999,
+   "first_price": 779999,
+   "first_seen": "2026-08-10",
+   "status": "active",
+   "dom": 61
   }
  }
 }
