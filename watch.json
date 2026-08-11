@@ -1012,11 +1012,12 @@
    "sold_price": 735000
   },
   "https://www.realtor.com/realestateandhomes-detail/645-W-Center-St_Pomona_CA_91768_M11516-13023": {
-   "price": 669000,
+   "price": 649000,
    "first_price": 669000,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 83
+   "dom": 83,
+   "dropped": "2026-08-11"
   },
   "https://www.realtor.com/realestateandhomes-detail/11249-Wesley-Ave_Pomona_CA_91766_M27398-61262": {
    "price": 650000,

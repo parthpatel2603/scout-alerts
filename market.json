@@ -4,11 +4,11 @@
  "cities": {
   "Brea": {
    "ppsf": 577,
-   "n": 66
+   "n": 67
   },
   "La Habra": {
-   "ppsf": 551,
-   "n": 81
+   "ppsf": 550,
+   "n": 82
   },
   "Diamond Bar": {
    "ppsf": 561,
@@ -19,12 +19,12 @@
    "n": 46
   },
   "Hacienda Heights": {
-   "ppsf": 524,
-   "n": 48
+   "ppsf": 528,
+   "n": 49
   },
   "Walnut": {
    "ppsf": 574,
-   "n": 43
+   "n": 44
   },
   "Chino Hills": {
    "ppsf": 494,
