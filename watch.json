@@ -41,8 +41,9 @@
    "price": 600000,
    "first_price": 0,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 26
+   "status": "sold",
+   "dom": 26,
+   "sold_price": 600000
   },
   "https://www.realtor.com/realestateandhomes-detail/716-E-6th-St_Pomona_CA_91766_M91019-38006": {
    "price": 668000,
@@ -481,11 +482,12 @@
    "sold_price": 790000
   },
   "https://www.realtor.com/realestateandhomes-detail/3825-Valley-Blvd-Spc-20_Walnut_CA_91789_M99242-66252": {
-   "price": 210000,
+   "price": 199000,
    "first_price": 210000,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 36
+   "dom": 36,
+   "dropped": "2026-08-11"
   },
   "https://www.realtor.com/realestateandhomes-detail/15232-Murray-Ave_Chino-Hills_CA_91709_M18161-38974": {
    "price": 645000,
@@ -672,8 +674,8 @@
    "price": 189900,
    "first_price": 189900,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 57
+   "status": "active",
+   "dom": 60
   },
   "https://www.realtor.com/realestateandhomes-detail/1771-Del-Prado_Pomona_CA_91768_M17472-34582": {
    "price": 788000,
