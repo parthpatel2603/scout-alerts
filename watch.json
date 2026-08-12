@@ -13,8 +13,9 @@
    "price": 735000,
    "first_price": 0,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 27
+   "status": "sold",
+   "dom": 27,
+   "sold_price": 750000
   },
   "https://www.realtor.com/realestateandhomes-detail/1413-Escalada-Ave_Rowland-Heights_CA_91748_M11243-82991": {
    "price": 780000,
@@ -1305,8 +1306,9 @@
    "price": 749900,
    "first_price": 749900,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 90
+   "status": "sold",
+   "dom": 90,
+   "sold_price": 730000
   },
   "https://www.realtor.com/realestateandhomes-detail/410-Champlain-Dr_Claremont_CA_91711_M21594-44545": {
    "price": 758000,
@@ -1748,6 +1750,20 @@
   "https://www.realtor.com/realestateandhomes-detail/18632-LA-Guardia-St_Rowland-Heights_CA_91748_M24348-13966": {
    "price": 749000,
    "first_price": 749000,
+   "first_seen": "2026-08-12",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/4674-Bird-Farm-Rd_Chino-Hills_CA_91709_M18561-25330": {
+   "price": 699000,
+   "first_price": 699000,
+   "first_seen": "2026-08-12",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/998-Garnet-St_Pomona_CA_91766_M12747-76963": {
+   "price": 775000,
+   "first_price": 775000,
    "first_seen": "2026-08-12",
    "status": "active",
    "dom": 0
