@@ -4,7 +4,7 @@
  "cities": {
   "Brea": {
    "ppsf": 577,
-   "n": 63
+   "n": 64
   },
   "La Habra": {
    "ppsf": 551,
@@ -24,11 +24,11 @@
   },
   "Walnut": {
    "ppsf": 574,
-   "n": 41
+   "n": 42
   },
   "Chino Hills": {
    "ppsf": 493,
-   "n": 94
+   "n": 95
   },
   "Pomona": {
    "ppsf": 437,
