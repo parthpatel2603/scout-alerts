@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-13T09:47:18.842933",
+ "last_email": "2026-08-13T17:34:33.450376",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 739000,
@@ -2020,6 +2020,22 @@
    "last_seen": "2026-08-13",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/766-Cactus-Ct_Brea_CA_92821_M10600-93463": {
+   "price": 699000,
+   "first_price": 699000,
+   "first_seen": "2026-08-13",
+   "last_seen": "2026-08-13",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/412-S-Vecino-Ave_Glendora_CA_91741_M20242-24109": {
+   "price": 675000,
+   "first_price": 675000,
+   "first_seen": "2026-08-13",
+   "last_seen": "2026-08-13",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
