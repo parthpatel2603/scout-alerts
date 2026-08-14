@@ -32,11 +32,12 @@
    "dom": 32
   },
   "https://www.realtor.com/realestateandhomes-detail/1022-Rodman-Ave_Pomona_CA_91767_M25337-80936": {
-   "price": 699000,
+   "price": 665000,
    "first_price": 0,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 26
+   "status": "active",
+   "dom": 0,
+   "dropped": "2026-08-14"
   },
   "https://www.realtor.com/realestateandhomes-detail/4645-Bandera-St_Montclair_CA_91763_M24438-20615": {
    "price": 600000,
@@ -881,11 +882,11 @@
    "dom": 43
   },
   "https://www.realtor.com/realestateandhomes-detail/1601-S-Garey-Ave-Spc-16_Pomona_CA_91766_M96237-18891": {
-   "price": 229000,
+   "price": 229900,
    "first_price": 229900,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 6
+   "dom": 106
   },
   "https://www.realtor.com/realestateandhomes-detail/902-E-Olive-St_Pomona_CA_91766_M28409-64101": {
    "price": 695000,
@@ -1143,11 +1144,12 @@
    "sold_price": 680000
   },
   "https://www.realtor.com/realestateandhomes-detail/201-E-Arrow-Hwy-Spc-54_Glendora_CA_91740_M14368-87207": {
-   "price": 184000,
+   "price": 175000,
    "first_price": 184000,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 49
+   "dom": 49,
+   "dropped": "2026-08-14"
   },
   "https://www.realtor.com/realestateandhomes-detail/1268-S-Westridge-Ave_Glendora_CA_91740_M23131-09696": {
    "price": 769900,
@@ -1726,8 +1728,8 @@
    "price": 699999,
    "first_price": 699999,
    "first_seen": "2026-08-08",
-   "status": "off_market",
-   "dom": 4
+   "status": "active",
+   "dom": 7
   },
   "https://www.realtor.com/realestateandhomes-detail/915-Ashworth-Pl_Glendora_CA_91741_M17423-07254": {
    "price": 770000,
