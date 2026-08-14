@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-14T00:09:06.873484",
+ "last_email": "2026-08-14T11:10:16.881538",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 739000,
@@ -2069,6 +2069,22 @@
    "last_seen": "2026-08-14",
    "status": "active",
    "dom": 15
+  },
+  "https://www.realtor.com/realestateandhomes-detail/17139-E-Orkney-St_Azusa_CA_91702_M16328-94447": {
+   "price": 784900,
+   "first_price": 784900,
+   "first_seen": "2026-08-14",
+   "last_seen": "2026-08-14",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/5564-Valencia-Dr_Ontario_CA_91762_M99184-79729": {
+   "price": 698000,
+   "first_price": 698000,
+   "first_seen": "2026-08-14",
+   "last_seen": "2026-08-14",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
