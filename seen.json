@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-15T10:17:23.530444",
+ "last_email": "2026-08-15T16:18:04.658355",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 739000,
@@ -2115,6 +2115,14 @@
   "https://www.realtor.com/realestateandhomes-detail/9801-Felipe-Ave_Montclair_CA_91763_M16276-49121": {
    "price": 725000,
    "first_price": 725000,
+   "first_seen": "2026-08-15",
+   "last_seen": "2026-08-15",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1652-Home-Ter_Pomona_CA_91768_M16184-06219": {
+   "price": 525000,
+   "first_price": 525000,
    "first_seen": "2026-08-15",
    "last_seen": "2026-08-15",
    "status": "active",

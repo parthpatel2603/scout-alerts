@@ -1863,6 +1863,13 @@
    "first_seen": "2026-08-15",
    "status": "active",
    "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1652-Home-Ter_Pomona_CA_91768_M16184-06219": {
+   "price": 525000,
+   "first_price": 525000,
+   "first_seen": "2026-08-15",
+   "status": "active",
+   "dom": 0
   }
  }
 }
