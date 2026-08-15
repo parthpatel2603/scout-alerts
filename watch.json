@@ -1856,6 +1856,13 @@
    "first_seen": "2026-08-15",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/9801-Felipe-Ave_Montclair_CA_91763_M16276-49121": {
+   "price": 725000,
+   "first_price": 725000,
+   "first_seen": "2026-08-15",
+   "status": "active",
+   "dom": 0
   }
  }
 }
