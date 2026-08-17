@@ -863,8 +863,9 @@
    "first_price": 539000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-08-17",
-   "status": "active",
-   "dom": 91
+   "status": "sold",
+   "dom": 91,
+   "sold_price": 539000
   },
   "https://www.realtor.com/realestateandhomes-detail/595-E-Alvarado-St_Pomona_CA_91767_M11503-08715": {
    "price": 699999,
