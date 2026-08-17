@@ -1871,6 +1871,13 @@
    "first_seen": "2026-08-15",
    "status": "active",
    "dom": 2
+  },
+  "https://www.realtor.com/realestateandhomes-detail/429-Jansu-Pl_Pomona_CA_91768_M20915-52295": {
+   "price": 775000,
+   "first_price": 775000,
+   "first_seen": "2026-08-17",
+   "status": "active",
+   "dom": 0
   }
  }
 }

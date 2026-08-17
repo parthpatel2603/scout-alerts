@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-15T16:18:04.658355",
+ "last_email": "2026-08-17T22:18:52.192607",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 739000,
@@ -2128,6 +2128,14 @@
    "last_seen": "2026-08-17",
    "status": "active",
    "dom": 2
+  },
+  "https://www.realtor.com/realestateandhomes-detail/429-Jansu-Pl_Pomona_CA_91768_M20915-52295": {
+   "price": 775000,
+   "first_price": 775000,
+   "first_seen": "2026-08-17",
+   "last_seen": "2026-08-17",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
