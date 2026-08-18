@@ -1830,9 +1830,9 @@
    "price": 620000,
    "first_price": 620000,
    "first_seen": "2026-07-30",
-   "last_seen": "2026-08-15",
-   "status": "off_market",
-   "dom": 17
+   "last_seen": "2026-08-18",
+   "status": "active",
+   "dom": 20
   },
   "https://www.realtor.com/realestateandhomes-detail/733-S-Bender-Ave_Glendora_CA_91740_M22015-72730": {
    "price": 779000,
