@@ -4,7 +4,7 @@
  "cities": {
   "Brea": {
    "ppsf": 578,
-   "n": 64
+   "n": 65
   },
   "La Habra": {
    "ppsf": 546,
@@ -15,8 +15,8 @@
    "n": 70
   },
   "Rowland Heights": {
-   "ppsf": 530,
-   "n": 50
+   "ppsf": 535,
+   "n": 49
   },
   "Hacienda Heights": {
    "ppsf": 518,
@@ -48,7 +48,7 @@
   },
   "Montclair": {
    "ppsf": 407,
-   "n": 20
+   "n": 21
   }
  }
 }
