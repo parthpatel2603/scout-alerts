@@ -977,8 +977,9 @@
    "price": 719000,
    "first_price": 719000,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 65
+   "status": "sold",
+   "dom": 65,
+   "sold_price": 730000
   },
   "https://www.realtor.com/realestateandhomes-detail/793-William-St_Pomona_CA_91768_M16539-95194": {
    "price": 715000,
