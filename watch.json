@@ -1276,7 +1276,7 @@
    "first_price": 788800,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 28
+   "dom": 75
   },
   "https://www.realtor.com/realestateandhomes-detail/5825-N-Orangecrest-Ave_Azusa_CA_91702_M16673-65444": {
    "price": 699999,
@@ -1879,6 +1879,13 @@
    "first_seen": "2026-08-17",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/2822-Parksquare-Way_Pomona_CA_91767_M29896-68020": {
+   "price": 789000,
+   "first_price": 789000,
+   "first_seen": "2026-08-18",
+   "status": "active",
+   "dom": 0
   }
  }
 }
