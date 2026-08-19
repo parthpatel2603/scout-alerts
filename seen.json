@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-18T14:27:31.630184",
+ "last_email": "2026-08-19T20:20:31.034479",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 739000,
@@ -1168,12 +1168,13 @@
    "dropped": "2026-08-11"
   },
   "https://www.realtor.com/realestateandhomes-detail/11249-Wesley-Ave_Pomona_CA_91766_M27398-61262": {
-   "price": 650000,
+   "price": 600000,
    "first_price": 650000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-08-19",
    "status": "active",
-   "dom": 124
+   "dom": 124,
+   "dropped": "2026-08-19"
   },
   "https://www.realtor.com/realestateandhomes-detail/1082-Fremont-St_Pomona_CA_91766_M13358-55843": {
    "price": 720000,
