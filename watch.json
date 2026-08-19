@@ -1549,8 +1549,9 @@
    "price": 748888,
    "first_price": 748888,
    "first_seen": "2026-07-24",
-   "status": "active",
-   "dom": 26
+   "status": "sold",
+   "dom": 26,
+   "sold_price": 748888
   },
   "https://www.realtor.com/realestateandhomes-detail/432-Middlebury-Ct_Claremont_CA_91711_M13638-60236": {
    "price": 785000,
