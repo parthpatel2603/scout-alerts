@@ -1342,8 +1342,9 @@
    "first_price": 780000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-08-19",
-   "status": "active",
-   "dom": 48
+   "status": "sold",
+   "dom": 48,
+   "sold_price": 780000
   },
   "https://www.realtor.com/realestateandhomes-detail/6003-N-Briargate-Ln_Glendora_CA_91740_M20249-69428": {
    "price": 729900,
