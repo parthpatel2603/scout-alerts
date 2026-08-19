@@ -641,9 +641,9 @@
    "price": 198888,
    "first_price": 229000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-08-15",
-   "status": "off_market",
-   "dom": 66,
+   "last_seen": "2026-08-19",
+   "status": "active",
+   "dom": 70,
    "dropped": "2026-07-28"
   },
   "https://www.realtor.com/realestateandhomes-detail/17887-Autry-Ct_Chino-Hills_CA_91709_M21728-85841": {
