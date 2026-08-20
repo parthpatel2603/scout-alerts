@@ -1892,6 +1892,13 @@
    "first_seen": "2026-08-18",
    "status": "active",
    "dom": 2
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1522-Densmore-St_Pomona_CA_91767_M25883-75542": {
+   "price": 775000,
+   "first_price": 775000,
+   "first_seen": "2026-08-20",
+   "status": "active",
+   "dom": 0
   }
  }
 }

@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-20T02:52:51.653476",
+ "last_email": "2026-08-20T16:28:16.471012",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 739000,
@@ -2151,6 +2151,14 @@
    "last_seen": "2026-08-20",
    "status": "active",
    "dom": 2
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1522-Densmore-St_Pomona_CA_91767_M25883-75542": {
+   "price": 775000,
+   "first_price": 775000,
+   "first_seen": "2026-08-20",
+   "last_seen": "2026-08-20",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
