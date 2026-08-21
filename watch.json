@@ -2,12 +2,12 @@
  "updated": "2026-08-21",
  "listings": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
-   "price": 739000,
+   "price": 709000,
    "first_price": 0,
    "first_seen": "2026-07-16",
    "status": "active",
    "dom": 38,
-   "dropped": "2026-08-05"
+   "dropped": "2026-08-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/1786-American-Ave_Pomona_CA_91767_M26279-51973": {
    "price": 735000,
@@ -1956,6 +1956,13 @@
   "https://www.realtor.com/realestateandhomes-detail/5474-San-Bernardino-St_Montclair_CA_91763_M23126-81764": {
    "price": 719900,
    "first_price": 719900,
+   "first_seen": "2026-08-21",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/714-Wagon-Wheel-Cir_Brea_CA_92821_M10442-55437": {
+   "price": 750000,
+   "first_price": 750000,
    "first_seen": "2026-08-21",
    "status": "active",
    "dom": 0
