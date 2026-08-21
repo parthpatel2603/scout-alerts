@@ -33,12 +33,12 @@
    "dropped": "2026-08-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/1022-Rodman-Ave_Pomona_CA_91767_M25337-80936": {
-   "price": 699000,
+   "price": 665000,
    "first_price": 0,
    "first_seen": "2026-07-16",
    "status": "active",
    "dom": 36,
-   "dropped": "2026-08-14"
+   "dropped": "2026-08-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/4645-Bandera-St_Montclair_CA_91763_M24438-20615": {
    "price": 600000,
@@ -1945,6 +1945,20 @@
    "first_seen": "2026-08-21",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/18426-Santar-St_Rowland-Heights_CA_91748_M10698-62918": {
+   "price": 658000,
+   "first_price": 658000,
+   "first_seen": "2026-08-21",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/5474-San-Bernardino-St_Montclair_CA_91763_M23126-81764": {
+   "price": 719900,
+   "first_price": 719900,
+   "first_seen": "2026-08-21",
+   "status": "active",
+   "dom": 0
   }
  }
 }
