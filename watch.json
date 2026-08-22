@@ -1507,8 +1507,9 @@
    "price": 720000,
    "first_price": 720000,
    "first_seen": "2026-07-22",
-   "status": "active",
-   "dom": 31
+   "status": "sold",
+   "dom": 31,
+   "sold_price": 710000
   },
   "https://www.realtor.com/realestateandhomes-detail/5459-Cambridge-St_Montclair_CA_91763_M22647-57762": {
    "price": 590000,
