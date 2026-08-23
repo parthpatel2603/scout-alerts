@@ -619,8 +619,9 @@
    "price": 649999,
    "first_price": 649999,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 58
+   "status": "sold",
+   "dom": 58,
+   "sold_price": 715000
   },
   "https://www.realtor.com/realestateandhomes-detail/2415-Merrywood-St_Pomona_CA_91767_M24885-40082": {
    "price": 697000,
@@ -2000,6 +2001,13 @@
    "first_seen": "2026-08-22",
    "status": "active",
    "dom": 2
+  },
+  "https://www.realtor.com/realestateandhomes-detail/464-Middlebury-Ct_Claremont_CA_91711_M14354-10845": {
+   "price": 759500,
+   "first_price": 759500,
+   "first_seen": "2026-08-23",
+   "status": "active",
+   "dom": 0
   }
  }
 }
