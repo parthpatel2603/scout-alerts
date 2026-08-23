@@ -1176,9 +1176,9 @@
    "price": 600000,
    "first_price": 650000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-08-22",
-   "status": "off_market",
-   "dom": 127,
+   "last_seen": "2026-08-23",
+   "status": "active",
+   "dom": 128,
    "dropped": "2026-08-19"
   },
   "https://www.realtor.com/realestateandhomes-detail/1082-Fremont-St_Pomona_CA_91766_M13358-55843": {
