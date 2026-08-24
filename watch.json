@@ -2008,6 +2008,13 @@
    "first_seen": "2026-08-23",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/5595-Hawthorne-St_Montclair_CA_91763_M22354-29465": {
+   "price": 749000,
+   "first_price": 749000,
+   "first_seen": "2026-08-24",
+   "status": "active",
+   "dom": 0
   }
  }
 }
