@@ -1165,12 +1165,12 @@
    "sold_price": 735000
   },
   "https://www.realtor.com/realestateandhomes-detail/645-W-Center-St_Pomona_CA_91768_M11516-13023": {
-   "price": 649000,
+   "price": 649900,
    "first_price": 669000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-08-21",
-   "status": "off_market",
-   "dom": 93,
+   "last_seen": "2026-08-24",
+   "status": "active",
+   "dom": 0,
    "dropped": "2026-08-11"
   },
   "https://www.realtor.com/realestateandhomes-detail/11249-Wesley-Ave_Pomona_CA_91766_M27398-61262": {
@@ -2021,9 +2021,9 @@
    "price": 699000,
    "first_price": 699000,
    "first_seen": "2026-08-12",
-   "last_seen": "2026-08-12",
-   "status": "off_market",
-   "dom": 0
+   "last_seen": "2026-08-24",
+   "status": "active",
+   "dom": 12
   },
   "https://www.realtor.com/realestateandhomes-detail/998-Garnet-St_Pomona_CA_91766_M12747-76963": {
    "price": 775000,
