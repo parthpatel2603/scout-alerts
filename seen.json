@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-24T10:32:38.138384",
+ "last_email": "2026-08-24T18:32:23.915651",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -349,8 +349,9 @@
    "first_price": 249999,
    "first_seen": "2026-07-16",
    "last_seen": "2026-08-24",
-   "status": "active",
-   "dom": 351
+   "status": "sold",
+   "dom": 351,
+   "sold_price": 240000
   },
   "https://www.realtor.com/realestateandhomes-detail/1560-Otterbein-Ave-Spc-167_Rowland-Heights_CA_91748_M97309-38362": {
    "price": 209900,
@@ -2286,6 +2287,14 @@
   "https://www.realtor.com/realestateandhomes-detail/5595-Hawthorne-St_Montclair_CA_91763_M22354-29465": {
    "price": 749000,
    "first_price": 749000,
+   "first_seen": "2026-08-24",
+   "last_seen": "2026-08-24",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/5220-N-Vogue-Ave_Azusa_CA_91702_M15673-80920": {
+   "price": 720000,
+   "first_price": 720000,
    "first_seen": "2026-08-24",
    "last_seen": "2026-08-24",
    "status": "active",
