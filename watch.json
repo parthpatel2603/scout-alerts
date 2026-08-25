@@ -1726,11 +1726,12 @@
    "dom": 11
   },
   "https://www.realtor.com/realestateandhomes-detail/15876-Deer-Trail-Dr_Chino-Hills_CA_91709_M20091-39290": {
-   "price": 740000,
+   "price": 728000,
    "first_price": 740000,
    "first_seen": "2026-08-07",
    "status": "active",
-   "dom": 18
+   "dom": 18,
+   "dropped": "2026-08-25"
   },
   "https://www.realtor.com/realestateandhomes-detail/952-Casa-Hermosa-Dr_Pomona_CA_91768_M16154-24944": {
    "price": 699000,

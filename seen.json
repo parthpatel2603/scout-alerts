@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-25T08:35:40.963220",
+ "last_email": "2026-08-25T16:30:23.839409",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -1959,12 +1959,13 @@
    "dom": 11
   },
   "https://www.realtor.com/realestateandhomes-detail/15876-Deer-Trail-Dr_Chino-Hills_CA_91709_M20091-39290": {
-   "price": 740000,
+   "price": 728000,
    "first_price": 740000,
    "first_seen": "2026-08-07",
    "last_seen": "2026-08-25",
    "status": "active",
-   "dom": 18
+   "dom": 18,
+   "dropped": "2026-08-25"
   },
   "https://www.realtor.com/realestateandhomes-detail/952-Casa-Hermosa-Dr_Pomona_CA_91768_M16154-24944": {
    "price": 699000,
