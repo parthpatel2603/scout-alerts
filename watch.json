@@ -160,11 +160,12 @@
    "dom": 237
   },
   "https://www.realtor.com/realestateandhomes-detail/2251-Lake-Glen-Dr_La-Habra_CA_90631_M20327-86196": {
-   "price": 299000,
+   "price": 269000,
    "first_price": 299000,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 63
+   "dom": 63,
+   "dropped": "2026-08-25"
   },
   "https://www.realtor.com/realestateandhomes-detail/1001-W-Lambert-Rd-Spc-305_La-Habra_CA_90631_M28828-55085": {
    "price": 318995,
@@ -1647,11 +1648,12 @@
    "dom": 22
   },
   "https://www.realtor.com/realestateandhomes-detail/2219-Concord-Ave_Pomona_CA_91768_M14327-47293": {
-   "price": 699900,
+   "price": 599900,
    "first_price": 699900,
    "first_seen": "2026-08-04",
    "status": "active",
-   "dom": 21
+   "dom": 21,
+   "dropped": "2026-08-25"
   },
   "https://www.realtor.com/realestateandhomes-detail/1853-Garland-St_Pomona_CA_91766_M12895-34276": {
    "price": 698000,
@@ -1957,11 +1959,12 @@
    "dom": 5
   },
   "https://www.realtor.com/realestateandhomes-detail/18426-Santar-St_Rowland-Heights_CA_91748_M10698-62918": {
-   "price": 658000,
+   "price": 600000,
    "first_price": 658000,
    "first_seen": "2026-08-21",
    "status": "active",
-   "dom": 4
+   "dom": 4,
+   "dropped": "2026-08-25"
   },
   "https://www.realtor.com/realestateandhomes-detail/5474-San-Bernardino-St_Montclair_CA_91763_M23126-81764": {
    "price": 719900,
