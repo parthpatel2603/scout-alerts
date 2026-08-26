@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-26T08:36:49.229925",
+ "last_email": "2026-08-26T19:42:35.797978",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -821,8 +821,9 @@
    "first_price": 720000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-08-26",
-   "status": "active",
-   "dom": 63
+   "status": "sold",
+   "dom": 63,
+   "sold_price": 750000
   },
   "https://www.realtor.com/realestateandhomes-detail/1401-W-9th-St-Spc-148_Pomona_CA_91766_M93023-68539": {
    "price": 174900,
@@ -2329,6 +2330,14 @@
    "last_seen": "2026-08-26",
    "status": "active",
    "dom": 6
+  },
+  "https://www.realtor.com/realestateandhomes-detail/3667-Valley-Blvd-Spc-52_Pomona_CA_91768_M93352-75062": {
+   "price": 259900,
+   "first_price": 259900,
+   "first_seen": "2026-08-26",
+   "last_seen": "2026-08-26",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
