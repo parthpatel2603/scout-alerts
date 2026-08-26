@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-26T00:58:24.914802",
+ "last_email": "2026-08-26T08:36:49.229925",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -115,13 +115,13 @@
    "dom": 90
   },
   "https://www.realtor.com/realestateandhomes-detail/1051-Site-Dr-Spc-38_Brea_CA_92821_M16278-84424": {
-   "price": 248000,
+   "price": 238000,
    "first_price": 258000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-08-26",
    "status": "active",
    "dom": 142,
-   "dropped": "2026-08-02"
+   "dropped": "2026-08-26"
   },
   "https://www.realtor.com/realestateandhomes-detail/1051-Site-Dr-Spc-281_Brea_CA_92821_M14483-59949": {
    "price": 439000,
@@ -2321,6 +2321,14 @@
    "last_seen": "2026-08-26",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/15714-Marwood-St_Hacienda-Heights_CA_91745_M10400-98802": {
+   "price": 599000,
+   "first_price": 599000,
+   "first_seen": "2026-08-26",
+   "last_seen": "2026-08-26",
+   "status": "active",
+   "dom": 6
   }
  },
  "drops": []
