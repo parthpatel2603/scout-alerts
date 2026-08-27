@@ -286,8 +286,8 @@
    "price": 188000,
    "first_price": 188000,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 58
+   "status": "active",
+   "dom": 65
   },
   "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-64_Rowland-Heights_CA_91748_M23183-24024": {
    "price": 239888,
@@ -949,8 +949,9 @@
    "price": 700000,
    "first_price": 700000,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 113
+   "status": "sold",
+   "dom": 113,
+   "sold_price": 710000
   },
   "https://www.realtor.com/realestateandhomes-detail/848-Laurel-Ave_Pomona_CA_91768_M15563-21159": {
    "price": 699900,
@@ -1668,8 +1669,8 @@
    "price": 585000,
    "first_price": 585000,
    "first_seen": "2026-08-05",
-   "status": "off_market",
-   "dom": 17
+   "status": "active",
+   "dom": 22
   },
   "https://www.realtor.com/realestateandhomes-detail/1813-Mirador-Dr_Azusa_CA_91702_M15011-47968": {
    "price": 769000,
@@ -1700,11 +1701,12 @@
    "dom": 67
   },
   "https://www.realtor.com/realestateandhomes-detail/802-W-7th-St_Pomona_CA_91766_M11724-07419": {
-   "price": 779000,
+   "price": 759000,
    "first_price": 779000,
    "first_seen": "2026-08-07",
    "status": "active",
-   "dom": 21
+   "dom": 21,
+   "dropped": "2026-08-27"
   },
   "https://www.realtor.com/realestateandhomes-detail/923-Hallwood-Ave_Pomona_CA_91767_M24972-23047": {
    "price": 699000,
@@ -2094,6 +2096,13 @@
    "first_seen": "2026-08-27",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/2020-Nichols-St_Pomona_CA_91768_M16051-76809": {
+   "price": 700000,
+   "first_price": 700000,
+   "first_seen": "2026-08-27",
+   "status": "active",
+   "dom": 0
   }
  }
 }
