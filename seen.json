@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-28T03:59:11.659292",
+ "last_email": "2026-08-28T16:26:26.615073",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -1499,9 +1499,10 @@
    "first_price": 739000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-08-28",
-   "status": "active",
+   "status": "sold",
    "dom": 144,
-   "dropped": "2026-07-25"
+   "dropped": "2026-07-25",
+   "sold_price": 699000
   },
   "https://www.realtor.com/realestateandhomes-detail/411-Champlain-Dr_Claremont_CA_91711_M21402-89850": {
    "price": 749900,
@@ -2398,6 +2399,22 @@
    "last_seen": "2026-08-28",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/18402-E-Nearfield-St_Azusa_CA_91702_M17197-61359": {
+   "price": 550000,
+   "first_price": 550000,
+   "first_seen": "2026-08-28",
+   "last_seen": "2026-08-28",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/337-S-Enid-Ave_Azusa_CA_91702_M14269-25583": {
+   "price": 775000,
+   "first_price": 775000,
+   "first_seen": "2026-08-28",
+   "last_seen": "2026-08-28",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []

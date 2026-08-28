@@ -3,12 +3,12 @@
  "window_days": 60,
  "cities": {
   "Brea": {
-   "ppsf": 579,
-   "n": 71
+   "ppsf": 582,
+   "n": 72
   },
   "La Habra": {
    "ppsf": 547,
-   "n": 73
+   "n": 74
   },
   "Diamond Bar": {
    "ppsf": 540,
@@ -40,7 +40,7 @@
   },
   "Azusa": {
    "ppsf": 491,
-   "n": 56
+   "n": 57
   },
   "Claremont": {
    "ppsf": 497,
