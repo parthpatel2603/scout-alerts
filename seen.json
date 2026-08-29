@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-29T08:32:37.434810",
+ "last_email": "2026-08-29T19:05:48.133715",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -38,13 +38,13 @@
    "dropped": "2026-08-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/1022-Rodman-Ave_Pomona_CA_91767_M25337-80936": {
-   "price": 665000,
+   "price": 625000,
    "first_price": 0,
    "first_seen": "2026-07-16",
    "last_seen": "2026-08-29",
    "status": "active",
    "dom": 15,
-   "dropped": "2026-08-21"
+   "dropped": "2026-08-29"
   },
   "https://www.realtor.com/realestateandhomes-detail/4645-Bandera-St_Montclair_CA_91763_M24438-20615": {
    "price": 600000,
