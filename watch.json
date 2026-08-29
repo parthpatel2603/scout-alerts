@@ -1434,11 +1434,12 @@
    "dom": 43
   },
   "https://www.realtor.com/realestateandhomes-detail/15879-Antelope-Dr_Chino-Hills_CA_91709_M20895-30397": {
-   "price": 730000,
+   "price": 715000,
    "first_price": 730000,
    "first_seen": "2026-07-18",
    "status": "active",
-   "dom": 43
+   "dom": 43,
+   "dropped": "2026-08-29"
   },
   "https://www.realtor.com/realestateandhomes-detail/877-Ottawa-Dr_Claremont_CA_91711_M20998-93569": {
    "price": 750000,
@@ -2135,6 +2136,13 @@
    "first_seen": "2026-08-29",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/3242-Hilltop-Dr_Chino-Hills_CA_91709_M19760-09867": {
+   "price": 765000,
+   "first_price": 765000,
+   "first_seen": "2026-08-29",
+   "status": "active",
+   "dom": 0
   }
  }
 }
