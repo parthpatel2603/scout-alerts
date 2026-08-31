@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-08-29T19:05:48.133715",
+ "last_email": "2026-08-31T10:22:48.547027",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -616,12 +616,12 @@
    "dom": 60
   },
   "https://www.realtor.com/realestateandhomes-detail/15111-Pipeline-Ave-Spc-240_Chino-Hills_CA_91709_M12171-60912": {
-   "price": 339500,
+   "price": 342500,
    "first_price": 348000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-08-31",
    "status": "active",
-   "dom": 104,
+   "dom": 61,
    "dropped": "2026-08-26"
   },
   "https://www.realtor.com/realestateandhomes-detail/3495-Terrace-Dr_Chino-Hills_CA_91709_M17940-40270": {
@@ -2434,6 +2434,22 @@
    "first_seen": "2026-08-29",
    "last_seen": "2026-08-29",
    "status": "off_market",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1345-Summer-Lake-Cir-127_Brea_CA_92821_M25951-84110": {
+   "price": 320000,
+   "first_price": 320000,
+   "first_seen": "2026-08-31",
+   "last_seen": "2026-08-31",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/15403-Los-Robles-Ave_Hacienda-Heights_CA_91745_M29870-69340": {
+   "price": 650000,
+   "first_price": 650000,
+   "first_seen": "2026-08-31",
+   "last_seen": "2026-08-31",
+   "status": "active",
    "dom": 0
   }
  },
