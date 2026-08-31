@@ -94,11 +94,12 @@
    "dropped": "2026-07-29"
   },
   "https://www.realtor.com/realestateandhomes-detail/1051-Site-Dr-Spc-251_Brea_CA_92821_M16859-07497": {
-   "price": 199900,
+   "price": 174900,
    "first_price": 199900,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 95
+   "dom": 95,
+   "dropped": "2026-08-31"
   },
   "https://www.realtor.com/realestateandhomes-detail/1051-Site-Dr-Spc-38_Brea_CA_92821_M16278-84424": {
    "price": 238000,
@@ -350,8 +351,9 @@
    "price": 239888,
    "first_price": 239888,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 109
+   "status": "sold",
+   "dom": 109,
+   "sold_price": 220000
   },
   "https://www.realtor.com/realestateandhomes-detail/1560-Otterbein-Ave-Spc-178_Rowland-Heights_CA_91748_M97377-54418": {
    "price": 268000,
@@ -542,12 +544,12 @@
    "dom": 60
   },
   "https://www.realtor.com/realestateandhomes-detail/15111-Pipeline-Ave-Spc-240_Chino-Hills_CA_91709_M12171-60912": {
-   "price": 342500,
+   "price": 339500,
    "first_price": 348000,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 61,
-   "dropped": "2026-08-26"
+   "dom": 104,
+   "dropped": "2026-08-31"
   },
   "https://www.realtor.com/realestateandhomes-detail/3495-Terrace-Dr_Chino-Hills_CA_91709_M17940-40270": {
    "price": 735000,
