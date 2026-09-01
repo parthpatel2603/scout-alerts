@@ -252,8 +252,9 @@
    "price": 206000,
    "first_price": 206000,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 75
+   "status": "sold",
+   "dom": 75,
+   "sold_price": 198000
   },
   "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-30_Rowland-Heights_CA_91748_M25174-91316": {
    "price": 145000,
@@ -1623,8 +1624,8 @@
    "price": 750000,
    "first_price": 750000,
    "first_seen": "2026-07-29",
-   "status": "off_market",
-   "dom": 27
+   "status": "active",
+   "dom": 34
   },
   "https://www.realtor.com/realestateandhomes-detail/1001-W-Lambert-Rd-Spc-4_La-Habra_CA_90631_M13303-35989": {
    "price": 229900,
@@ -2170,6 +2171,20 @@
    "first_seen": "2026-09-01",
    "status": "active",
    "dom": 81
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1383-S-Garey-Ave_Pomona_CA_91766_M12684-41753": {
+   "price": 558000,
+   "first_price": 558000,
+   "first_seen": "2026-09-01",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/640-W-Grand-Ave_Pomona_CA_91766_M96881-99966": {
+   "price": 658000,
+   "first_price": 658000,
+   "first_seen": "2026-09-01",
+   "status": "active",
+   "dom": 0
   }
  }
 }
