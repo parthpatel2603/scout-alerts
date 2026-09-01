@@ -1830,8 +1830,9 @@
    "price": 675000,
    "first_price": 675000,
    "first_seen": "2026-08-13",
-   "status": "active",
-   "dom": 19
+   "status": "sold",
+   "dom": 19,
+   "sold_price": 750000
   },
   "https://www.realtor.com/realestateandhomes-detail/250-N-Monte-Vista-St-3_La-Habra_CA_90631_M26926-60690": {
    "price": 499000,

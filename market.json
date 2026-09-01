@@ -4,7 +4,7 @@
  "cities": {
   "Brea": {
    "ppsf": 579,
-   "n": 68
+   "n": 70
   },
   "La Habra": {
    "ppsf": 544,
@@ -19,28 +19,28 @@
    "n": 50
   },
   "Hacienda Heights": {
-   "ppsf": 521,
-   "n": 45
+   "ppsf": 528,
+   "n": 47
   },
   "Walnut": {
-   "ppsf": 587,
-   "n": 36
+   "ppsf": 583,
+   "n": 37
   },
   "Chino Hills": {
    "ppsf": 495,
    "n": 101
   },
   "Pomona": {
-   "ppsf": 440,
-   "n": 112
+   "ppsf": 439,
+   "n": 113
   },
   "Glendora": {
    "ppsf": 518,
-   "n": 55
+   "n": 58
   },
   "Azusa": {
-   "ppsf": 493,
-   "n": 50
+   "ppsf": 491,
+   "n": 51
   },
   "Claremont": {
    "ppsf": 497,
