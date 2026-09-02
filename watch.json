@@ -595,9 +595,10 @@
    "price": 214500,
    "first_price": 219900,
    "first_seen": "2026-07-16",
-   "status": "active",
+   "status": "sold",
    "dom": 154,
-   "dropped": "2026-07-28"
+   "dropped": "2026-07-28",
+   "sold_price": 210000
   },
   "https://www.realtor.com/realestateandhomes-detail/261-Las-Brisas-Cir_Pomona_CA_91768_M14332-31751": {
    "price": 690000,
@@ -1430,8 +1431,9 @@
    "price": 699000,
    "first_price": 699000,
    "first_seen": "2026-07-17",
-   "status": "active",
-   "dom": 47
+   "status": "sold",
+   "dom": 47,
+   "sold_price": 725000
   },
   "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-300_Rowland-Heights_CA_91748_M94166-30414": {
    "price": 250000,

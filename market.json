@@ -4,31 +4,31 @@
  "cities": {
   "Brea": {
    "ppsf": 579,
-   "n": 70
+   "n": 71
   },
   "La Habra": {
    "ppsf": 544,
    "n": 73
   },
   "Diamond Bar": {
-   "ppsf": 540,
-   "n": 72
+   "ppsf": 542,
+   "n": 73
   },
   "Rowland Heights": {
    "ppsf": 515,
    "n": 50
   },
   "Hacienda Heights": {
-   "ppsf": 528,
-   "n": 47
+   "ppsf": 529,
+   "n": 50
   },
   "Walnut": {
    "ppsf": 587,
    "n": 38
   },
   "Chino Hills": {
-   "ppsf": 495,
-   "n": 101
+   "ppsf": 494,
+   "n": 102
   },
   "Pomona": {
    "ppsf": 439,
