@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-09-01T14:28:22.211855",
+ "last_email": "2026-09-03T14:04:01.310448",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -2486,6 +2486,22 @@
    "last_seen": "2026-09-03",
    "status": "active",
    "dom": 2
+  },
+  "https://www.realtor.com/realestateandhomes-detail/643-San-Bernardino-Ave_Pomona_CA_91767_M10588-58092": {
+   "price": 749900,
+   "first_price": 749900,
+   "first_seen": "2026-09-03",
+   "last_seen": "2026-09-03",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/429-Champlain-Dr_Claremont_CA_91711_M20985-14729": {
+   "price": 770000,
+   "first_price": 770000,
+   "first_seen": "2026-09-03",
+   "last_seen": "2026-09-03",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []

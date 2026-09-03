@@ -2190,6 +2190,20 @@
    "first_seen": "2026-09-01",
    "status": "active",
    "dom": 2
+  },
+  "https://www.realtor.com/realestateandhomes-detail/643-San-Bernardino-Ave_Pomona_CA_91767_M10588-58092": {
+   "price": 749900,
+   "first_price": 749900,
+   "first_seen": "2026-09-03",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/429-Champlain-Dr_Claremont_CA_91711_M20985-14729": {
+   "price": 770000,
+   "first_price": 770000,
+   "first_seen": "2026-09-03",
+   "status": "active",
+   "dom": 0
   }
  }
 }
