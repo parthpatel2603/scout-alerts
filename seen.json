@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-09-03T14:04:01.310448",
+ "last_email": "2026-09-03T22:09:54.942011",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -1578,10 +1578,11 @@
    "price": 660000,
    "first_price": 699000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-08-20",
-   "status": "off_market",
+   "last_seen": "2026-09-03",
+   "status": "sold",
    "dom": 93,
-   "dropped": "2026-07-24"
+   "dropped": "2026-07-24",
+   "sold_price": 680000
   },
   "https://www.realtor.com/realestateandhomes-detail/5446-Granada-St_Montclair_CA_91763_M25539-78741": {
    "price": 734900,
@@ -1687,12 +1688,13 @@
    "dom": 44
   },
   "https://www.realtor.com/realestateandhomes-detail/243-E-Harrison-Ave_Pomona_CA_91767_M18378-28089": {
-   "price": 775000,
+   "price": 750000,
    "first_price": 775000,
    "first_seen": "2026-07-21",
    "last_seen": "2026-09-03",
    "status": "active",
-   "dom": 44
+   "dom": 0,
+   "dropped": "2026-09-03"
   },
   "https://www.realtor.com/realestateandhomes-detail/5405-Yale-St_Montclair_CA_91763_M23103-71276": {
    "price": 699000,
@@ -1876,8 +1878,9 @@
    "first_price": 779000,
    "first_seen": "2026-08-01",
    "last_seen": "2026-09-03",
-   "status": "active",
-   "dom": 33
+   "status": "sold",
+   "dom": 33,
+   "sold_price": 785000
   },
   "https://www.realtor.com/realestateandhomes-detail/17235-E-Newburgh-St_Azusa_CA_91702_M16403-10370": {
    "price": 699999,
@@ -2182,12 +2185,13 @@
    "dom": 17
   },
   "https://www.realtor.com/realestateandhomes-detail/2822-Parksquare-Way_Pomona_CA_91767_M29896-68020": {
-   "price": 789000,
+   "price": 779000,
    "first_price": 789000,
    "first_seen": "2026-08-18",
    "last_seen": "2026-09-03",
    "status": "active",
-   "dom": 16
+   "dom": 16,
+   "dropped": "2026-09-03"
   },
   "https://www.realtor.com/realestateandhomes-detail/1522-Densmore-St_Pomona_CA_91767_M25883-75542": {
    "price": 755000,
