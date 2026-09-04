@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-09-04T08:24:43.645997",
+ "last_email": "2026-09-04T17:21:54.325413",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -2251,13 +2251,13 @@
    "dom": 5
   },
   "https://www.realtor.com/realestateandhomes-detail/18426-Santar-St_Rowland-Heights_CA_91748_M10698-62918": {
-   "price": 600000,
+   "price": 588000,
    "first_price": 658000,
    "first_seen": "2026-08-21",
    "last_seen": "2026-09-04",
    "status": "active",
    "dom": 14,
-   "dropped": "2026-08-25"
+   "dropped": "2026-09-04"
   },
   "https://www.realtor.com/realestateandhomes-detail/5474-San-Bernardino-St_Montclair_CA_91763_M23126-81764": {
    "price": 719900,
@@ -2518,6 +2518,14 @@
   "https://www.realtor.com/realestateandhomes-detail/1116-Essex-St_Glendora_CA_91740_M23407-98291": {
    "price": 575000,
    "first_price": 575000,
+   "first_seen": "2026-09-04",
+   "last_seen": "2026-09-04",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1143-9th-Ave_Hacienda-Heights_CA_91745_M10672-65674": {
+   "price": 750000,
+   "first_price": 750000,
    "first_seen": "2026-09-04",
    "last_seen": "2026-09-04",
    "status": "active",
