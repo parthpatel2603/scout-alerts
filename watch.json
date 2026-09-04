@@ -696,12 +696,12 @@
    "dom": 84
   },
   "https://www.realtor.com/realestateandhomes-detail/1771-Del-Prado_Pomona_CA_91768_M17472-34582": {
-   "price": 775000,
+   "price": 749000,
    "first_price": 788000,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 54,
-   "dropped": "2026-08-21"
+   "status": "active",
+   "dom": 0,
+   "dropped": "2026-09-04"
   },
   "https://www.realtor.com/realestateandhomes-detail/737-Lewis-St_Pomona_CA_91768_M15388-06166": {
    "price": 674900,
@@ -1411,7 +1411,7 @@
    "first_seen": "2026-07-16",
    "status": "sold",
    "dom": 95,
-   "sold_price": 770000
+   "sold_price": 787988
   },
   "https://www.realtor.com/realestateandhomes-detail/8836-Banyan_Montclair_CA_91763_M26597-27408": {
    "price": 690000,
@@ -2226,6 +2226,20 @@
   "https://www.realtor.com/realestateandhomes-detail/1143-9th-Ave_Hacienda-Heights_CA_91745_M10672-65674": {
    "price": 750000,
    "first_price": 750000,
+   "first_seen": "2026-09-04",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/949-Fontes-Pl_Walnut_CA_91789_M17171-29998": {
+   "price": 775000,
+   "first_price": 775000,
+   "first_seen": "2026-09-04",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/199-Sonoma-Ln_Claremont_CA_91711_M94873-06387": {
+   "price": 757990,
+   "first_price": 757990,
    "first_seen": "2026-09-04",
    "status": "active",
    "dom": 0
