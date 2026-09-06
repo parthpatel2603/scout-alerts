@@ -2261,6 +2261,13 @@
    "first_seen": "2026-09-05",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/Pomona_CA_91766_M12555-85003": {
+   "price": 720000,
+   "first_price": 720000,
+   "first_seen": "2026-09-06",
+   "status": "active",
+   "dom": 0
   }
  }
 }

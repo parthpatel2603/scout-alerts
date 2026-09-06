@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-09-05T07:59:41.991415",
+ "last_email": "2026-09-06T23:24:55.925732",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -2566,6 +2566,14 @@
    "last_seen": "2026-09-06",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/Pomona_CA_91766_M12555-85003": {
+   "price": 720000,
+   "first_price": 720000,
+   "first_seen": "2026-09-06",
+   "last_seen": "2026-09-06",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
