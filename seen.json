@@ -1462,8 +1462,9 @@
    "first_price": 779900,
    "first_seen": "2026-07-16",
    "last_seen": "2026-09-06",
-   "status": "active",
-   "dom": 86
+   "status": "sold",
+   "dom": 86,
+   "sold_price": 799000
   },
   "https://www.realtor.com/realestateandhomes-detail/725-W-Crescent-Dr_Azusa_CA_91702_M11821-25606": {
    "price": 750000,
