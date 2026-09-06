@@ -253,9 +253,9 @@
    "price": 360000,
    "first_price": 360000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-09-03",
-   "status": "off_market",
-   "dom": 69
+   "last_seen": "2026-09-06",
+   "status": "active",
+   "dom": 72
   },
   "https://www.realtor.com/realestateandhomes-detail/21217-Washington-Ave-Spc-107_Walnut_CA_91789_M17341-10517": {
    "price": 399000,
