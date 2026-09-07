@@ -2124,7 +2124,7 @@
    "dom": 12
   },
   "https://www.realtor.com/realestateandhomes-detail/2020-Nichols-St_Pomona_CA_91768_M16051-76809": {
-   "price": 700000,
+   "price": 700500,
    "first_price": 700000,
    "first_seen": "2026-08-27",
    "status": "active",
@@ -2269,6 +2269,20 @@
    "first_seen": "2026-09-06",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/331-E-Olive-Ave_La-Habra_CA_90631_M10331-52112": {
+   "price": 775000,
+   "first_price": 775000,
+   "first_seen": "2026-09-07",
+   "status": "active",
+   "dom": 32
+  },
+  "https://www.realtor.com/realestateandhomes-detail/419-E-Lee-Dr_Azusa_CA_91702_M13762-43901": {
+   "price": 639000,
+   "first_price": 639000,
+   "first_seen": "2026-09-07",
+   "status": "active",
+   "dom": 0
   }
  }
 }
