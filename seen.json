@@ -814,8 +814,9 @@
    "first_price": 670000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-09-07",
-   "status": "active",
-   "dom": 91
+   "status": "sold",
+   "dom": 91,
+   "sold_price": 690000
   },
   "https://www.realtor.com/realestateandhomes-detail/1921-Miramar-St_Pomona_CA_91767_M24474-35748": {
    "price": 599900,
