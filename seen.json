@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-09-08T14:04:19.787318",
+ "last_email": "2026-09-08T22:18:22.094891",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -1482,7 +1482,7 @@
    "first_seen": "2026-07-16",
    "last_seen": "2026-09-08",
    "status": "active",
-   "dom": 96
+   "dom": 49
   },
   "https://www.realtor.com/realestateandhomes-detail/5825-N-Orangecrest-Ave_Azusa_CA_91702_M16673-65444": {
    "price": 699999,
@@ -2242,12 +2242,13 @@
    "dom": 19
   },
   "https://www.realtor.com/realestateandhomes-detail/3667-Valley-Blvd-Spc-126_Pomona_CA_91768_M99117-35632": {
-   "price": 299000,
+   "price": 279000,
    "first_price": 299000,
    "first_seen": "2026-08-21",
    "last_seen": "2026-09-08",
    "status": "active",
-   "dom": 19
+   "dom": 19,
+   "dropped": "2026-09-08"
   },
   "https://www.realtor.com/realestateandhomes-detail/371-Fowler-Ave_Pomona_CA_91766_M27777-61062": {
    "price": 690000,
