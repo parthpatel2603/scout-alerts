@@ -1404,11 +1404,12 @@
    "sold_price": 680000
   },
   "https://www.realtor.com/realestateandhomes-detail/5446-Granada-St_Montclair_CA_91763_M25539-78741": {
-   "price": 734900,
+   "price": 724900,
    "first_price": 734900,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 90
+   "dom": 90,
+   "dropped": "2026-09-08"
   },
   "https://www.realtor.com/realestateandhomes-detail/4444-Merle-St_Montclair_CA_91763_M26967-44567": {
    "price": 777998,
