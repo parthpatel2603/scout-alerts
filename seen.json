@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-09-09T08:33:26.455156",
+ "last_email": "2026-09-09T22:10:49.879671",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -1315,13 +1315,13 @@
    "dropped": "2026-08-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/1700-S-Glendora-Ave-Spc-9_Glendora_CA_91740_M11754-10918": {
-   "price": 180000,
+   "price": 175000,
    "first_price": 199900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-09-01",
-   "status": "off_market",
-   "dom": 139,
-   "dropped": "2026-07-22"
+   "last_seen": "2026-09-09",
+   "status": "active",
+   "dom": 0,
+   "dropped": "2026-09-09"
   },
   "https://www.realtor.com/realestateandhomes-detail/337-E-Plymouth-St_Glendora_CA_91740_M24290-44042": {
    "price": 680000,
@@ -2613,6 +2613,14 @@
    "last_seen": "2026-09-09",
    "status": "active",
    "dom": 26
+  },
+  "https://www.realtor.com/realestateandhomes-detail/5538-N-Aspan-Ave_Azusa_CA_91702_M15536-67053": {
+   "price": 650000,
+   "first_price": 650000,
+   "first_seen": "2026-09-09",
+   "last_seen": "2026-09-09",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
