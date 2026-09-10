@@ -1,18 +1,18 @@
 {
- "updated": "2026-09-09",
+ "updated": "2026-09-10",
  "window_days": 60,
  "cities": {
   "Brea": {
-   "ppsf": 579,
-   "n": 65
+   "ppsf": 582,
+   "n": 66
   },
   "La Habra": {
    "ppsf": 539,
    "n": 72
   },
   "Diamond Bar": {
-   "ppsf": 542,
-   "n": 67
+   "ppsf": 546,
+   "n": 68
   },
   "Rowland Heights": {
    "ppsf": 514,
@@ -43,8 +43,8 @@
    "n": 51
   },
   "Claremont": {
-   "ppsf": 497,
-   "n": 54
+   "ppsf": 508,
+   "n": 55
   },
   "Montclair": {
    "ppsf": 419,
