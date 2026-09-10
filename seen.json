@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-09-10T08:35:16.685970",
+ "last_email": "2026-09-10T18:53:36.881089",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -454,7 +454,7 @@
    "dropped": "2026-07-23"
   },
   "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-45_Rowland-Heights_CA_91748_M90689-17820": {
-   "price": 129990,
+   "price": 132000,
    "first_price": 149000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-09-10",
@@ -947,12 +947,13 @@
    "sold_price": 730000
   },
   "https://www.realtor.com/realestateandhomes-detail/2570-Camphor-Pl_Pomona_CA_91766_M10002-01499": {
-   "price": 780000,
+   "price": 750000,
    "first_price": 780000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-09-10",
    "status": "active",
-   "dom": 83
+   "dom": 83,
+   "dropped": "2026-09-10"
   },
   "https://www.realtor.com/realestateandhomes-detail/1450-W-9th-St_Pomona_CA_91766_M14967-32917": {
    "price": 649888,
@@ -1104,13 +1105,13 @@
    "dom": 136
   },
   "https://www.realtor.com/realestateandhomes-detail/2416-Stanford-Ave_Pomona_CA_91766_M29152-35124": {
-   "price": 675000,
+   "price": 669999,
    "first_price": 699999,
    "first_seen": "2026-07-16",
    "last_seen": "2026-09-10",
    "status": "active",
    "dom": 101,
-   "dropped": "2026-08-02"
+   "dropped": "2026-09-10"
   },
   "https://www.realtor.com/realestateandhomes-detail/1701-Manor-Cir_Pomona_CA_91766_M13575-44621": {
    "price": 729000,
@@ -2475,9 +2476,9 @@
    "price": 650000,
    "first_price": 650000,
    "first_seen": "2026-08-31",
-   "last_seen": "2026-09-08",
-   "status": "off_market",
-   "dom": 8
+   "last_seen": "2026-09-10",
+   "status": "active",
+   "dom": 10
   },
   "https://www.realtor.com/realestateandhomes-detail/850-E-Columbia-Ave_Pomona_CA_91767_M25752-20665": {
    "price": 788000,
@@ -2622,6 +2623,22 @@
    "last_seen": "2026-09-10",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1944-Lancewood-Ave_Hacienda-Heights_CA_91745_M20419-93666": {
+   "price": 650000,
+   "first_price": 650000,
+   "first_seen": "2026-09-10",
+   "last_seen": "2026-09-10",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/2705-Erebus-Ct_Pomona_CA_91767_M95918-29182": {
+   "price": 745000,
+   "first_price": 745000,
+   "first_seen": "2026-09-10",
+   "last_seen": "2026-09-10",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []

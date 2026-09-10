@@ -3,8 +3,8 @@
  "window_days": 60,
  "cities": {
   "Brea": {
-   "ppsf": 582,
-   "n": 66
+   "ppsf": 593,
+   "n": 69
   },
   "La Habra": {
    "ppsf": 539,
@@ -31,7 +31,7 @@
    "n": 98
   },
   "Pomona": {
-   "ppsf": 450,
+   "ppsf": 451,
    "n": 113
   },
   "Glendora": {
