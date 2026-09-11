@@ -497,12 +497,12 @@
    "sold_price": 790000
   },
   "https://www.realtor.com/realestateandhomes-detail/3825-Valley-Blvd-Spc-20_Walnut_CA_91789_M99242-66252": {
-   "price": 199000,
+   "price": 190000,
    "first_price": 210000,
    "first_seen": "2026-07-16",
    "status": "active",
    "dom": 67,
-   "dropped": "2026-08-11"
+   "dropped": "2026-09-11"
   },
   "https://www.realtor.com/realestateandhomes-detail/15232-Murray-Ave_Chino-Hills_CA_91709_M18161-38974": {
    "price": 645000,
@@ -1449,11 +1449,12 @@
    "sold_price": 725000
   },
   "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-300_Rowland-Heights_CA_91748_M94166-30414": {
-   "price": 250000,
+   "price": 239990,
    "first_price": 250000,
    "first_seen": "2026-07-18",
    "status": "active",
-   "dom": 56
+   "dom": 56,
+   "dropped": "2026-09-11"
   },
   "https://www.realtor.com/realestateandhomes-detail/15879-Antelope-Dr_Chino-Hills_CA_91709_M20895-30397": {
    "price": 715000,
@@ -2362,6 +2363,20 @@
    "first_seen": "2026-09-11",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/15111-Pipeline-Ave-Spc-260_Chino-Hills_CA_91709_M11350-66055": {
+   "price": 279900,
+   "first_price": 279900,
+   "first_seen": "2026-09-11",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/285-E-McKinley-Ave_Pomona_CA_91767_M11282-47277": {
+   "price": 785000,
+   "first_price": 785000,
+   "first_seen": "2026-09-11",
+   "status": "active",
+   "dom": 24
   }
  }
 }
