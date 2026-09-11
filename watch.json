@@ -415,12 +415,12 @@
    "dom": 106
   },
   "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-306_Rowland-Heights_CA_91748_M18434-54175": {
-   "price": 183800,
+   "price": 179900,
    "first_price": 198880,
    "first_seen": "2026-07-16",
    "status": "active",
    "dom": 34,
-   "dropped": "2026-08-13"
+   "dropped": "2026-09-11"
   },
   "https://www.realtor.com/realestateandhomes-detail/901-6th-Ave-Spc-417_City-of-Industry_CA_91745_M96201-99492": {
    "price": 145000,
@@ -2336,6 +2336,27 @@
    "dom": 0
   },
   "https://www.realtor.com/realestateandhomes-detail/600-W-Gladstone-St_Azusa_CA_91702_M90315-51657": {
+   "price": 300000,
+   "first_price": 300000,
+   "first_seen": "2026-09-11",
+   "status": "active",
+   "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1051-Site-Dr-Spc-112_Brea_CA_92821_M21956-67621": {
+   "price": 295000,
+   "first_price": 295000,
+   "first_seen": "2026-09-11",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/512-E-8th-St_Pomona_CA_91766_M10988-44448": {
+   "price": 745000,
+   "first_price": 745000,
+   "first_seen": "2026-09-11",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/600-W-Gladstone-St-Spc-45_Azusa_CA_91702_M98628-60429": {
    "price": 300000,
    "first_price": 300000,
    "first_seen": "2026-09-11",
