@@ -7,12 +7,12 @@
    "n": 68
   },
   "La Habra": {
-   "ppsf": 538,
-   "n": 73
+   "ppsf": 537,
+   "n": 74
   },
   "Diamond Bar": {
-   "ppsf": 542,
-   "n": 67
+   "ppsf": 540,
+   "n": 70
   },
   "Rowland Heights": {
    "ppsf": 513,
@@ -31,12 +31,12 @@
    "n": 100
   },
   "Pomona": {
-   "ppsf": 453,
-   "n": 114
+   "ppsf": 451,
+   "n": 115
   },
   "Glendora": {
-   "ppsf": 522,
-   "n": 61
+   "ppsf": 534,
+   "n": 63
   },
   "Azusa": {
    "ppsf": 490,
@@ -47,8 +47,8 @@
    "n": 58
   },
   "Montclair": {
-   "ppsf": 420,
-   "n": 31
+   "ppsf": 416,
+   "n": 32
   }
  }
 }
