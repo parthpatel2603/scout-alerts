@@ -1369,11 +1369,11 @@
    "dom": 115
   },
   "https://www.realtor.com/realestateandhomes-detail/9262-Camulos-Ave_Montclair_CA_91763_M23115-26520": {
-   "price": 580000,
+   "price": 728000,
    "first_price": 580000,
    "first_seen": "2026-07-16",
-   "status": "sold",
-   "dom": 15,
+   "status": "active",
+   "dom": 0,
    "sold_price": 540000
   },
   "https://www.realtor.com/realestateandhomes-detail/5510-Bonnie-Brae-St_Montclair_CA_91763_M22346-46881": {
