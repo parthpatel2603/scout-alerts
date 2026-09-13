@@ -1675,11 +1675,12 @@
    "sold_price": 785000
   },
   "https://www.realtor.com/realestateandhomes-detail/17235-E-Newburgh-St_Azusa_CA_91702_M16403-10370": {
-   "price": 699999,
+   "price": 625000,
    "first_price": 699999,
    "first_seen": "2026-08-03",
    "status": "active",
-   "dom": 41
+   "dom": 41,
+   "dropped": "2026-09-13"
   },
   "https://www.realtor.com/realestateandhomes-detail/2219-Concord-Ave_Pomona_CA_91768_M14327-47293": {
    "price": 599900,
@@ -2382,6 +2383,13 @@
   "https://www.realtor.com/realestateandhomes-detail/2122-Saticoy-St_Pomona_CA_91767_M17969-84616": {
    "price": 699000,
    "first_price": 699000,
+   "first_seen": "2026-09-13",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1049-Newhill-St_Glendora_CA_91741_M18052-86697": {
+   "price": 790000,
+   "first_price": 790000,
    "first_seen": "2026-09-13",
    "status": "active",
    "dom": 0
