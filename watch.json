@@ -1572,11 +1572,12 @@
    "dom": 20
   },
   "https://www.realtor.com/realestateandhomes-detail/2262-Academy-Ave_Pomona_CA_91768_M15208-81247": {
-   "price": 695000,
+   "price": 693000,
    "first_price": 695000,
    "first_seen": "2026-07-24",
    "status": "active",
-   "dom": 52
+   "dom": 52,
+   "dropped": "2026-09-14"
   },
   "https://www.realtor.com/realestateandhomes-detail/2946-Gladstone-St_Pomona_CA_91767_M19228-31703": {
    "price": 750000,
@@ -1966,11 +1967,12 @@
    "dom": 24
   },
   "https://www.realtor.com/realestateandhomes-detail/18429-LA-Guardia-St_Rowland-Heights_CA_91748_M27472-14362": {
-   "price": 749000,
+   "price": 744000,
    "first_price": 749000,
    "first_seen": "2026-08-21",
    "status": "active",
-   "dom": 25
+   "dom": 25,
+   "dropped": "2026-09-14"
   },
   "https://www.realtor.com/realestateandhomes-detail/15714-Marwood-St_La-Puente_CA_91745_M10400-98802": {
    "price": 599000,
@@ -2393,6 +2395,13 @@
    "first_seen": "2026-09-13",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/17915-E-Newburgh-St_Azusa_CA_91702_M15571-70052": {
+   "price": 779999,
+   "first_price": 779999,
+   "first_seen": "2026-09-14",
+   "status": "active",
+   "dom": 70
   }
  }
 }
