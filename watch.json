@@ -1629,8 +1629,9 @@
    "price": 780000,
    "first_price": 780000,
    "first_seen": "2026-07-29",
-   "status": "active",
-   "dom": 49
+   "status": "sold",
+   "dom": 49,
+   "sold_price": 780000
   },
   "https://www.realtor.com/realestateandhomes-detail/Pomona_CA_91767_M19088-19709": {
    "price": 780000,
