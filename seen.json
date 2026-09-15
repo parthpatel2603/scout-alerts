@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-09-14T21:19:32.888705",
+ "last_email": "2026-09-15T07:05:05.543524",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -2725,6 +2725,14 @@
    "last_seen": "2026-09-15",
    "status": "active",
    "dom": 71
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1741-Fleming-St_Pomona_CA_91766_M19759-53341": {
+   "price": 759900,
+   "first_price": 759900,
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []

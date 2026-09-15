@@ -2402,6 +2402,13 @@
    "first_seen": "2026-09-14",
    "status": "active",
    "dom": 71
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1741-Fleming-St_Pomona_CA_91766_M19759-53341": {
+   "price": 759900,
+   "first_price": 759900,
+   "first_seen": "2026-09-15",
+   "status": "active",
+   "dom": 0
   }
  }
 }
