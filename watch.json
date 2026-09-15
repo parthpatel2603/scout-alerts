@@ -508,8 +508,9 @@
    "price": 645000,
    "first_price": 645000,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 152
+   "status": "sold",
+   "dom": 152,
+   "sold_price": 645000
   },
   "https://www.realtor.com/realestateandhomes-detail/12400-Cypress-Ave_Chino_CA_91710_M94878-48476": {
    "price": 178000,
@@ -1810,8 +1811,9 @@
    "price": 620000,
    "first_price": 620000,
    "first_seen": "2026-08-11",
-   "status": "active",
-   "dom": 35
+   "status": "sold",
+   "dom": 35,
+   "sold_price": 610000
   },
   "https://www.realtor.com/realestateandhomes-detail/18632-LA-Guardia-St_Rowland-Heights_CA_91748_M24348-13966": {
    "price": 749000,
@@ -2407,6 +2409,20 @@
   "https://www.realtor.com/realestateandhomes-detail/1741-Fleming-St_Pomona_CA_91766_M19759-53341": {
    "price": 759900,
    "first_price": 759900,
+   "first_seen": "2026-09-15",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-63_Rowland-Heights_CA_91748_M95489-75764": {
+   "price": 129999,
+   "first_price": 129999,
+   "first_seen": "2026-09-15",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1428-S-Farber-Ave_Glendora_CA_91740_M23324-87986": {
+   "price": 785000,
+   "first_price": 785000,
    "first_seen": "2026-09-15",
    "status": "active",
    "dom": 0
