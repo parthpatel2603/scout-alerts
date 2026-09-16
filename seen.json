@@ -2294,8 +2294,9 @@
    "first_price": 750000,
    "first_seen": "2026-08-21",
    "last_seen": "2026-09-16",
-   "status": "active",
-   "dom": 26
+   "status": "sold",
+   "dom": 26,
+   "sold_price": 770000
   },
   "https://www.realtor.com/realestateandhomes-detail/1051-Site-Dr-Spc-262_Brea_CA_92821_M27037-65482": {
    "price": 210000,
