@@ -3,8 +3,8 @@
  "window_days": 60,
  "cities": {
   "Brea": {
-   "ppsf": 600,
-   "n": 63
+   "ppsf": 598,
+   "n": 64
   },
   "La Habra": {
    "ppsf": 541,
@@ -19,8 +19,8 @@
    "n": 44
   },
   "Hacienda Heights": {
-   "ppsf": 521,
-   "n": 51
+   "ppsf": 523,
+   "n": 52
   },
   "Walnut": {
    "ppsf": 606,
