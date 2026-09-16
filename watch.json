@@ -2030,11 +2030,12 @@
    "sold_price": 770000
   },
   "https://www.realtor.com/realestateandhomes-detail/1051-Site-Dr-Spc-262_Brea_CA_92821_M27037-65482": {
-   "price": 210000,
+   "price": 199500,
    "first_price": 210000,
    "first_seen": "2026-08-22",
    "status": "active",
-   "dom": 26
+   "dom": 26,
+   "dropped": "2026-09-16"
   },
   "https://www.realtor.com/realestateandhomes-detail/232-Lois-St_La-Habra_CA_90631_M29293-66437": {
    "price": 750000,

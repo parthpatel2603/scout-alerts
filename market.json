@@ -3,7 +3,7 @@
  "window_days": 60,
  "cities": {
   "Brea": {
-   "ppsf": 598,
+   "ppsf": 601,
    "n": 64
   },
   "La Habra": {
@@ -28,7 +28,7 @@
   },
   "Chino Hills": {
    "ppsf": 493,
-   "n": 92
+   "n": 94
   },
   "Pomona": {
    "ppsf": 450,
