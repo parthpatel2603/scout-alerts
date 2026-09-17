@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-09-17T09:06:51.092337",
+ "last_email": "2026-09-17T19:29:27.722943",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -621,8 +621,9 @@
    "first_price": 179000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-09-17",
-   "status": "active",
-   "dom": 77
+   "status": "sold",
+   "dom": 77,
+   "sold_price": 185000
   },
   "https://www.realtor.com/realestateandhomes-detail/15111-Pipeline-Ave-Spc-240_Chino-Hills_CA_91709_M12171-60912": {
    "price": 339500,
@@ -750,8 +751,9 @@
    "first_price": 650000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-09-17",
-   "status": "active",
-   "dom": 146
+   "status": "sold",
+   "dom": 146,
+   "sold_price": 665000
   },
   "https://www.realtor.com/realestateandhomes-detail/330-Golden-Carriage-Ln_Pomona_CA_91767_M19780-22564": {
    "price": 699999,
@@ -2066,12 +2068,13 @@
    "dom": 36
   },
   "https://www.realtor.com/realestateandhomes-detail/4674-Bird-Farm-Rd_Chino-Hills_CA_91709_M18561-25330": {
-   "price": 699000,
+   "price": 669800,
    "first_price": 699000,
    "first_seen": "2026-08-12",
    "last_seen": "2026-09-17",
    "status": "active",
-   "dom": 36
+   "dom": 36,
+   "dropped": "2026-09-17"
   },
   "https://www.realtor.com/realestateandhomes-detail/998-Garnet-St_Pomona_CA_91766_M12747-76963": {
    "price": 775000,
@@ -2769,6 +2772,30 @@
   "https://www.realtor.com/realestateandhomes-detail/1560-Otterbein-Ave-Spc-183_Rowland-Heights_CA_91748_M26862-20865": {
    "price": 238880,
    "first_price": 238880,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/114-W-Olive-St_Pomona_CA_91766_M13613-83013": {
+   "price": 750000,
+   "first_price": 750000,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/17735-E-Newburgh-St_Azusa_CA_91702_M16612-16563": {
+   "price": 749000,
+   "first_price": 749000,
+   "first_seen": "2026-09-17",
+   "last_seen": "2026-09-17",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/5187-Aspen-Dr_Montclair_CA_91763_M24460-56572": {
+   "price": 455000,
+   "first_price": 455000,
    "first_seen": "2026-09-17",
    "last_seen": "2026-09-17",
    "status": "active",
