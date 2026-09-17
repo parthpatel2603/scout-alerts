@@ -1152,8 +1152,9 @@
    "price": 728000,
    "first_price": 728000,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 77
+   "status": "sold",
+   "dom": 77,
+   "sold_price": 630000
   },
   "https://www.realtor.com/realestateandhomes-detail/909-Shady-Ln_Glendora_CA_91740_M23308-48284": {
    "price": 650000,
@@ -2437,6 +2438,13 @@
    "first_seen": "2026-09-17",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1560-Otterbein-Ave-Spc-183_Rowland-Heights_CA_91748_M26862-20865": {
+   "price": 238880,
+   "first_price": 238880,
+   "first_seen": "2026-09-17",
+   "status": "active",
+   "dom": 0
   }
  }
 }
