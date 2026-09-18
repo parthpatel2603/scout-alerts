@@ -1310,8 +1310,9 @@
    "price": 750000,
    "first_price": 750000,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 83
+   "status": "sold",
+   "dom": 83,
+   "sold_price": 700000
   },
   "https://www.realtor.com/realestateandhomes-detail/308-N-Pasadena-Ave_Azusa_CA_91702_M12748-80537": {
    "price": 778800,
