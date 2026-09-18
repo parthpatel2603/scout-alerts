@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-09-18T02:46:36.630578",
+ "last_email": "2026-09-18T18:49:07.529293",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -2828,6 +2828,14 @@
    "last_seen": "2026-09-18",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/16795-Bear-Creek-Ave_Chino-Hills_CA_91709_M18879-13179": {
+   "price": 715000,
+   "first_price": 715000,
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-18",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
