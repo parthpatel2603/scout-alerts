@@ -1151,9 +1151,10 @@
    "first_price": 719999,
    "first_seen": "2026-07-16",
    "last_seen": "2026-09-19",
-   "status": "active",
+   "status": "sold",
    "dom": 81,
-   "dropped": "2026-07-31"
+   "dropped": "2026-07-31",
+   "sold_price": 718500
   },
   "https://www.realtor.com/realestateandhomes-detail/2178-Anne-Pl_Pomona_CA_91767_M17792-83293": {
    "price": 664000,
