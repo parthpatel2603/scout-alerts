@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-09-21T02:54:30.872990",
+ "last_email": "2026-09-21T21:35:24.368932",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -1702,12 +1702,13 @@
    "dropped": "2026-09-18"
   },
   "https://www.realtor.com/realestateandhomes-detail/21217-Washington-Ave-Spc-18_Walnut_CA_91789_M21259-97643": {
-   "price": 310000,
+   "price": 295000,
    "first_price": 310000,
    "first_seen": "2026-07-21",
    "last_seen": "2026-09-21",
    "status": "active",
-   "dom": 62
+   "dom": 62,
+   "dropped": "2026-09-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/243-E-Harrison-Ave_Pomona_CA_91767_M18378-28089": {
    "price": 750000,
@@ -1811,9 +1812,10 @@
    "first_price": 698000,
    "first_seen": "2026-07-24",
    "last_seen": "2026-09-21",
-   "status": "active",
+   "status": "sold",
    "dom": 59,
-   "dropped": "2026-08-11"
+   "dropped": "2026-08-11",
+   "sold_price": 675000
   },
   "https://www.realtor.com/realestateandhomes-detail/10997-Kimberly-Ave_Montclair_CA_91763_M27413-89166": {
    "price": 748888,
@@ -1846,8 +1848,9 @@
    "first_price": 788800,
    "first_seen": "2026-07-25",
    "last_seen": "2026-09-21",
-   "status": "active",
-   "dom": 102
+   "status": "sold",
+   "dom": 102,
+   "sold_price": 770000
   },
   "https://www.realtor.com/realestateandhomes-detail/326-Foxbury-Ave_Pomona_CA_91767_M19088-19709": {
    "price": 780000,
@@ -2608,12 +2611,13 @@
    "dom": 15
   },
   "https://www.realtor.com/realestateandhomes-detail/331-E-Olive-Ave_La-Habra_CA_90631_M10331-52112": {
-   "price": 775000,
+   "price": 750000,
    "first_price": 775000,
    "first_seen": "2026-09-07",
    "last_seen": "2026-09-21",
    "status": "active",
-   "dom": 46
+   "dom": 46,
+   "dropped": "2026-09-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/419-E-Lee-Dr_Azusa_CA_91702_M13762-43901": {
    "price": 639000,
@@ -2847,6 +2851,22 @@
    "last_seen": "2026-09-21",
    "status": "active",
    "dom": 3
+  },
+  "https://www.realtor.com/realestateandhomes-detail/2071-Wickshire-Ave_Hacienda-Heights_CA_91745_M10850-41529": {
+   "price": 759888,
+   "first_price": 759888,
+   "first_seen": "2026-09-21",
+   "last_seen": "2026-09-21",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/2183-Stocker-St_Pomona_CA_91767_M18477-03563": {
+   "price": 770000,
+   "first_price": 770000,
+   "first_seen": "2026-09-21",
+   "last_seen": "2026-09-21",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []

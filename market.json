@@ -3,8 +3,8 @@
  "window_days": 60,
  "cities": {
   "Brea": {
-   "ppsf": 612,
-   "n": 63
+   "ppsf": 607,
+   "n": 64
   },
   "La Habra": {
    "ppsf": 547,
@@ -19,8 +19,8 @@
    "n": 48
   },
   "Hacienda Heights": {
-   "ppsf": 525,
-   "n": 56
+   "ppsf": 526,
+   "n": 57
   },
   "Walnut": {
    "ppsf": 606,
@@ -31,20 +31,20 @@
    "n": 88
   },
   "Pomona": {
-   "ppsf": 456,
-   "n": 108
+   "ppsf": 459,
+   "n": 110
   },
   "Glendora": {
-   "ppsf": 537,
-   "n": 59
+   "ppsf": 541,
+   "n": 61
   },
   "Azusa": {
    "ppsf": 490,
    "n": 51
   },
   "Claremont": {
-   "ppsf": 508,
-   "n": 45
+   "ppsf": 501,
+   "n": 47
   },
   "Montclair": {
    "ppsf": 430,
