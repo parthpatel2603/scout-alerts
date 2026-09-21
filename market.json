@@ -1,10 +1,10 @@
 {
- "updated": "2026-09-20",
+ "updated": "2026-09-21",
  "window_days": 60,
  "cities": {
   "Brea": {
-   "ppsf": 607,
-   "n": 64
+   "ppsf": 612,
+   "n": 63
   },
   "La Habra": {
    "ppsf": 547,
@@ -12,39 +12,39 @@
   },
   "Diamond Bar": {
    "ppsf": 531,
-   "n": 66
+   "n": 64
   },
   "Rowland Heights": {
    "ppsf": 518,
-   "n": 50
+   "n": 48
   },
   "Hacienda Heights": {
    "ppsf": 525,
    "n": 56
   },
   "Walnut": {
-   "ppsf": 604,
-   "n": 43
+   "ppsf": 606,
+   "n": 42
   },
   "Chino Hills": {
-   "ppsf": 495,
-   "n": 89
+   "ppsf": 494,
+   "n": 88
   },
   "Pomona": {
-   "ppsf": 455,
-   "n": 109
+   "ppsf": 456,
+   "n": 108
   },
   "Glendora": {
    "ppsf": 537,
-   "n": 61
+   "n": 59
   },
   "Azusa": {
-   "ppsf": 491,
-   "n": 52
+   "ppsf": 490,
+   "n": 51
   },
   "Claremont": {
    "ppsf": 508,
-   "n": 49
+   "n": 45
   },
   "Montclair": {
    "ppsf": 430,
