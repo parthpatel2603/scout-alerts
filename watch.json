@@ -579,8 +579,8 @@
    "price": 198888,
    "first_price": 229000,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 95,
+   "status": "active",
+   "dom": 104,
    "dropped": "2026-07-28"
   },
   "https://www.realtor.com/realestateandhomes-detail/17887-Autry-Ct_Chino-Hills_CA_91709_M21728-85841": {
@@ -2080,11 +2080,12 @@
    "dom": 30
   },
   "https://www.realtor.com/realestateandhomes-detail/5595-Hawthorne-St_Montclair_CA_91763_M22354-29465": {
-   "price": 749000,
+   "price": 739000,
    "first_price": 749000,
    "first_seen": "2026-08-24",
    "status": "active",
-   "dom": 29
+   "dom": 29,
+   "dropped": "2026-09-22"
   },
   "https://www.realtor.com/realestateandhomes-detail/5220-N-Vogue-Ave_Azusa_CA_91702_M15673-80920": {
    "price": 720000,
@@ -2529,6 +2530,20 @@
    "first_seen": "2026-09-21",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/2854-Woodsorrel-Dr_Chino-Hills_CA_91709_M16147-91086": {
+   "price": 790000,
+   "first_price": 790000,
+   "first_seen": "2026-09-22",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/17848-Cassidy-Pl_Chino-Hills_CA_91709_M22146-23697": {
+   "price": 735000,
+   "first_price": 735000,
+   "first_seen": "2026-09-22",
+   "status": "active",
+   "dom": 0
   }
  }
 }
