@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-09-22T17:53:01.865951",
+ "last_email": "2026-09-22T23:58:08.855098",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -1933,8 +1933,9 @@
    "first_price": 698000,
    "first_seen": "2026-08-05",
    "last_seen": "2026-09-22",
-   "status": "active",
-   "dom": 48
+   "status": "sold",
+   "dom": 48,
+   "sold_price": 750000
   },
   "https://www.realtor.com/realestateandhomes-detail/158-Marywood-Ave_Claremont_CA_91711_M23504-69766": {
    "price": 585000,
@@ -2023,8 +2024,9 @@
    "first_price": 699000,
    "first_seen": "2026-08-07",
    "last_seen": "2026-09-22",
-   "status": "active",
-   "dom": 46
+   "status": "sold",
+   "dom": 46,
+   "sold_price": 715000
   },
   "https://www.realtor.com/realestateandhomes-detail/5563-N-Fleetwell-Ave_Azusa_CA_91702_M16120-25519": {
    "price": 790000,
@@ -2055,8 +2057,9 @@
    "first_price": 779999,
    "first_seen": "2026-08-10",
    "last_seen": "2026-09-22",
-   "status": "active",
-   "dom": 104
+   "status": "sold",
+   "dom": 104,
+   "sold_price": 800000
   },
   "https://www.realtor.com/realestateandhomes-detail/206-Acacia-St_Pomona_CA_91767_M18078-66271": {
    "price": 620000,
@@ -2240,8 +2243,9 @@
    "first_price": 749999,
    "first_seen": "2026-08-21",
    "last_seen": "2026-09-22",
-   "status": "active",
-   "dom": 32
+   "status": "sold",
+   "dom": 32,
+   "sold_price": 775000
   },
   "https://www.realtor.com/realestateandhomes-detail/18429-LA-Guardia-St_Rowland-Heights_CA_91748_M27472-14362": {
    "price": 744000,
@@ -2880,6 +2884,14 @@
   "https://www.realtor.com/realestateandhomes-detail/17848-Cassidy-Pl_Chino-Hills_CA_91709_M22146-23697": {
    "price": 735000,
    "first_price": 735000,
+   "first_seen": "2026-09-22",
+   "last_seen": "2026-09-22",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/904-Beech-Hill-Ave_Hacienda-Heights_CA_91745_M11205-93238": {
+   "price": 775000,
+   "first_price": 775000,
    "first_seen": "2026-09-22",
    "last_seen": "2026-09-22",
    "status": "active",
