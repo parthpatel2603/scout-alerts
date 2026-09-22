@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-09-21T21:35:24.368932",
+ "last_email": "2026-09-22T07:12:04.491941",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -1507,13 +1507,13 @@
    "dropped": "2026-08-03"
   },
   "https://www.realtor.com/realestateandhomes-detail/812-N-Loren-Ave-Trlr-18_Azusa_CA_91702_M93723-52283": {
-   "price": 236000,
+   "price": 229000,
    "first_price": 239000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-09-22",
    "status": "active",
    "dom": 230,
-   "dropped": "2026-09-10"
+   "dropped": "2026-09-22"
   },
   "https://www.realtor.com/realestateandhomes-detail/1029-E-Galatea-St_Azusa_CA_91702_M18265-28284": {
    "price": 749000,

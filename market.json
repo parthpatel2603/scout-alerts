@@ -12,27 +12,27 @@
   },
   "Diamond Bar": {
    "ppsf": 531,
-   "n": 63
+   "n": 62
   },
   "Rowland Heights": {
-   "ppsf": 518,
-   "n": 48
+   "ppsf": 519,
+   "n": 49
   },
   "Hacienda Heights": {
    "ppsf": 526,
    "n": 58
   },
   "Walnut": {
-   "ppsf": 608,
-   "n": 41
+   "ppsf": 610,
+   "n": 42
   },
   "Chino Hills": {
    "ppsf": 492,
    "n": 86
   },
   "Pomona": {
-   "ppsf": 456,
-   "n": 110
+   "ppsf": 457,
+   "n": 109
   },
   "Glendora": {
    "ppsf": 544,
@@ -44,11 +44,11 @@
   },
   "Claremont": {
    "ppsf": 501,
-   "n": 47
+   "n": 49
   },
   "Montclair": {
-   "ppsf": 428,
-   "n": 32
+   "ppsf": 430,
+   "n": 33
   }
  }
 }
