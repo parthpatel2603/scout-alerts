@@ -1466,12 +1466,12 @@
    "dropped": "2026-09-11"
   },
   "https://www.realtor.com/realestateandhomes-detail/15879-Antelope-Dr_Chino-Hills_CA_91709_M20895-30397": {
-   "price": 715000,
+   "price": 699900,
    "first_price": 730000,
    "first_seen": "2026-07-18",
    "status": "active",
    "dom": 68,
-   "dropped": "2026-08-29"
+   "dropped": "2026-09-23"
   },
   "https://www.realtor.com/realestateandhomes-detail/877-Ottawa-Dr_Claremont_CA_91711_M20998-93569": {
    "price": 750000,
@@ -2425,7 +2425,7 @@
    "dom": 10
   },
   "https://www.realtor.com/realestateandhomes-detail/17915-E-Newburgh-St_Azusa_CA_91702_M15571-70052": {
-   "price": 769999,
+   "price": 764999,
    "first_price": 779999,
    "first_seen": "2026-09-14",
    "status": "active",
@@ -2557,6 +2557,13 @@
    "first_seen": "2026-09-22",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1844-Fleming-St_Pomona_CA_91766_M19677-92100": {
+   "price": 760000,
+   "first_price": 760000,
+   "first_seen": "2026-09-23",
+   "status": "active",
+   "dom": 0
   }
  }
 }
