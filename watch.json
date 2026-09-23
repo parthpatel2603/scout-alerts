@@ -1849,8 +1849,9 @@
    "price": 775000,
    "first_price": 775000,
    "first_seen": "2026-08-12",
-   "status": "active",
-   "dom": 42
+   "status": "sold",
+   "dom": 42,
+   "sold_price": 730000
   },
   "https://www.realtor.com/realestateandhomes-detail/2211-Angela-St_Pomona_CA_91766_M28891-48964": {
    "price": 760000,
