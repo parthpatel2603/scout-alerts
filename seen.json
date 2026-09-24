@@ -2000,8 +2000,9 @@
    "first_price": 775000,
    "first_seen": "2026-08-07",
    "last_seen": "2026-09-24",
-   "status": "active",
-   "dom": 70
+   "status": "sold",
+   "dom": 70,
+   "sold_price": 775000
   },
   "https://www.realtor.com/realestateandhomes-detail/15243-Mariposa-Ave_Chino-Hills_CA_91709_M18502-74577": {
    "price": 619000,
