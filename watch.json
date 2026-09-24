@@ -2580,6 +2580,13 @@
    "first_seen": "2026-09-24",
    "status": "active",
    "dom": 71
+  },
+  "https://www.realtor.com/realestateandhomes-detail/5564-Valencia-Dr_Montclair_CA_91762_M99184-79729": {
+   "price": 698000,
+   "first_price": 698000,
+   "first_seen": "2026-09-24",
+   "status": "active",
+   "dom": 41
   }
  }
 }

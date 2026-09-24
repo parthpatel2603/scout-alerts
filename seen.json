@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-09-24T02:45:26.363738",
+ "last_email": "2026-09-24T08:56:37.446840",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -2924,6 +2924,14 @@
    "last_seen": "2026-09-24",
    "status": "active",
    "dom": 71
+  },
+  "https://www.realtor.com/realestateandhomes-detail/5564-Valencia-Dr_Montclair_CA_91762_M99184-79729": {
+   "price": 698000,
+   "first_price": 698000,
+   "first_seen": "2026-09-24",
+   "last_seen": "2026-09-24",
+   "status": "active",
+   "dom": 41
   }
  },
  "drops": []
