@@ -3,36 +3,36 @@
  "window_days": 60,
  "cities": {
   "Brea": {
-   "ppsf": 607,
-   "n": 64
+   "ppsf": 603,
+   "n": 67
   },
   "La Habra": {
-   "ppsf": 544,
-   "n": 64
+   "ppsf": 541,
+   "n": 65
   },
   "Diamond Bar": {
-   "ppsf": 525,
-   "n": 61
+   "ppsf": 528,
+   "n": 58
   },
   "Rowland Heights": {
    "ppsf": 518,
    "n": 50
   },
   "Hacienda Heights": {
-   "ppsf": 516,
-   "n": 59
+   "ppsf": 514,
+   "n": 64
   },
   "Walnut": {
-   "ppsf": 608,
-   "n": 43
+   "ppsf": 610,
+   "n": 48
   },
   "Chino Hills": {
    "ppsf": 496,
    "n": 95
   },
   "Pomona": {
-   "ppsf": 461,
-   "n": 114
+   "ppsf": 459,
+   "n": 120
   },
   "Glendora": {
    "ppsf": 551,

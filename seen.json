@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-09-24T08:56:37.446840",
+ "last_email": "2026-09-24T22:56:57.695655",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -1689,8 +1689,9 @@
    "first_price": 738000,
    "first_seen": "2026-07-20",
    "last_seen": "2026-09-24",
-   "status": "active",
-   "dom": 67
+   "status": "sold",
+   "dom": 67,
+   "sold_price": 738000
   },
   "https://www.realtor.com/realestateandhomes-detail/1669-W-Phillips-Dr_Pomona_CA_91766_M20812-66895": {
    "price": 765000,
@@ -2933,6 +2934,14 @@
    "last_seen": "2026-09-24",
    "status": "active",
    "dom": 41
+  },
+  "https://www.realtor.com/realestateandhomes-detail/5260-N-Gareloch-Ave_Azusa_CA_91702_M16283-10736": {
+   "price": 737000,
+   "first_price": 737000,
+   "first_seen": "2026-09-24",
+   "last_seen": "2026-09-24",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
