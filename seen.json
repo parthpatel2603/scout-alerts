@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-09-25T09:17:33.688822",
+ "last_email": "2026-09-25T19:46:49.948133",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -627,13 +627,13 @@
    "sold_price": 185000
   },
   "https://www.realtor.com/realestateandhomes-detail/15111-Pipeline-Ave-Spc-240_Chino-Hills_CA_91709_M12171-60912": {
-   "price": 339500,
+   "price": 335500,
    "first_price": 348000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-09-25",
    "status": "active",
    "dom": 129,
-   "dropped": "2026-08-31"
+   "dropped": "2026-09-25"
   },
   "https://www.realtor.com/realestateandhomes-detail/3495-Terrace-Dr_Chino-Hills_CA_91709_M17940-40270": {
    "price": 735000,
@@ -2957,6 +2957,38 @@
   "https://www.realtor.com/realestateandhomes-detail/4443-Merle-St_Montclair_CA_91763_M27270-04512": {
    "price": 788888,
    "first_price": 788888,
+   "first_seen": "2026-09-25",
+   "last_seen": "2026-09-25",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1051-Site-Dr-Spc-190_Brea_CA_92821_M21680-21365": {
+   "price": 370000,
+   "first_price": 370000,
+   "first_seen": "2026-09-25",
+   "last_seen": "2026-09-25",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/20739-Lycoming-St-Spc-47_Walnut_CA_91789_M21115-05930": {
+   "price": 278888,
+   "first_price": 278888,
+   "first_seen": "2026-09-25",
+   "last_seen": "2026-09-25",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1617-N-Gordon-Ct_Pomona_CA_91768_M16580-94448": {
+   "price": 679900,
+   "first_price": 679900,
+   "first_seen": "2026-09-25",
+   "last_seen": "2026-09-25",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1281-Colony-Dr_Pomona_CA_91766_M13862-02131": {
+   "price": 699000,
+   "first_price": 699000,
    "first_seen": "2026-09-25",
    "last_seen": "2026-09-25",
    "status": "active",
