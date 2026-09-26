@@ -1918,11 +1918,12 @@
    "dom": 43
   },
   "https://www.realtor.com/realestateandhomes-detail/5564-Valencia-Dr_Ontario_CA_91762_M99184-79729": {
-   "price": 698000,
+   "price": 649000,
    "first_price": 698000,
    "first_seen": "2026-08-14",
-   "status": "off_market",
-   "dom": 41
+   "status": "active",
+   "dom": 43,
+   "dropped": "2026-09-26"
   },
   "https://www.realtor.com/realestateandhomes-detail/1001-W-Lambert-Rd-Spc-219_La-Habra_CA_90631_M22843-20822": {
    "price": 239900,
@@ -2390,11 +2391,12 @@
    "dom": 15
   },
   "https://www.realtor.com/realestateandhomes-detail/512-E-8th-St_Pomona_CA_91766_M10988-44448": {
-   "price": 745000,
+   "price": 725000,
    "first_price": 745000,
    "first_seen": "2026-09-11",
    "status": "active",
-   "dom": 15
+   "dom": 15,
+   "dropped": "2026-09-26"
   },
   "https://www.realtor.com/realestateandhomes-detail/600-W-Gladstone-St-Spc-45_Azusa_CA_91702_M98628-60429": {
    "price": 300000,
