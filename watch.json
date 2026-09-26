@@ -866,11 +866,12 @@
    "dom": 92
   },
   "https://www.realtor.com/realestateandhomes-detail/1802-Russell-Pl_Pomona_CA_91767_M26585-47312": {
-   "price": 730000,
+   "price": 720000,
    "first_price": 709000,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 94
+   "dom": 94,
+   "dropped": "2026-09-26"
   },
   "https://www.realtor.com/realestateandhomes-detail/402-E-Foothill-Blvd-Spc-59_Pomona_CA_91767_M96614-05191": {
    "price": 117900,
