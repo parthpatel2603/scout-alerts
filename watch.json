@@ -2089,11 +2089,12 @@
    "dom": 37
   },
   "https://www.realtor.com/realestateandhomes-detail/464-Middlebury-Ct_Claremont_CA_91711_M14354-10845": {
-   "price": 759500,
+   "price": 749500,
    "first_price": 759500,
    "first_seen": "2026-08-23",
    "status": "active",
-   "dom": 35
+   "dom": 35,
+   "dropped": "2026-09-27"
   },
   "https://www.realtor.com/realestateandhomes-detail/5595-Hawthorne-St_Montclair_CA_91763_M22354-29465": {
    "price": 739000,
@@ -2648,6 +2649,13 @@
    "first_seen": "2026-09-25",
    "status": "active",
    "dom": 2
+  },
+  "https://www.realtor.com/realestateandhomes-detail/901-6th-Ave-Spc-36_Hacienda-Heights_CA_91745_M96249-32080": {
+   "price": 290000,
+   "first_price": 290000,
+   "first_seen": "2026-09-27",
+   "status": "active",
+   "dom": 0
   }
  }
 }
