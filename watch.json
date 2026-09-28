@@ -2044,11 +2044,12 @@
    "sold_price": 550000
   },
   "https://www.realtor.com/realestateandhomes-detail/5474-San-Bernardino-St_Montclair_CA_91763_M23126-81764": {
-   "price": 719900,
+   "price": 709900,
    "first_price": 719900,
    "first_seen": "2026-08-21",
    "status": "active",
-   "dom": 38
+   "dom": 38,
+   "dropped": "2026-09-28"
   },
   "https://www.realtor.com/realestateandhomes-detail/714-Wagon-Wheel-Cir_Brea_CA_92821_M10442-55437": {
    "price": 750000,
@@ -2070,8 +2071,9 @@
    "price": 750000,
    "first_price": 750000,
    "first_seen": "2026-08-22",
-   "status": "active",
-   "dom": 38
+   "status": "sold",
+   "dom": 38,
+   "sold_price": 755000
   },
   "https://www.realtor.com/realestateandhomes-detail/138-N-Vecino-Ave_Glendora_CA_91741_M20985-69665": {
    "price": 729000,
