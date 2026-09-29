@@ -327,11 +327,12 @@
    "dom": 225
   },
   "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-326_Rowland-Heights_CA_91748_M25760-90895": {
-   "price": 238000,
+   "price": 218000,
    "first_price": 238000,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 83
+   "dom": 83,
+   "dropped": "2026-09-29"
   },
   "https://www.realtor.com/realestateandhomes-detail/1560-Otterbein-Ave-Spc-124_Rowland-Heights_CA_91748_M98899-83982": {
    "price": 318000,
