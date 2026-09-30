@@ -68,9 +68,9 @@
    "price": 225000,
    "first_price": 239000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-09-29",
-   "status": "off_market",
-   "dom": 179,
+   "last_seen": "2026-09-30",
+   "status": "active",
+   "dom": 180,
    "dropped": "2026-07-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/5700-Carbon-Canyon-Rd-Spc-62_Brea_CA_92823_M23087-11976": {
@@ -94,9 +94,9 @@
    "price": 185000,
    "first_price": 199999,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-09-29",
-   "status": "off_market",
-   "dom": 297,
+   "last_seen": "2026-09-30",
+   "status": "active",
+   "dom": 298,
    "dropped": "2026-09-29"
   },
   "https://www.realtor.com/realestateandhomes-detail/1051-Site-Dr-Spc-21_Brea_CA_92821_M97785-47720": {
@@ -113,18 +113,18 @@
    "price": 174900,
    "first_price": 199900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-09-29",
-   "status": "off_market",
-   "dom": 124,
+   "last_seen": "2026-09-30",
+   "status": "active",
+   "dom": 125,
    "dropped": "2026-08-31"
   },
   "https://www.realtor.com/realestateandhomes-detail/1051-Site-Dr-Spc-38_Brea_CA_92821_M16278-84424": {
    "price": 238000,
    "first_price": 258000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-09-29",
-   "status": "off_market",
-   "dom": 176,
+   "last_seen": "2026-09-30",
+   "status": "active",
+   "dom": 177,
    "dropped": "2026-08-26"
   },
   "https://www.realtor.com/realestateandhomes-detail/1051-Site-Dr-Spc-281_Brea_CA_92821_M14483-59949": {
@@ -140,34 +140,34 @@
    "price": 219000,
    "first_price": 229000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-09-29",
-   "status": "off_market",
-   "dom": 250,
+   "last_seen": "2026-09-30",
+   "status": "active",
+   "dom": 251,
    "dropped": "2026-09-27"
   },
   "https://www.realtor.com/realestateandhomes-detail/1051-Site-Dr-Spc-209_Brea_CA_92821_M29686-19795": {
    "price": 245000,
    "first_price": 245000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-09-29",
-   "status": "off_market",
-   "dom": 116
+   "last_seen": "2026-09-30",
+   "status": "active",
+   "dom": 117
   },
   "https://www.realtor.com/realestateandhomes-detail/1051-Site-Dr-Spc-78_Brea_CA_92821_M23448-42239": {
    "price": 209000,
    "first_price": 209000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-09-29",
-   "status": "off_market",
-   "dom": 137
+   "last_seen": "2026-09-30",
+   "status": "active",
+   "dom": 138
   },
   "https://www.realtor.com/realestateandhomes-detail/753-Wagon-Wheel-Cir_Brea_CA_92821_M10679-93842": {
    "price": 749888,
    "first_price": 749888,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-09-29",
-   "status": "off_market",
-   "dom": 98
+   "last_seen": "2026-09-30",
+   "status": "active",
+   "dom": 99
   },
   "https://www.realtor.com/realestateandhomes-detail/750-Chesham-Ave_La-Habra_CA_90631_M27576-44974": {
    "price": 665000,
@@ -2122,9 +2122,9 @@
    "price": 699000,
    "first_price": 699000,
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-29",
-   "status": "off_market",
-   "dom": 47
+   "last_seen": "2026-09-30",
+   "status": "active",
+   "dom": 48
   },
   "https://www.realtor.com/realestateandhomes-detail/412-S-Vecino-Ave_Glendora_CA_91741_M20242-24109": {
    "price": 675000,
@@ -2339,9 +2339,9 @@
    "price": 199500,
    "first_price": 210000,
    "first_seen": "2026-08-22",
-   "last_seen": "2026-09-29",
-   "status": "off_market",
-   "dom": 39,
+   "last_seen": "2026-09-30",
+   "status": "active",
+   "dom": 40,
    "dropped": "2026-09-16"
   },
   "https://www.realtor.com/realestateandhomes-detail/232-Lois-St_La-Habra_CA_90631_M29293-66437": {
@@ -2521,9 +2521,9 @@
    "price": 320000,
    "first_price": 320000,
    "first_seen": "2026-08-31",
-   "last_seen": "2026-09-29",
-   "status": "off_market",
-   "dom": 29
+   "last_seen": "2026-09-30",
+   "status": "active",
+   "dom": 30
   },
   "https://www.realtor.com/realestateandhomes-detail/15403-Los-Robles-Ave_Hacienda-Heights_CA_91745_M29870-69340": {
    "price": 650000,
@@ -2715,9 +2715,9 @@
    "price": 295000,
    "first_price": 295000,
    "first_seen": "2026-09-11",
-   "last_seen": "2026-09-29",
-   "status": "off_market",
-   "dom": 18
+   "last_seen": "2026-09-30",
+   "status": "active",
+   "dom": 19
   },
   "https://www.realtor.com/realestateandhomes-detail/512-E-8th-St_Pomona_CA_91766_M10988-44448": {
    "price": 725000,
@@ -2983,9 +2983,9 @@
    "price": 370000,
    "first_price": 370000,
    "first_seen": "2026-09-25",
-   "last_seen": "2026-09-29",
-   "status": "off_market",
-   "dom": 4
+   "last_seen": "2026-09-30",
+   "status": "active",
+   "dom": 5
   },
   "https://www.realtor.com/realestateandhomes-detail/20739-Lycoming-St-Spc-47_Walnut_CA_91789_M21115-05930": {
    "price": 278888,
@@ -3023,17 +3023,17 @@
    "price": 275000,
    "first_price": 275000,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-09-29",
-   "status": "off_market",
-   "dom": 1
+   "last_seen": "2026-09-30",
+   "status": "active",
+   "dom": 2
   },
   "https://www.realtor.com/realestateandhomes-detail/1414-W-Central-Ave-Spc-89_Brea_CA_92821_M20456-93021": {
    "price": 269000,
    "first_price": 269000,
    "first_seen": "2026-09-29",
-   "last_seen": "2026-09-29",
-   "status": "off_market",
-   "dom": 1
+   "last_seen": "2026-09-30",
+   "status": "active",
+   "dom": 2
   }
  },
  "drops": []
