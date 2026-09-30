@@ -4,15 +4,15 @@
  "cities": {
   "Brea": {
    "ppsf": 578,
-   "n": 61
+   "n": 62
   },
   "La Habra": {
    "ppsf": 553,
    "n": 58
   },
   "Diamond Bar": {
-   "ppsf": 510,
-   "n": 51
+   "ppsf": 517,
+   "n": 53
   },
   "Rowland Heights": {
    "ppsf": 519,
@@ -31,20 +31,20 @@
    "n": 88
   },
   "Pomona": {
-   "ppsf": 470,
-   "n": 111
+   "ppsf": 471,
+   "n": 112
   },
   "Glendora": {
    "ppsf": 553,
    "n": 55
   },
   "Azusa": {
-   "ppsf": 491,
-   "n": 53
+   "ppsf": 493,
+   "n": 54
   },
   "Claremont": {
-   "ppsf": 508,
-   "n": 47
+   "ppsf": 514,
+   "n": 46
   },
   "Montclair": {
    "ppsf": 445,
