@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-01T01:01:36.182174",
+ "last_email": "2026-10-01T16:50:47.930851",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -3038,6 +3038,38 @@
    "last_seen": "2026-10-01",
    "status": "active",
    "dom": 3
+  },
+  "https://www.realtor.com/realestateandhomes-detail/2610-Greenbrier-Ln_La-Habra_CA_90631_M28050-09987": {
+   "price": 650000,
+   "first_price": 650000,
+   "first_seen": "2026-10-01",
+   "last_seen": "2026-10-01",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1119-Angelcrest-Dr_Hacienda-Heights_CA_91745_M10511-29521": {
+   "price": 759000,
+   "first_price": 759000,
+   "first_seen": "2026-10-01",
+   "last_seen": "2026-10-01",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/15050-Monte-Vista-Ave-Spc-166_Chino-Hills_CA_91709_M12440-03763": {
+   "price": 215000,
+   "first_price": 215000,
+   "first_seen": "2026-10-01",
+   "last_seen": "2026-10-01",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/107-Cambria-Ct_Pomona_CA_91766_M94680-09158": {
+   "price": 789000,
+   "first_price": 789000,
+   "first_seen": "2026-10-01",
+   "last_seen": "2026-10-01",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []

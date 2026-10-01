@@ -2683,6 +2683,34 @@
    "first_seen": "2026-09-29",
    "status": "active",
    "dom": 3
+  },
+  "https://www.realtor.com/realestateandhomes-detail/2610-Greenbrier-Ln_La-Habra_CA_90631_M28050-09987": {
+   "price": 650000,
+   "first_price": 650000,
+   "first_seen": "2026-10-01",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1119-Angelcrest-Dr_Hacienda-Heights_CA_91745_M10511-29521": {
+   "price": 759000,
+   "first_price": 759000,
+   "first_seen": "2026-10-01",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/15050-Monte-Vista-Ave-Spc-166_Chino-Hills_CA_91709_M12440-03763": {
+   "price": 215000,
+   "first_price": 215000,
+   "first_seen": "2026-10-01",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/107-Cambria-Ct_Pomona_CA_91766_M94680-09158": {
+   "price": 789000,
+   "first_price": 789000,
+   "first_seen": "2026-10-01",
+   "status": "active",
+   "dom": 0
   }
  }
 }
