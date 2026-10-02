@@ -5,9 +5,10 @@
    "price": 709000,
    "first_price": 0,
    "first_seen": "2026-07-16",
-   "status": "active",
+   "status": "sold",
    "dom": 80,
-   "dropped": "2026-08-21"
+   "dropped": "2026-08-21",
+   "sold_price": 709000
   },
   "https://www.realtor.com/realestateandhomes-detail/1786-American-Ave_Pomona_CA_91767_M26279-51973": {
    "price": 735000,
@@ -29,8 +30,8 @@
    "price": 768000,
    "first_price": 0,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 68,
+   "status": "active",
+   "dom": 81,
    "dropped": "2026-08-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/1022-Rodman-Ave_Pomona_CA_91767_M25337-80936": {
@@ -619,8 +620,9 @@
    "price": 690000,
    "first_price": 690000,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 100
+   "status": "sold",
+   "dom": 100,
+   "sold_price": 645000
   },
   "https://www.realtor.com/realestateandhomes-detail/1601-S-Garey-Ave-Spc-93_Pomona_CA_91766_M10089-24386": {
    "price": 189999,
@@ -1821,8 +1823,9 @@
    "price": 699999,
    "first_price": 699999,
    "first_seen": "2026-08-08",
-   "status": "active",
-   "dom": 56
+   "status": "sold",
+   "dom": 56,
+   "sold_price": 745000
   },
   "https://www.realtor.com/realestateandhomes-detail/915-Ashworth-Pl_Glendora_CA_91741_M17423-07254": {
    "price": 770000,
@@ -2738,6 +2741,13 @@
   "https://www.realtor.com/realestateandhomes-detail/106-Belhaven-Pl_Claremont_CA_91711_M23070-17677": {
    "price": 749000,
    "first_price": 749000,
+   "first_seen": "2026-10-02",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/14617-Palm-Ave_Hacienda-Heights_CA_91745_M12277-32822": {
+   "price": 778000,
+   "first_price": 778000,
    "first_seen": "2026-10-02",
    "status": "active",
    "dom": 0
