@@ -2734,6 +2734,13 @@
    "first_seen": "2026-10-02",
    "status": "active",
    "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/106-Belhaven-Pl_Claremont_CA_91711_M23070-17677": {
+   "price": 749000,
+   "first_price": 749000,
+   "first_seen": "2026-10-02",
+   "status": "active",
+   "dom": 0
   }
  }
 }

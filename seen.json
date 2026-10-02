@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-02T03:40:06.446176",
+ "last_email": "2026-10-02T10:15:11.520176",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -3092,6 +3092,14 @@
   "https://www.realtor.com/realestateandhomes-detail/124-E-Roland-St_Azusa_CA_91702_M13664-42958": {
    "price": 600000,
    "first_price": 600000,
+   "first_seen": "2026-10-02",
+   "last_seen": "2026-10-02",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/106-Belhaven-Pl_Claremont_CA_91711_M23070-17677": {
+   "price": 749000,
+   "first_price": 749000,
    "first_seen": "2026-10-02",
    "last_seen": "2026-10-02",
    "status": "active",
