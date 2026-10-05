@@ -1742,8 +1742,9 @@
    "price": 769000,
    "first_price": 769000,
    "first_seen": "2026-08-05",
-   "status": "active",
-   "dom": 61
+   "status": "sold",
+   "dom": 61,
+   "sold_price": 720000
   },
   "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-321_Rowland-Heights_CA_91748_M97413-48037": {
    "price": 185000,
@@ -2579,11 +2580,12 @@
    "dom": 13
   },
   "https://www.realtor.com/realestateandhomes-detail/17848-Cassidy-Pl_Chino-Hills_CA_91709_M22146-23697": {
-   "price": 735000,
+   "price": 698000,
    "first_price": 735000,
    "first_seen": "2026-09-22",
    "status": "active",
-   "dom": 13
+   "dom": 13,
+   "dropped": "2026-10-05"
   },
   "https://www.realtor.com/realestateandhomes-detail/904-Beech-Hill-Ave_Hacienda-Heights_CA_91745_M11205-93238": {
    "price": 775000,

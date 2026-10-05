@@ -4,11 +4,11 @@
  "cities": {
   "Brea": {
    "ppsf": 578,
-   "n": 61
+   "n": 62
   },
   "La Habra": {
-   "ppsf": 564,
-   "n": 52
+   "ppsf": 558,
+   "n": 53
   },
   "Diamond Bar": {
    "ppsf": 510,
@@ -39,8 +39,8 @@
    "n": 56
   },
   "Azusa": {
-   "ppsf": 498,
-   "n": 58
+   "ppsf": 495,
+   "n": 59
   },
   "Claremont": {
    "ppsf": 522,
