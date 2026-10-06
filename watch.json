@@ -2428,8 +2428,8 @@
    "price": 300000,
    "first_price": 300000,
    "first_seen": "2026-09-11",
-   "status": "off_market",
-   "dom": 23
+   "status": "active",
+   "dom": 26
   },
   "https://www.realtor.com/realestateandhomes-detail/15111-Pipeline-Ave-Spc-260_Chino-Hills_CA_91709_M11350-66055": {
    "price": 279900,
@@ -2786,6 +2786,13 @@
    "first_seen": "2026-10-06",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/4183-Lugo-Ave_Chino-Hills_CA_91709_M19401-97296": {
+   "price": 699000,
+   "first_price": 699000,
+   "first_seen": "2026-10-06",
+   "status": "active",
+   "dom": 0
   }
  }
 }

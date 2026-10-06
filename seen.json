@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-06T01:05:16.044085",
+ "last_email": "2026-10-06T16:27:22.492957",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -2745,9 +2745,9 @@
    "price": 300000,
    "first_price": 300000,
    "first_seen": "2026-09-11",
-   "last_seen": "2026-10-03",
-   "status": "off_market",
-   "dom": 23
+   "last_seen": "2026-10-06",
+   "status": "active",
+   "dom": 26
   },
   "https://www.realtor.com/realestateandhomes-detail/15111-Pipeline-Ave-Spc-260_Chino-Hills_CA_91709_M11350-66055": {
    "price": 279900,
@@ -3154,6 +3154,14 @@
    "last_seen": "2026-10-06",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/4183-Lugo-Ave_Chino-Hills_CA_91709_M19401-97296": {
+   "price": 699000,
+   "first_price": 699000,
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
