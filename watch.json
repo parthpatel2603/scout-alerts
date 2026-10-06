@@ -818,9 +818,10 @@
    "price": 769900,
    "first_price": 785000,
    "first_seen": "2026-07-16",
-   "status": "active",
+   "status": "sold",
    "dom": 95,
-   "dropped": "2026-08-13"
+   "dropped": "2026-08-13",
+   "sold_price": 780000
   },
   "https://www.realtor.com/realestateandhomes-detail/1408-Baldy-View-Ave_Pomona_CA_91767_M27287-19082": {
    "price": 749000,
