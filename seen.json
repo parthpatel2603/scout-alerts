@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-07T03:51:13.745754",
+ "last_email": "2026-10-07T18:18:44.051513",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -3180,6 +3180,14 @@
    "last_seen": "2026-10-07",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1811-James-Pl_Pomona_CA_91767_M26478-14721": {
+   "price": 699000,
+   "first_price": 699000,
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
