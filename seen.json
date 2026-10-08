@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-08T05:15:04.002597",
+ "last_email": "2026-10-08T19:37:51.005553",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -1366,9 +1366,10 @@
    "first_price": 184000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-10-08",
-   "status": "active",
+   "status": "sold",
    "dom": 104,
-   "dropped": "2026-08-14"
+   "dropped": "2026-08-14",
+   "sold_price": 170000
   },
   "https://www.realtor.com/realestateandhomes-detail/1268-S-Westridge-Ave_Glendora_CA_91740_M23131-09696": {
    "price": 769900,
@@ -1922,8 +1923,9 @@
    "first_price": 620000,
    "first_seen": "2026-07-30",
    "last_seen": "2026-10-08",
-   "status": "active",
-   "dom": 71
+   "status": "sold",
+   "dom": 71,
+   "sold_price": 632000
   },
   "https://www.realtor.com/realestateandhomes-detail/733-S-Bender-Ave_Glendora_CA_91740_M22015-72730": {
    "price": 779000,
@@ -2037,13 +2039,13 @@
    "dom": 11
   },
   "https://www.realtor.com/realestateandhomes-detail/15876-Deer-Trail-Dr_Chino-Hills_CA_91709_M20091-39290": {
-   "price": 728000,
+   "price": 714000,
    "first_price": 740000,
    "first_seen": "2026-08-07",
    "last_seen": "2026-10-08",
    "status": "active",
    "dom": 62,
-   "dropped": "2026-08-25"
+   "dropped": "2026-10-08"
   },
   "https://www.realtor.com/realestateandhomes-detail/952-Casa-Hermosa-Dr_Pomona_CA_91768_M16154-24944": {
    "price": 699000,
@@ -2773,13 +2775,13 @@
    "dropped": "2026-09-17"
   },
   "https://www.realtor.com/realestateandhomes-detail/2122-Saticoy-St_Pomona_CA_91767_M17969-84616": {
-   "price": 689000,
+   "price": 679000,
    "first_price": 699000,
    "first_seen": "2026-09-13",
    "last_seen": "2026-10-08",
    "status": "active",
    "dom": 25,
-   "dropped": "2026-10-01"
+   "dropped": "2026-10-08"
   },
   "https://www.realtor.com/realestateandhomes-detail/1049-Newhill-St_Glendora_CA_91741_M18052-86697": {
    "price": 790000,
@@ -3208,6 +3210,14 @@
    "last_seen": "2026-10-08",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/542-W-Ada-Ave_Glendora_CA_91741_M22545-64900": {
+   "price": 770000,
+   "first_price": 770000,
+   "first_seen": "2026-10-08",
+   "last_seen": "2026-10-08",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
