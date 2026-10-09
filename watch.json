@@ -30,8 +30,8 @@
    "price": 768000,
    "first_price": 0,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 87,
+   "status": "active",
+   "dom": 88,
    "dropped": "2026-08-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/1022-Rodman-Ave_Pomona_CA_91767_M25337-80936": {
@@ -2437,8 +2437,8 @@
    "price": 300000,
    "first_price": 300000,
    "first_seen": "2026-09-11",
-   "status": "off_market",
-   "dom": 27
+   "status": "active",
+   "dom": 29
   },
   "https://www.realtor.com/realestateandhomes-detail/15111-Pipeline-Ave-Spc-260_Chino-Hills_CA_91709_M11350-66055": {
    "price": 279900,
@@ -2567,8 +2567,8 @@
    "price": 759998,
    "first_price": 759998,
    "first_seen": "2026-09-19",
-   "status": "off_market",
-   "dom": 20
+   "status": "active",
+   "dom": 21
   },
   "https://www.realtor.com/realestateandhomes-detail/2071-Wickshire-Ave_Hacienda-Heights_CA_91745_M10850-41529": {
    "price": 759888,
@@ -2851,6 +2851,13 @@
    "first_seen": "2026-10-09",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/947-Murray-Ave_Pomona_CA_91767_M26720-37583": {
+   "price": 759900,
+   "first_price": 759900,
+   "first_seen": "2026-10-09",
+   "status": "active",
+   "dom": 0
   }
  }
 }
