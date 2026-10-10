@@ -30,8 +30,8 @@
    "price": 768000,
    "first_price": 0,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 88,
+   "status": "active",
+   "dom": 89,
    "dropped": "2026-08-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/1022-Rodman-Ave_Pomona_CA_91767_M25337-80936": {
@@ -629,8 +629,8 @@
    "price": 189999,
    "first_price": 189999,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 106
+   "status": "active",
+   "dom": 107
   },
   "https://www.realtor.com/realestateandhomes-detail/3667-Valley-Blvd-Spc-202_Pomona_CA_91768_M98945-94996": {
    "price": 310000,
@@ -682,8 +682,8 @@
    "price": 699999,
    "first_price": 699999,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 89
+   "status": "active",
+   "dom": 90
   },
   "https://www.realtor.com/realestateandhomes-detail/194-Monroe-Ave_Pomona_CA_91767_M11325-70126": {
    "price": 779999,
@@ -712,15 +712,15 @@
    "price": 189900,
    "first_price": 189900,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 119
+   "status": "active",
+   "dom": 120
   },
   "https://www.realtor.com/realestateandhomes-detail/1771-Del-Prado_Pomona_CA_91768_M17472-34582": {
    "price": 749000,
    "first_price": 788000,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 35,
+   "status": "active",
+   "dom": 36,
    "dropped": "2026-09-04"
   },
   "https://www.realtor.com/realestateandhomes-detail/737-Lewis-St_Pomona_CA_91768_M15388-06166": {
@@ -758,8 +758,8 @@
    "price": 174900,
    "first_price": 174900,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 170
+   "status": "active",
+   "dom": 171
   },
   "https://www.realtor.com/realestateandhomes-detail/1706-Berkeley-Ave_Pomona_CA_91768_M16644-66924": {
    "price": 749000,
@@ -782,15 +782,15 @@
    "price": 790000,
    "first_price": 790000,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 106
+   "status": "active",
+   "dom": 107
   },
   "https://www.realtor.com/realestateandhomes-detail/385-Greenwood-Ct_Pomona_CA_91766_M29085-64520": {
    "price": 670000,
    "first_price": 670000,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 101
+   "status": "active",
+   "dom": 102
   },
   "https://www.realtor.com/realestateandhomes-detail/1390-Resort-Ln_Pomona_CA_91768_M10267-11127": {
    "price": 539000,
@@ -804,8 +804,8 @@
    "price": 699999,
    "first_price": 739999,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 141,
+   "status": "active",
+   "dom": 142,
    "dropped": "2026-07-24"
   },
   "https://www.realtor.com/realestateandhomes-detail/1536-Evans-Ave_Pomona_CA_91766_M27638-23600": {
@@ -828,22 +828,22 @@
    "price": 749000,
    "first_price": 749000,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 214
+   "status": "active",
+   "dom": 215
   },
   "https://www.realtor.com/realestateandhomes-detail/682-E-LA-Verne-Ave_Pomona_CA_91767_M24640-56358": {
    "price": 730000,
    "first_price": 730000,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 91
+   "status": "active",
+   "dom": 92
   },
   "https://www.realtor.com/realestateandhomes-detail/212-Las-Brisas-Cir_Pomona_CA_91768_M13670-84703": {
    "price": 534000,
    "first_price": 539000,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 109,
+   "status": "active",
+   "dom": 110,
    "dropped": "2026-10-01"
   },
   "https://www.realtor.com/realestateandhomes-detail/2167-Cinderella-Way_Pomona_CA_91767_M18708-45714": {
@@ -858,8 +858,8 @@
    "price": 750000,
    "first_price": 780000,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 112,
+   "status": "active",
+   "dom": 113,
    "dropped": "2026-09-10"
   },
   "https://www.realtor.com/realestateandhomes-detail/1450-W-9th-St_Pomona_CA_91766_M14967-32917": {
@@ -879,19 +879,19 @@
    "dom": 92
   },
   "https://www.realtor.com/realestateandhomes-detail/1802-Russell-Pl_Pomona_CA_91767_M26585-47312": {
-   "price": 720000,
+   "price": 709000,
    "first_price": 709000,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 107,
-   "dropped": "2026-09-26"
+   "status": "active",
+   "dom": 108,
+   "dropped": "2026-10-10"
   },
   "https://www.realtor.com/realestateandhomes-detail/402-E-Foothill-Blvd-Spc-59_Pomona_CA_91767_M96614-05191": {
-   "price": 117900,
+   "price": 199999,
    "first_price": 117900,
    "first_seen": "2026-07-16",
-   "status": "sold",
-   "dom": 97,
+   "status": "active",
+   "dom": 0,
    "sold_price": 102000
   },
   "https://www.realtor.com/realestateandhomes-detail/1915-Ervilla-Pl_Pomona_CA_91767_M18105-86685": {
@@ -930,8 +930,8 @@
    "price": 220000,
    "first_price": 229900,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 162,
+   "status": "active",
+   "dom": 163,
    "dropped": "2026-10-07"
   },
   "https://www.realtor.com/realestateandhomes-detail/902-E-Olive-St_Pomona_CA_91766_M28409-64101": {
@@ -1004,8 +1004,8 @@
    "price": 669999,
    "first_price": 699999,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 130,
+   "status": "active",
+   "dom": 131,
    "dropped": "2026-09-10"
   },
   "https://www.realtor.com/realestateandhomes-detail/1701-Manor-Cir_Pomona_CA_91766_M13575-44621": {
@@ -1046,15 +1046,15 @@
    "price": 664000,
    "first_price": 664000,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 458
+   "status": "active",
+   "dom": 459
   },
   "https://www.realtor.com/realestateandhomes-detail/240-E-Kingsley-Ave_Pomona_CA_91767_M10244-98893": {
    "price": 739999,
    "first_price": 739999,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 265
+   "status": "active",
+   "dom": 266
   },
   "https://www.realtor.com/realestateandhomes-detail/1401-W-9th-St-Spc-59_Pomona_CA_91766_M96611-51748": {
    "price": 189900,
@@ -1092,8 +1092,8 @@
    "price": 689000,
    "first_price": 720000,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 101,
+   "status": "active",
+   "dom": 102,
    "dropped": "2026-08-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/1551-Stratus-Dr_Pomona_CA_91768_M93950-57894": {
@@ -1109,8 +1109,8 @@
    "price": 699888,
    "first_price": 729888,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 64,
+   "status": "active",
+   "dom": 65,
    "dropped": "2026-10-01"
   },
   "https://www.realtor.com/realestateandhomes-detail/301-E-Foothill-Blvd-Spc-101_Pomona_CA_91767_M93791-49521": {
@@ -1140,16 +1140,16 @@
    "price": 688000,
    "first_price": 699900,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 100,
+   "status": "active",
+   "dom": 101,
    "dropped": "2026-08-22"
   },
   "https://www.realtor.com/realestateandhomes-detail/1791-S-Huntington-St_Pomona_CA_91766_M13808-73101": {
    "price": 689900,
    "first_price": 689900,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 148
+   "status": "active",
+   "dom": 149
   },
   "https://www.realtor.com/realestateandhomes-detail/650-W-Grand-Ave_Pomona_CA_91766_M12358-71319": {
    "price": 658000,
@@ -1163,8 +1163,8 @@
    "price": 658000,
    "first_price": 658000,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 36
+   "status": "active",
+   "dom": 37
   },
   "https://www.realtor.com/realestateandhomes-detail/646-W-Grand-Ave_Pomona_CA_91766_M92017-07048": {
    "price": 658000,
@@ -1468,8 +1468,8 @@
    "price": 675000,
    "first_price": 719000,
    "first_seen": "2026-07-17",
-   "status": "off_market",
-   "dom": 85,
+   "status": "active",
+   "dom": 86,
    "dropped": "2026-09-09"
   },
   "https://www.realtor.com/realestateandhomes-detail/1226-Pontenova-Ave_Hacienda-Heights_CA_91745_M21172-33604": {
@@ -1524,8 +1524,8 @@
    "price": 765000,
    "first_price": 775000,
    "first_seen": "2026-07-20",
-   "status": "off_market",
-   "dom": 81,
+   "status": "active",
+   "dom": 82,
    "dropped": "2026-09-18"
   },
   "https://www.realtor.com/realestateandhomes-detail/21217-Washington-Ave-Spc-18_Walnut_CA_91789_M21259-97643": {
@@ -1540,8 +1540,8 @@
    "price": 750000,
    "first_price": 775000,
    "first_seen": "2026-07-21",
-   "status": "off_market",
-   "dom": 36,
+   "status": "active",
+   "dom": 37,
    "dropped": "2026-09-03"
   },
   "https://www.realtor.com/realestateandhomes-detail/5405-Yale-St_Montclair_CA_91763_M23103-71276": {
@@ -1611,9 +1611,10 @@
    "price": 693000,
    "first_price": 695000,
    "first_seen": "2026-07-24",
-   "status": "off_market",
+   "status": "sold",
    "dom": 77,
-   "dropped": "2026-09-14"
+   "dropped": "2026-09-14",
+   "sold_price": 679000
   },
   "https://www.realtor.com/realestateandhomes-detail/2946-Gladstone-St_Pomona_CA_91767_M19228-31703": {
    "price": 750000,
@@ -1652,8 +1653,8 @@
    "price": 690000,
    "first_price": 690000,
    "first_seen": "2026-07-25",
-   "status": "off_market",
-   "dom": 76
+   "status": "active",
+   "dom": 77
   },
   "https://www.realtor.com/realestateandhomes-detail/323-W-Dawson-Ct_Glendora_CA_91740_M22360-06461": {
    "price": 788800,
@@ -1696,8 +1697,8 @@
    "price": 734000,
    "first_price": 749800,
    "first_seen": "2026-07-30",
-   "status": "off_market",
-   "dom": 72,
+   "status": "active",
+   "dom": 73,
    "dropped": "2026-09-29"
   },
   "https://www.realtor.com/realestateandhomes-detail/150-N-Soldano-Ave_Azusa_CA_91702_M12658-62179": {
@@ -1728,8 +1729,8 @@
    "price": 599900,
    "first_price": 699900,
    "first_seen": "2026-08-04",
-   "status": "off_market",
-   "dom": 66,
+   "status": "active",
+   "dom": 67,
    "dropped": "2026-08-25"
   },
   "https://www.realtor.com/realestateandhomes-detail/1853-Garland-St_Pomona_CA_91766_M12895-34276": {
@@ -1766,8 +1767,8 @@
    "price": 748000,
    "first_price": 748000,
    "first_seen": "2026-08-06",
-   "status": "off_market",
-   "dom": 64
+   "status": "active",
+   "dom": 65
   },
   "https://www.realtor.com/realestateandhomes-detail/3510-Palisade-St_Chino-Hills_CA_91709_M18693-17474": {
    "price": 750000,
@@ -1780,16 +1781,16 @@
    "price": 759000,
    "first_price": 779000,
    "first_seen": "2026-08-07",
-   "status": "off_market",
-   "dom": 64,
+   "status": "active",
+   "dom": 65,
    "dropped": "2026-08-27"
   },
   "https://www.realtor.com/realestateandhomes-detail/923-Hallwood-Ave_Pomona_CA_91767_M24972-23047": {
    "price": 699000,
    "first_price": 699000,
    "first_seen": "2026-08-07",
-   "status": "off_market",
-   "dom": 57
+   "status": "active",
+   "dom": 58
   },
   "https://www.realtor.com/realestateandhomes-detail/15142-Monaco-Ct_Chino-Hills_CA_91709_M18944-71985": {
    "price": 775000,
@@ -1889,8 +1890,8 @@
    "price": 760000,
    "first_price": 760000,
    "first_seen": "2026-08-13",
-   "status": "off_market",
-   "dom": 58
+   "status": "active",
+   "dom": 59
   },
   "https://www.realtor.com/realestateandhomes-detail/766-Cactus-Ct_Brea_CA_92821_M10600-93463": {
    "price": 699000,
@@ -1926,8 +1927,8 @@
    "price": 679000,
    "first_price": 679000,
    "first_seen": "2026-08-14",
-   "status": "off_market",
-   "dom": 57
+   "status": "active",
+   "dom": 58
   },
   "https://www.realtor.com/realestateandhomes-detail/18438-E-Citrus-Edge-St_Azusa_CA_91702_M16660-61136": {
    "price": 749999,
@@ -1988,8 +1989,8 @@
    "price": 525000,
    "first_price": 525000,
    "first_seen": "2026-08-15",
-   "status": "off_market",
-   "dom": 55
+   "status": "active",
+   "dom": 56
   },
   "https://www.realtor.com/realestateandhomes-detail/429-Jansu-Pl_Pomona_CA_91768_M20915-52295": {
    "price": 775000,
@@ -2010,8 +2011,8 @@
    "price": 755000,
    "first_price": 775000,
    "first_seen": "2026-08-20",
-   "status": "off_market",
-   "dom": 50,
+   "status": "active",
+   "dom": 51,
    "dropped": "2026-08-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/150-Colleen-St_La-Habra_CA_90631_M25665-45220": {
@@ -2041,23 +2042,23 @@
    "price": 229900,
    "first_price": 229900,
    "first_seen": "2026-08-21",
-   "status": "off_market",
-   "dom": 50
+   "status": "active",
+   "dom": 51
   },
   "https://www.realtor.com/realestateandhomes-detail/3667-Valley-Blvd-Spc-126_Pomona_CA_91768_M99117-35632": {
    "price": 279000,
    "first_price": 299000,
    "first_seen": "2026-08-21",
-   "status": "off_market",
-   "dom": 50,
+   "status": "active",
+   "dom": 51,
    "dropped": "2026-09-08"
   },
   "https://www.realtor.com/realestateandhomes-detail/371-Fowler-Ave_Pomona_CA_91766_M27777-61062": {
    "price": 649000,
    "first_price": 690000,
    "first_seen": "2026-08-21",
-   "status": "off_market",
-   "dom": 50,
+   "status": "active",
+   "dom": 51,
    "dropped": "2026-09-30"
   },
   "https://www.realtor.com/realestateandhomes-detail/18426-Santar-St_Rowland-Heights_CA_91748_M10698-62918": {
@@ -2150,8 +2151,8 @@
    "price": 85000,
    "first_price": 85000,
    "first_seen": "2026-08-26",
-   "status": "off_market",
-   "dom": 45
+   "status": "active",
+   "dom": 46
   },
   "https://www.realtor.com/realestateandhomes-detail/15714-Marwood-St_Hacienda-Heights_CA_91745_M10400-98802": {
    "price": 599000,
@@ -2164,8 +2165,8 @@
    "price": 259900,
    "first_price": 259900,
    "first_seen": "2026-08-26",
-   "status": "off_market",
-   "dom": 44
+   "status": "active",
+   "dom": 45
   },
   "https://www.realtor.com/realestateandhomes-detail/901-6th-Ave-Spc-417_Hacienda-Heights_CA_91745_M96201-99492": {
    "price": 145000,
@@ -2186,15 +2187,15 @@
    "price": 668000,
    "first_price": 668000,
    "first_seen": "2026-08-27",
-   "status": "off_market",
-   "dom": 88
+   "status": "active",
+   "dom": 89
   },
   "https://www.realtor.com/realestateandhomes-detail/1122-Reggio-Pl_Pomona_CA_91766_M21073-53055": {
    "price": 639000,
    "first_price": 639000,
    "first_seen": "2026-08-27",
-   "status": "off_market",
-   "dom": 43
+   "status": "active",
+   "dom": 44
   },
   "https://www.realtor.com/realestateandhomes-detail/1044-Gothic-Way_Pomona_CA_91768_M16793-73301": {
    "price": 699000,
@@ -2207,8 +2208,8 @@
    "price": 700500,
    "first_price": 700000,
    "first_seen": "2026-08-27",
-   "status": "off_market",
-   "dom": 43
+   "status": "active",
+   "dom": 44
   },
   "https://www.realtor.com/realestateandhomes-detail/186-S-Idaho-St_La-Habra_CA_90631_M24010-07979": {
    "price": 699999,
@@ -2278,8 +2279,8 @@
    "price": 658000,
    "first_price": 658000,
    "first_seen": "2026-09-01",
-   "status": "off_market",
-   "dom": 38
+   "status": "active",
+   "dom": 39
   },
   "https://www.realtor.com/realestateandhomes-detail/643-San-Bernardino-Ave_Pomona_CA_91767_M10588-58092": {
    "price": 749900,
@@ -2300,8 +2301,8 @@
    "price": 645000,
    "first_price": 645000,
    "first_seen": "2026-09-04",
-   "status": "off_market",
-   "dom": 35
+   "status": "active",
+   "dom": 36
   },
   "https://www.realtor.com/realestateandhomes-detail/1116-Essex-St_Glendora_CA_91740_M23407-98291": {
    "price": 575000,
@@ -2336,8 +2337,8 @@
    "price": 650000,
    "first_price": 650000,
    "first_seen": "2026-09-05",
-   "status": "off_market",
-   "dom": 56
+   "status": "active",
+   "dom": 57
   },
   "https://www.realtor.com/realestateandhomes-detail/157-N-Alameda-Ave_Azusa_CA_91702_M12637-00755": {
    "price": 749800,
@@ -2350,8 +2351,8 @@
    "price": 720000,
    "first_price": 720000,
    "first_seen": "2026-09-06",
-   "status": "off_market",
-   "dom": 33
+   "status": "active",
+   "dom": 34
   },
   "https://www.realtor.com/realestateandhomes-detail/331-E-Olive-Ave_La-Habra_CA_90631_M10331-52112": {
    "price": 750000,
@@ -2402,15 +2403,15 @@
    "price": 745000,
    "first_price": 745000,
    "first_seen": "2026-09-10",
-   "status": "off_market",
-   "dom": 29
+   "status": "active",
+   "dom": 30
   },
   "https://www.realtor.com/realestateandhomes-detail/2370-Marquette-Ave_Pomona_CA_91766_M29404-64167": {
    "price": 587532,
    "first_price": 587532,
    "first_seen": "2026-09-11",
-   "status": "off_market",
-   "dom": 28
+   "status": "active",
+   "dom": 29
   },
   "https://www.realtor.com/realestateandhomes-detail/600-W-Gladstone-St_Azusa_CA_91702_M90315-51657": {
    "price": 300000,
@@ -2430,8 +2431,8 @@
    "price": 725000,
    "first_price": 745000,
    "first_seen": "2026-09-11",
-   "status": "off_market",
-   "dom": 28,
+   "status": "active",
+   "dom": 29,
    "dropped": "2026-09-26"
   },
   "https://www.realtor.com/realestateandhomes-detail/600-W-Gladstone-St-Spc-45_Azusa_CA_91702_M98628-60429": {
@@ -2452,16 +2453,16 @@
    "price": 765000,
    "first_price": 785000,
    "first_seen": "2026-09-11",
-   "status": "off_market",
-   "dom": 52,
+   "status": "active",
+   "dom": 53,
    "dropped": "2026-09-17"
   },
   "https://www.realtor.com/realestateandhomes-detail/2122-Saticoy-St_Pomona_CA_91767_M17969-84616": {
    "price": 679000,
    "first_price": 699000,
    "first_seen": "2026-09-13",
-   "status": "off_market",
-   "dom": 26,
+   "status": "active",
+   "dom": 27,
    "dropped": "2026-10-08"
   },
   "https://www.realtor.com/realestateandhomes-detail/1049-Newhill-St_Glendora_CA_91741_M18052-86697": {
@@ -2483,8 +2484,8 @@
    "price": 759900,
    "first_price": 759900,
    "first_seen": "2026-09-15",
-   "status": "off_market",
-   "dom": 24
+   "status": "active",
+   "dom": 25
   },
   "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-63_Rowland-Heights_CA_91748_M95489-75764": {
    "price": 129999,
@@ -2518,8 +2519,8 @@
    "price": 719900,
    "first_price": 750000,
    "first_seen": "2026-09-17",
-   "status": "off_market",
-   "dom": 22,
+   "status": "active",
+   "dom": 23,
    "dropped": "2026-09-24"
   },
   "https://www.realtor.com/realestateandhomes-detail/17735-E-Newburgh-St_Azusa_CA_91702_M16612-16563": {
@@ -2540,15 +2541,15 @@
    "price": 720000,
    "first_price": 720000,
    "first_seen": "2026-09-18",
-   "status": "off_market",
-   "dom": 21
+   "status": "active",
+   "dom": 22
   },
   "https://www.realtor.com/realestateandhomes-detail/889-Campbell-Way_Pomona_CA_91768_M92515-94081": {
    "price": 699999,
    "first_price": 699999,
    "first_seen": "2026-09-18",
-   "status": "off_market",
-   "dom": 22
+   "status": "active",
+   "dom": 23
   },
   "https://www.realtor.com/realestateandhomes-detail/8826-Banyan_Montclair_CA_91763_M26605-09992": {
    "price": 698000,
@@ -2568,8 +2569,8 @@
    "price": 759998,
    "first_price": 759998,
    "first_seen": "2026-09-19",
-   "status": "off_market",
-   "dom": 21
+   "status": "active",
+   "dom": 22
   },
   "https://www.realtor.com/realestateandhomes-detail/2071-Wickshire-Ave_Hacienda-Heights_CA_91745_M10850-41529": {
    "price": 759888,
@@ -2582,8 +2583,8 @@
    "price": 770000,
    "first_price": 770000,
    "first_seen": "2026-09-21",
-   "status": "off_market",
-   "dom": 18
+   "status": "active",
+   "dom": 19
   },
   "https://www.realtor.com/realestateandhomes-detail/2854-Woodsorrel-Dr_Chino-Hills_CA_91709_M16147-91086": {
    "price": 790000,
@@ -2611,8 +2612,8 @@
    "price": 760000,
    "first_price": 760000,
    "first_seen": "2026-09-23",
-   "status": "off_market",
-   "dom": 16
+   "status": "active",
+   "dom": 17
   },
   "https://www.realtor.com/realestateandhomes-detail/1709-Eastleigh-Ave_Hacienda-Heights_CA_91745_M20421-79996": {
    "price": 699000,
@@ -2646,8 +2647,8 @@
    "price": 520000,
    "first_price": 520000,
    "first_seen": "2026-09-25",
-   "status": "off_market",
-   "dom": 14
+   "status": "active",
+   "dom": 15
   },
   "https://www.realtor.com/realestateandhomes-detail/4443-Merle-St_Montclair_CA_91763_M27270-04512": {
    "price": 788888,
@@ -2675,15 +2676,15 @@
    "price": 679900,
    "first_price": 679900,
    "first_seen": "2026-09-25",
-   "status": "off_market",
-   "dom": 14
+   "status": "active",
+   "dom": 15
   },
   "https://www.realtor.com/realestateandhomes-detail/1281-Colony-Dr_Pomona_CA_91766_M13862-02131": {
    "price": 699000,
    "first_price": 699000,
    "first_seen": "2026-09-25",
-   "status": "off_market",
-   "dom": 14
+   "status": "active",
+   "dom": 15
   },
   "https://www.realtor.com/realestateandhomes-detail/901-6th-Ave-Spc-36_Hacienda-Heights_CA_91745_M96249-32080": {
    "price": 290000,
@@ -2731,8 +2732,8 @@
    "price": 789000,
    "first_price": 789000,
    "first_seen": "2026-10-01",
-   "status": "off_market",
-   "dom": 8
+   "status": "active",
+   "dom": 9
   },
   "https://www.realtor.com/realestateandhomes-detail/1305-Raleo-Ave_Rowland-Heights_CA_91748_M21731-53337": {
    "price": 765000,
@@ -2745,8 +2746,8 @@
    "price": 715000,
    "first_price": 715000,
    "first_seen": "2026-10-02",
-   "status": "off_market",
-   "dom": 7
+   "status": "active",
+   "dom": 8
   },
   "https://www.realtor.com/realestateandhomes-detail/124-E-Roland-St_Azusa_CA_91702_M13664-42958": {
    "price": 600000,
@@ -2794,8 +2795,8 @@
    "price": 690000,
    "first_price": 690000,
    "first_seen": "2026-10-06",
-   "status": "off_market",
-   "dom": 4
+   "status": "active",
+   "dom": 5
   },
   "https://www.realtor.com/realestateandhomes-detail/4183-Lugo-Ave_Chino-Hills_CA_91709_M19401-97296": {
    "price": 699000,
@@ -2808,8 +2809,8 @@
    "price": 625000,
    "first_price": 625000,
    "first_seen": "2026-10-07",
-   "status": "off_market",
-   "dom": 6
+   "status": "active",
+   "dom": 7
   },
   "https://www.realtor.com/realestateandhomes-detail/1081-W-Arrow-Hwy-Spc-45_Azusa_CA_91702_M95345-03790": {
    "price": 158000,
@@ -2822,8 +2823,8 @@
    "price": 699000,
    "first_price": 699000,
    "first_seen": "2026-10-07",
-   "status": "off_market",
-   "dom": 2
+   "status": "active",
+   "dom": 3
   },
   "https://www.realtor.com/realestateandhomes-detail/15050-Monte-Vista-Ave-Spc-40_Chino-Hills_CA_91709_M21878-90684": {
    "price": 235000,
@@ -2836,8 +2837,8 @@
    "price": 100000,
    "first_price": 100000,
    "first_seen": "2026-10-08",
-   "status": "off_market",
-   "dom": 2
+   "status": "active",
+   "dom": 3
   },
   "https://www.realtor.com/realestateandhomes-detail/542-W-Ada-Ave_Glendora_CA_91741_M22545-64900": {
    "price": 770000,
@@ -2857,8 +2858,8 @@
    "price": 759900,
    "first_price": 759900,
    "first_seen": "2026-10-09",
-   "status": "off_market",
-   "dom": 0
+   "status": "active",
+   "dom": 1
   },
   "https://www.realtor.com/realestateandhomes-detail/3340-Bayberry-Dr_Chino-Hills_CA_91709_M12266-66295": {
    "price": 774900,
