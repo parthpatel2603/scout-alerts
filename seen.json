@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-10T10:23:00.331305",
+ "last_email": "2026-10-11T21:23:17.713351",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -2310,13 +2310,13 @@
    "dom": 52
   },
   "https://www.realtor.com/realestateandhomes-detail/3667-Valley-Blvd-Spc-126_Pomona_CA_91768_M99117-35632": {
-   "price": 279000,
+   "price": 269000,
    "first_price": 299000,
    "first_seen": "2026-08-21",
    "last_seen": "2026-10-11",
    "status": "active",
    "dom": 52,
-   "dropped": "2026-09-08"
+   "dropped": "2026-10-11"
   },
   "https://www.realtor.com/realestateandhomes-detail/371-Fowler-Ave_Pomona_CA_91766_M27777-61062": {
    "price": 649000,
