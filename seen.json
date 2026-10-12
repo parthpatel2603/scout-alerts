@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-12T08:27:10.788209",
+ "last_email": "2026-10-12T19:34:35.477168",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -1293,12 +1293,13 @@
    "dropped": "2026-08-22"
   },
   "https://www.realtor.com/realestateandhomes-detail/1791-S-Huntington-St_Pomona_CA_91766_M13808-73101": {
-   "price": 689900,
+   "price": 490000,
    "first_price": 689900,
    "first_seen": "2026-07-16",
    "last_seen": "2026-10-12",
    "status": "active",
-   "dom": 151
+   "dom": 151,
+   "dropped": "2026-10-12"
   },
   "https://www.realtor.com/realestateandhomes-detail/650-W-Grand-Ave_Pomona_CA_91766_M12358-71319": {
    "price": 658000,
@@ -3269,6 +3270,14 @@
    "last_seen": "2026-10-12",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1250-Murchison-Ave_Pomona_CA_91768_M15944-44218": {
+   "price": 699999,
+   "first_price": 699999,
+   "first_seen": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "status": "active",
+   "dom": 75
   }
  },
  "drops": []
