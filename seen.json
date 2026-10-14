@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-14T03:10:30.694939",
+ "last_email": "2026-10-14T19:56:40.808448",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -941,12 +941,13 @@
    "dom": 219
   },
   "https://www.realtor.com/realestateandhomes-detail/682-E-LA-Verne-Ave_Pomona_CA_91767_M24640-56358": {
-   "price": 730000,
+   "price": 720000,
    "first_price": 730000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-10-14",
    "status": "active",
-   "dom": 96
+   "dom": 96,
+   "dropped": "2026-10-14"
   },
   "https://www.realtor.com/realestateandhomes-detail/212-Las-Brisas-Cir_Pomona_CA_91768_M13670-84703": {
    "price": 534000,
@@ -2174,12 +2175,13 @@
    "dom": 62
   },
   "https://www.realtor.com/realestateandhomes-detail/2443-Haven-Ridge-Rd_Pomona_CA_91767_M24287-28245": {
-   "price": 679000,
+   "price": 669000,
    "first_price": 679000,
    "first_seen": "2026-08-14",
    "last_seen": "2026-10-14",
    "status": "active",
-   "dom": 62
+   "dom": 62,
+   "dropped": "2026-10-14"
   },
   "https://www.realtor.com/realestateandhomes-detail/18438-E-Citrus-Edge-St_Azusa_CA_91702_M16660-61136": {
    "price": 749999,
@@ -3303,6 +3305,14 @@
    "last_seen": "2026-10-14",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1277-Carbon-Canyon-Rd_Chino-Hills_CA_91709_M18334-79009": {
+   "price": 630000,
+   "first_price": 630000,
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-14",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
