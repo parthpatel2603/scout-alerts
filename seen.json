@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-15T14:37:39.237635",
+ "last_email": "2026-10-15T22:51:28.188142",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -40,7 +40,7 @@
    "dropped": "2026-08-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/1022-Rodman-Ave_Pomona_CA_91767_M25337-80936": {
-   "price": 665000,
+   "price": 675000,
    "first_price": 0,
    "first_seen": "2026-07-16",
    "last_seen": "2026-10-15",
@@ -443,13 +443,13 @@
    "sold_price": 190000
   },
   "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-218_Rowland-Heights_CA_91748_M90196-88854": {
-   "price": 169990,
+   "price": 159999,
    "first_price": 189000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-10-15",
    "status": "active",
    "dom": 179,
-   "dropped": "2026-09-30"
+   "dropped": "2026-10-15"
   },
   "https://www.realtor.com/realestateandhomes-detail/1560-Otterbein-Ave-Spc-52_Rowland-Heights_CA_91748_M99184-55620": {
    "price": 274900,
@@ -1876,7 +1876,7 @@
    "price": 788800,
    "first_price": 788800,
    "first_seen": "2026-07-25",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-15",
    "status": "sold",
    "dom": 102,
    "sold_price": 770000
