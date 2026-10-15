@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-15T02:49:32.618906",
+ "last_email": "2026-10-15T14:37:39.237635",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -3223,12 +3223,13 @@
    "dom": 8
   },
   "https://www.realtor.com/realestateandhomes-detail/542-W-Ada-Ave_Glendora_CA_91741_M22545-64900": {
-   "price": 770000,
+   "price": 729000,
    "first_price": 770000,
    "first_seen": "2026-10-08",
-   "last_seen": "2026-10-14",
-   "status": "off_market",
-   "dom": 6
+   "last_seen": "2026-10-15",
+   "status": "active",
+   "dom": 7,
+   "dropped": "2026-10-15"
   },
   "https://www.realtor.com/realestateandhomes-detail/15111-Pipeline-Ave-Spc-134_Chino-Hills_CA_91709_M11775-35414": {
    "price": 375000,

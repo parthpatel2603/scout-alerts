@@ -2849,11 +2849,12 @@
    "dom": 8
   },
   "https://www.realtor.com/realestateandhomes-detail/542-W-Ada-Ave_Glendora_CA_91741_M22545-64900": {
-   "price": 770000,
+   "price": 729000,
    "first_price": 770000,
    "first_seen": "2026-10-08",
-   "status": "off_market",
-   "dom": 6
+   "status": "active",
+   "dom": 7,
+   "dropped": "2026-10-15"
   },
   "https://www.realtor.com/realestateandhomes-detail/15111-Pipeline-Ave-Spc-134_Chino-Hills_CA_91709_M11775-35414": {
    "price": 375000,
