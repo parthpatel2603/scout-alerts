@@ -35,11 +35,11 @@
    "dropped": "2026-08-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/1022-Rodman-Ave_Pomona_CA_91767_M25337-80936": {
-   "price": 625000,
+   "price": 665000,
    "first_price": 0,
    "first_seen": "2026-07-16",
-   "status": "off_market",
-   "dom": 18,
+   "status": "active",
+   "dom": 91,
    "dropped": "2026-08-29"
   },
   "https://www.realtor.com/realestateandhomes-detail/4645-Bandera-St_Montclair_CA_91763_M24438-20615": {
@@ -1917,8 +1917,9 @@
    "price": 499000,
    "first_price": 499000,
    "first_seen": "2026-08-14",
-   "status": "off_market",
-   "dom": 5
+   "status": "sold",
+   "dom": 5,
+   "sold_price": 550000
   },
   "https://www.realtor.com/realestateandhomes-detail/901-6th-Ave-Spc-6_Hacienda-Heights_CA_91745_M95768-11065": {
    "price": 299900,
