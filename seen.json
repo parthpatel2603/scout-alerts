@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-16T08:41:34.924116",
+ "last_email": "2026-10-17T08:12:30.873060",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -369,9 +369,10 @@
    "price": 209900,
    "first_price": 209900,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-10-13",
-   "status": "off_market",
-   "dom": 239
+   "last_seen": "2026-10-17",
+   "status": "sold",
+   "dom": 239,
+   "sold_price": 190000
   },
   "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-326_Rowland-Heights_CA_91748_M25760-90895": {
    "price": 218000,
@@ -2004,12 +2005,13 @@
    "dom": 72
   },
   "https://www.realtor.com/realestateandhomes-detail/3510-Palisade-St_Chino-Hills_CA_91709_M18693-17474": {
-   "price": 750000,
+   "price": 720000,
    "first_price": 750000,
    "first_seen": "2026-08-07",
    "last_seen": "2026-10-17",
    "status": "active",
-   "dom": 118
+   "dom": 118,
+   "dropped": "2026-10-17"
   },
   "https://www.realtor.com/realestateandhomes-detail/802-W-7th-St_Pomona_CA_91766_M11724-07419": {
    "price": 759000,
@@ -2475,12 +2477,13 @@
    "dom": 162
   },
   "https://www.realtor.com/realestateandhomes-detail/716-E-6th-St_Pomona_CA_91766_M10926-21036": {
-   "price": 668000,
+   "price": 599950,
    "first_price": 668000,
    "first_seen": "2026-08-27",
    "last_seen": "2026-10-17",
    "status": "active",
-   "dom": 96
+   "dom": 96,
+   "dropped": "2026-10-17"
   },
   "https://www.realtor.com/realestateandhomes-detail/1122-Reggio-Pl_Pomona_CA_91766_M21073-53055": {
    "price": 639000,
@@ -2658,16 +2661,18 @@
    "first_price": 749800,
    "first_seen": "2026-09-05",
    "last_seen": "2026-10-17",
-   "status": "active",
-   "dom": 42
+   "status": "sold",
+   "dom": 42,
+   "sold_price": 760000
   },
   "https://www.realtor.com/realestateandhomes-detail/Pomona_CA_91766_M12555-85003": {
-   "price": 720000,
+   "price": 699999,
    "first_price": 720000,
    "first_seen": "2026-09-06",
    "last_seen": "2026-10-17",
    "status": "active",
-   "dom": 41
+   "dom": 41,
+   "dropped": "2026-10-17"
   },
   "https://www.realtor.com/realestateandhomes-detail/331-E-Olive-Ave_La-Habra_CA_90631_M10331-52112": {
    "price": 750000,
@@ -2915,8 +2920,9 @@
    "first_price": 759998,
    "first_seen": "2026-09-19",
    "last_seen": "2026-10-17",
-   "status": "active",
-   "dom": 29
+   "status": "sold",
+   "dom": 29,
+   "sold_price": 780000
   },
   "https://www.realtor.com/realestateandhomes-detail/2071-Wickshire-Ave_Hacienda-Heights_CA_91745_M10850-41529": {
    "price": 759888,
@@ -3345,6 +3351,22 @@
    "last_seen": "2026-10-17",
    "status": "active",
    "dom": 4
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1324-Estel-Dr_Pomona_CA_91768_M16104-05659": {
+   "price": 675000,
+   "first_price": 675000,
+   "first_seen": "2026-10-17",
+   "last_seen": "2026-10-17",
+   "status": "active",
+   "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/637-S-Minnesota-Ave_Glendora_CA_91740_M24328-45168": {
+   "price": 789900,
+   "first_price": 789900,
+   "first_seen": "2026-10-17",
+   "last_seen": "2026-10-17",
+   "status": "active",
+   "dom": 36
   }
  },
  "drops": []
