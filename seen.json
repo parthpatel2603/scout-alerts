@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-17T19:58:52.453054",
+ "last_email": "2026-10-18T19:58:37.038732",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -3367,6 +3367,14 @@
    "last_seen": "2026-10-18",
    "status": "active",
    "dom": 37
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-182_Rowland-Heights_CA_91748_M94368-04437": {
+   "price": 188000,
+   "first_price": 188000,
+   "first_seen": "2026-10-18",
+   "last_seen": "2026-10-18",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []

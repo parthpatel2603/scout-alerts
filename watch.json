@@ -2976,6 +2976,13 @@
    "first_seen": "2026-10-17",
    "status": "active",
    "dom": 37
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-182_Rowland-Heights_CA_91748_M94368-04437": {
+   "price": 188000,
+   "first_price": 188000,
+   "first_seen": "2026-10-18",
+   "status": "active",
+   "dom": 0
   }
  }
 }
