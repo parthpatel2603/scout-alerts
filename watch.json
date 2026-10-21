@@ -2310,11 +2310,12 @@
    "dom": 48
   },
   "https://www.realtor.com/realestateandhomes-detail/1245-Ross-St_Pomona_CA_91767_M26700-99754": {
-   "price": 645000,
+   "price": 630000,
    "first_price": 645000,
    "first_seen": "2026-09-04",
    "status": "active",
-   "dom": 47
+   "dom": 47,
+   "dropped": "2026-10-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/1116-Essex-St_Glendora_CA_91740_M23407-98291": {
    "price": 575000,

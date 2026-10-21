@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-20T22:53:48.697122",
+ "last_email": "2026-10-21T19:53:40.128140",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -2608,12 +2608,13 @@
    "dom": 48
   },
   "https://www.realtor.com/realestateandhomes-detail/1245-Ross-St_Pomona_CA_91767_M26700-99754": {
-   "price": 645000,
+   "price": 630000,
    "first_price": 645000,
    "first_seen": "2026-09-04",
    "last_seen": "2026-10-21",
    "status": "active",
-   "dom": 47
+   "dom": 47,
+   "dropped": "2026-10-21"
   },
   "https://www.realtor.com/realestateandhomes-detail/1116-Essex-St_Glendora_CA_91740_M23407-98291": {
    "price": 575000,
