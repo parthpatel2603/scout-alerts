@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-22T02:56:35.896021",
+ "last_email": "2026-10-22T09:05:57.526067",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -2589,8 +2589,9 @@
    "first_price": 658000,
    "first_seen": "2026-09-01",
    "last_seen": "2026-10-22",
-   "status": "active",
-   "dom": 51
+   "status": "sold",
+   "dom": 51,
+   "sold_price": 638000
   },
   "https://www.realtor.com/realestateandhomes-detail/643-San-Bernardino-Ave_Pomona_CA_91767_M10588-58092": {
    "price": 749900,
@@ -3388,6 +3389,14 @@
    "last_seen": "2026-10-22",
    "status": "active",
    "dom": 114
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1001-W-Lambert-Rd-Spc-319_La-Habra_CA_90631_M96133-74887": {
+   "price": 345995,
+   "first_price": 345995,
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []

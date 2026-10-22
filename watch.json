@@ -2293,8 +2293,9 @@
    "price": 658000,
    "first_price": 658000,
    "first_seen": "2026-09-01",
-   "status": "active",
-   "dom": 51
+   "status": "sold",
+   "dom": 51,
+   "sold_price": 638000
   },
   "https://www.realtor.com/realestateandhomes-detail/643-San-Bernardino-Ave_Pomona_CA_91767_M10588-58092": {
    "price": 749900,
@@ -2995,6 +2996,13 @@
    "first_seen": "2026-10-22",
    "status": "active",
    "dom": 114
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1001-W-Lambert-Rd-Spc-319_La-Habra_CA_90631_M96133-74887": {
+   "price": 345995,
+   "first_price": 345995,
+   "first_seen": "2026-10-22",
+   "status": "active",
+   "dom": 0
   }
  }
 }
