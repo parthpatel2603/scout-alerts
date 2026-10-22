@@ -567,7 +567,7 @@
    "first_price": 348000,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 156,
+   "dom": 113,
    "dropped": "2026-09-25"
   },
   "https://www.realtor.com/realestateandhomes-detail/3495-Terrace-Dr_Chino-Hills_CA_91709_M17940-40270": {
@@ -2645,11 +2645,12 @@
    "sold_price": 712000
   },
   "https://www.realtor.com/realestateandhomes-detail/2929-Crape-Myrtle-Cir_Chino-Hills_CA_91709_M19580-47683": {
-   "price": 788800,
+   "price": 775000,
    "first_price": 788800,
    "first_seen": "2026-09-24",
    "status": "active",
-   "dom": 99
+   "dom": 99,
+   "dropped": "2026-10-22"
   },
   "https://www.realtor.com/realestateandhomes-detail/5564-Valencia-Dr_Montclair_CA_91762_M99184-79729": {
    "price": 698000,
@@ -2829,11 +2830,12 @@
    "dom": 16
   },
   "https://www.realtor.com/realestateandhomes-detail/1187-Morning-Sun-Dr_Pomona_CA_91767_M29362-66659": {
-   "price": 625000,
+   "price": 615000,
    "first_price": 625000,
    "first_seen": "2026-10-07",
    "status": "active",
-   "dom": 19
+   "dom": 19,
+   "dropped": "2026-10-22"
   },
   "https://www.realtor.com/realestateandhomes-detail/1081-W-Arrow-Hwy-Spc-45_Azusa_CA_91702_M95345-03790": {
    "price": 158000,
@@ -3000,6 +3002,13 @@
   "https://www.realtor.com/realestateandhomes-detail/1001-W-Lambert-Rd-Spc-319_La-Habra_CA_90631_M96133-74887": {
    "price": 345995,
    "first_price": 345995,
+   "first_seen": "2026-10-22",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/208-S-Barranca-Ave-Spc-54_Glendora_CA_91741_M96281-16160": {
+   "price": 295000,
+   "first_price": 295000,
    "first_seen": "2026-10-22",
    "status": "active",
    "dom": 0
