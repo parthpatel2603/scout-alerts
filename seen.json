@@ -228,8 +228,9 @@
    "first_price": 778000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-10-23",
-   "status": "active",
-   "dom": 187
+   "status": "sold",
+   "dom": 187,
+   "sold_price": 810000
   },
   "https://www.realtor.com/realestateandhomes-detail/1001-W-Lambert-Rd-Spc-82_La-Habra_CA_90631_M92373-08565": {
    "price": 329995,
@@ -2794,9 +2795,10 @@
    "first_price": 785000,
    "first_seen": "2026-09-11",
    "last_seen": "2026-10-23",
-   "status": "active",
+   "status": "sold",
    "dom": 66,
-   "dropped": "2026-09-17"
+   "dropped": "2026-09-17",
+   "sold_price": 775000
   },
   "https://www.realtor.com/realestateandhomes-detail/2122-Saticoy-St_Pomona_CA_91767_M17969-84616": {
    "price": 679000,
