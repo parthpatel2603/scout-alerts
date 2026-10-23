@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-23T02:59:46.776950",
+ "last_email": "2026-10-23T19:43:53.166317",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -2219,13 +2219,13 @@
    "dropped": "2026-09-26"
   },
   "https://www.realtor.com/realestateandhomes-detail/1001-W-Lambert-Rd-Spc-219_La-Habra_CA_90631_M22843-20822": {
-   "price": 239900,
+   "price": 219900,
    "first_price": 259999,
    "first_seen": "2026-08-15",
    "last_seen": "2026-10-23",
    "status": "active",
    "dom": 69,
-   "dropped": "2026-09-09"
+   "dropped": "2026-10-23"
   },
   "https://www.realtor.com/realestateandhomes-detail/18221-Los-Palacios-Dr_Rowland-Heights_CA_91748_M11093-27551": {
    "price": 640000,
@@ -2413,13 +2413,13 @@
    "dropped": "2026-09-27"
   },
   "https://www.realtor.com/realestateandhomes-detail/5595-Hawthorne-St_Montclair_CA_91763_M22354-29465": {
-   "price": 735000,
+   "price": 729000,
    "first_price": 749000,
    "first_seen": "2026-08-24",
-   "last_seen": "2026-10-22",
-   "status": "off_market",
-   "dom": 59,
-   "dropped": "2026-10-06"
+   "last_seen": "2026-10-23",
+   "status": "active",
+   "dom": 0,
+   "dropped": "2026-10-23"
   },
   "https://www.realtor.com/realestateandhomes-detail/5220-N-Vogue-Ave_Azusa_CA_91702_M15673-80920": {
    "price": 720000,
@@ -2517,8 +2517,9 @@
    "first_price": 699999,
    "first_seen": "2026-08-28",
    "last_seen": "2026-10-23",
-   "status": "active",
-   "dom": 57
+   "status": "sold",
+   "dom": 57,
+   "sold_price": 685000
   },
   "https://www.realtor.com/realestateandhomes-detail/18402-E-Nearfield-St_Azusa_CA_91702_M17197-61359": {
    "price": 550000,
@@ -2936,8 +2937,9 @@
    "first_price": 759888,
    "first_seen": "2026-09-21",
    "last_seen": "2026-10-23",
-   "status": "active",
-   "dom": 32
+   "status": "sold",
+   "dom": 32,
+   "sold_price": 770356
   },
   "https://www.realtor.com/realestateandhomes-detail/2183-Stocker-St_Pomona_CA_91767_M18477-03563": {
    "price": 770000,
@@ -2948,12 +2950,13 @@
    "dom": 32
   },
   "https://www.realtor.com/realestateandhomes-detail/2854-Woodsorrel-Dr_Chino-Hills_CA_91709_M16147-91086": {
-   "price": 790000,
+   "price": 765000,
    "first_price": 790000,
    "first_seen": "2026-09-22",
    "last_seen": "2026-10-23",
    "status": "active",
-   "dom": 31
+   "dom": 31,
+   "dropped": "2026-10-23"
   },
   "https://www.realtor.com/realestateandhomes-detail/17848-Cassidy-Pl_Chino-Hills_CA_91709_M22146-23697": {
    "price": 698000,
