@@ -3016,9 +3016,9 @@
    "price": 737000,
    "first_price": 737000,
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-21",
-   "status": "off_market",
-   "dom": 27
+   "last_seen": "2026-10-24",
+   "status": "active",
+   "dom": 30
   },
   "https://www.realtor.com/realestateandhomes-detail/11340-Marquette-Ln_Pomona_CA_91766_M16589-15247": {
    "price": 520000,
