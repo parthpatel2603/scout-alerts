@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-23T19:43:53.166317",
+ "last_email": "2026-10-25T18:41:04.147427",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -3431,6 +3431,14 @@
    "last_seen": "2026-10-25",
    "status": "active",
    "dom": 2
+  },
+  "https://www.realtor.com/realestateandhomes-detail/963-Ameluxen-Ave_Hacienda-Heights_CA_91745_M10657-37770": {
+   "price": 775000,
+   "first_price": 775000,
+   "first_seen": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "status": "active",
+   "dom": 111
   }
  },
  "drops": []

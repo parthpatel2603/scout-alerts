@@ -3034,6 +3034,13 @@
    "first_seen": "2026-10-23",
    "status": "active",
    "dom": 2
+  },
+  "https://www.realtor.com/realestateandhomes-detail/963-Ameluxen-Ave_Hacienda-Heights_CA_91745_M10657-37770": {
+   "price": 775000,
+   "first_price": 775000,
+   "first_seen": "2026-10-25",
+   "status": "active",
+   "dom": 111
   }
  }
 }
