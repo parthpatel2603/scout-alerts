@@ -1397,11 +1397,12 @@
    "sold_price": 730000
   },
   "https://www.realtor.com/realestateandhomes-detail/410-Champlain-Dr_Claremont_CA_91711_M21594-44545": {
-   "price": 758000,
+   "price": 750000,
    "first_price": 758000,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 164
+   "dom": 164,
+   "dropped": "2026-10-26"
   },
   "https://www.realtor.com/realestateandhomes-detail/4361-Mission-Blvd-Spc-203_Montclair_CA_91763_M95041-69038": {
    "price": 369900,
@@ -1550,8 +1551,8 @@
    "price": 750000,
    "first_price": 775000,
    "first_seen": "2026-07-21",
-   "status": "off_market",
-   "dom": 49,
+   "status": "active",
+   "dom": 0,
    "dropped": "2026-09-03"
   },
   "https://www.realtor.com/realestateandhomes-detail/5405-Yale-St_Montclair_CA_91763_M23103-71276": {
@@ -1740,9 +1741,10 @@
    "price": 599900,
    "first_price": 699900,
    "first_seen": "2026-08-04",
-   "status": "active",
+   "status": "sold",
    "dom": 83,
-   "dropped": "2026-08-25"
+   "dropped": "2026-08-25",
+   "sold_price": 599900
   },
   "https://www.realtor.com/realestateandhomes-detail/1853-Garland-St_Pomona_CA_91766_M12895-34276": {
    "price": 698000,
@@ -2133,12 +2135,12 @@
    "dom": 66
   },
   "https://www.realtor.com/realestateandhomes-detail/464-Middlebury-Ct_Claremont_CA_91711_M14354-10845": {
-   "price": 749500,
+   "price": 740000,
    "first_price": 759500,
    "first_seen": "2026-08-23",
    "status": "active",
    "dom": 64,
-   "dropped": "2026-09-27"
+   "dropped": "2026-10-26"
   },
   "https://www.realtor.com/realestateandhomes-detail/5595-Hawthorne-St_Montclair_CA_91763_M22354-29465": {
    "price": 729000,
@@ -3041,6 +3043,13 @@
    "first_seen": "2026-10-25",
    "status": "active",
    "dom": 112
+  },
+  "https://www.realtor.com/realestateandhomes-detail/617-E-Carroll-Ave_Glendora_CA_91741_M24072-06201": {
+   "price": 760000,
+   "first_price": 760000,
+   "first_seen": "2026-10-26",
+   "status": "active",
+   "dom": 0
   }
  }
 }
