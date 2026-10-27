@@ -1758,8 +1758,9 @@
    "price": 585000,
    "first_price": 585000,
    "first_seen": "2026-08-05",
-   "status": "active",
-   "dom": 83
+   "status": "sold",
+   "dom": 83,
+   "sold_price": 610000
   },
   "https://www.realtor.com/realestateandhomes-detail/1813-Mirador-Dr_Azusa_CA_91702_M15011-47968": {
    "price": 769000,
@@ -3054,6 +3055,13 @@
   "https://www.realtor.com/realestateandhomes-detail/2311-Laurel-Ave_Pomona_CA_91768_M15392-53357": {
    "price": 735000,
    "first_price": 735000,
+   "first_seen": "2026-10-27",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1630-S-Barranca-Ave-Spc-69_Glendora_CA_91740_M19476-05577": {
+   "price": 225000,
+   "first_price": 225000,
    "first_seen": "2026-10-27",
    "status": "active",
    "dom": 0
