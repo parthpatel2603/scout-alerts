@@ -3,8 +3,8 @@
  "window_days": 60,
  "cities": {
   "Brea": {
-   "ppsf": 610,
-   "n": 54
+   "ppsf": 606,
+   "n": 55
   },
   "La Habra": {
    "ppsf": 531,
@@ -35,12 +35,12 @@
    "n": 108
   },
   "Glendora": {
-   "ppsf": 559,
-   "n": 59
+   "ppsf": 563,
+   "n": 60
   },
   "Azusa": {
-   "ppsf": 457,
-   "n": 52
+   "ppsf": 452,
+   "n": 53
   },
   "Claremont": {
    "ppsf": 532,

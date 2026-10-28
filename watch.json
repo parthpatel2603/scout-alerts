@@ -1540,12 +1540,12 @@
    "dropped": "2026-09-18"
   },
   "https://www.realtor.com/realestateandhomes-detail/21217-Washington-Ave-Spc-18_Walnut_CA_91789_M21259-97643": {
-   "price": 290000,
+   "price": 280000,
    "first_price": 310000,
    "first_seen": "2026-07-21",
    "status": "active",
    "dom": 99,
-   "dropped": "2026-10-13"
+   "dropped": "2026-10-28"
   },
   "https://www.realtor.com/realestateandhomes-detail/243-E-Harrison-Ave_Pomona_CA_91767_M18378-28089": {
    "price": 750000,
@@ -3085,6 +3085,20 @@
   "https://www.realtor.com/realestateandhomes-detail/201-E-Arrow-Hwy-Spc-35_Glendora_CA_91740_M21143-38142": {
    "price": 215000,
    "first_price": 215000,
+   "first_seen": "2026-10-28",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/13420-Telluride-Dr_Chino-Hills_CA_91709_M16722-17904": {
+   "price": 758888,
+   "first_price": 758888,
+   "first_seen": "2026-10-28",
+   "status": "active",
+   "dom": 77
+  },
+  "https://www.realtor.com/realestateandhomes-detail/449-E-Mauna-Loa-Ave_Glendora_CA_91740_M24084-73243": {
+   "price": 725000,
+   "first_price": 725000,
    "first_seen": "2026-10-28",
    "status": "active",
    "dom": 0
