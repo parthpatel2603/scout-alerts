@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-28T00:54:29.159501",
+ "last_email": "2026-10-28T07:50:29.755877",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -1345,13 +1345,13 @@
    "sold_price": 630000
   },
   "https://www.realtor.com/realestateandhomes-detail/909-Shady-Ln_Glendora_CA_91740_M23308-48284": {
-   "price": 650000,
+   "price": 639000,
    "first_price": 699000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-10-28",
    "status": "active",
    "dom": 140,
-   "dropped": "2026-08-21"
+   "dropped": "2026-10-28"
   },
   "https://www.realtor.com/realestateandhomes-detail/1700-S-Glendora-Ave-Spc-9_Glendora_CA_91740_M11754-10918": {
    "price": 175000,
@@ -2393,13 +2393,13 @@
    "sold_price": 755000
   },
   "https://www.realtor.com/realestateandhomes-detail/138-N-Vecino-Ave_Glendora_CA_91741_M20985-69665": {
-   "price": 729000,
+   "price": 698888,
    "first_price": 778800,
    "first_seen": "2026-08-22",
    "last_seen": "2026-10-28",
    "status": "active",
    "dom": 68,
-   "dropped": "2026-09-18"
+   "dropped": "2026-10-28"
   },
   "https://www.realtor.com/realestateandhomes-detail/5014-Birch_Montclair_CA_91763_M98073-66085": {
    "price": 720000,
@@ -3484,6 +3484,14 @@
    "last_seen": "2026-10-28",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/201-E-Arrow-Hwy-Spc-35_Glendora_CA_91740_M21143-38142": {
+   "price": 215000,
+   "first_price": 215000,
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
