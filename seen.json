@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-29T07:56:04.338283",
+ "last_email": "2026-10-29T14:54:31.442745",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -3537,6 +3537,14 @@
   "https://www.realtor.com/realestateandhomes-detail/236-N-Viceroy-Ave_Azusa_CA_91702_M17616-48278": {
    "price": 675000,
    "first_price": 675000,
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/2260-Cantaria-Ave_Rowland-Heights_CA_91748_M24854-25518": {
+   "price": 788000,
+   "first_price": 788000,
    "first_seen": "2026-10-29",
    "last_seen": "2026-10-29",
    "status": "active",

@@ -3131,6 +3131,13 @@
    "first_seen": "2026-10-29",
    "status": "active",
    "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/2260-Cantaria-Ave_Rowland-Heights_CA_91748_M24854-25518": {
+   "price": 788000,
+   "first_price": 788000,
+   "first_seen": "2026-10-29",
+   "status": "active",
+   "dom": 0
   }
  }
 }
