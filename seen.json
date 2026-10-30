@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-30T01:30:32.934177",
+ "last_email": "2026-10-30T20:19:08.240803",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -3362,12 +3362,13 @@
    "dom": 15
   },
   "https://www.realtor.com/realestateandhomes-detail/190-E-Arrow-Hwy_Claremont_CA_91711_M23232-65628": {
-   "price": 775000,
+   "price": 759800,
    "first_price": 775000,
    "first_seen": "2026-10-15",
    "last_seen": "2026-10-30",
    "status": "active",
-   "dom": 49
+   "dom": 49,
+   "dropped": "2026-10-30"
   },
   "https://www.realtor.com/realestateandhomes-detail/10033-Del-Mar-Ave_Montclair_CA_91763_M25025-89006": {
    "price": 688000,
@@ -3498,12 +3499,13 @@
    "dom": 2
   },
   "https://www.realtor.com/realestateandhomes-detail/13420-Telluride-Dr_Chino-Hills_CA_91709_M16722-17904": {
-   "price": 758888,
+   "price": 730000,
    "first_price": 758888,
    "first_seen": "2026-10-28",
    "last_seen": "2026-10-30",
    "status": "active",
-   "dom": 79
+   "dom": 79,
+   "dropped": "2026-10-30"
   },
   "https://www.realtor.com/realestateandhomes-detail/449-E-Mauna-Loa-Ave_Glendora_CA_91740_M24084-73243": {
    "price": 725000,
@@ -3568,6 +3570,14 @@
    "last_seen": "2026-10-30",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1775-Calatina-Dr_Pomona_CA_91766_M12603-17777": {
+   "price": 710000,
+   "first_price": 710000,
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
