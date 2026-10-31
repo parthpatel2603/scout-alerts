@@ -3193,6 +3193,13 @@
    "first_seen": "2026-10-31",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1414-W-Central-Ave-Spc-67_Brea_CA_92821_M14435-87188": {
+   "price": 265900,
+   "first_price": 265900,
+   "first_seen": "2026-10-31",
+   "status": "active",
+   "dom": 0
   }
  }
 }
