@@ -3200,6 +3200,20 @@
    "first_seen": "2026-10-31",
    "status": "active",
    "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1783-S-Park-Ave_Pomona_CA_91766_M13163-65755": {
+   "price": 655000,
+   "first_price": 655000,
+   "first_seen": "2026-10-31",
+   "status": "active",
+   "dom": 2
+  },
+  "https://www.realtor.com/realestateandhomes-detail/907-S-Danehurst-Ave_Glendora_CA_91740_M22078-70674": {
+   "price": 748000,
+   "first_price": 748000,
+   "first_seen": "2026-10-31",
+   "status": "active",
+   "dom": 46
   }
  }
 }

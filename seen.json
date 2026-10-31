@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-10-31T14:14:08.714996",
+ "last_email": "2026-10-31T22:59:02.569812",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -3619,6 +3619,22 @@
    "last_seen": "2026-10-31",
    "status": "active",
    "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1783-S-Park-Ave_Pomona_CA_91766_M13163-65755": {
+   "price": 655000,
+   "first_price": 655000,
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31",
+   "status": "active",
+   "dom": 2
+  },
+  "https://www.realtor.com/realestateandhomes-detail/907-S-Danehurst-Ave_Glendora_CA_91740_M22078-70674": {
+   "price": 748000,
+   "first_price": 748000,
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31",
+   "status": "active",
+   "dom": 46
   }
  },
  "drops": []
