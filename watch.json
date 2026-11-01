@@ -304,11 +304,12 @@
    "dropped": "2026-09-08"
   },
   "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-64_Rowland-Heights_CA_91748_M23183-24024": {
-   "price": 239888,
+   "price": 233000,
    "first_price": 239888,
    "first_seen": "2026-07-16",
    "status": "active",
-   "dom": 136
+   "dom": 136,
+   "dropped": "2026-11-01"
   },
   "https://www.realtor.com/realestateandhomes-detail/1560-Otterbein-Ave-Spc-145_Rowland-Heights_CA_91748_M90587-75915": {
    "price": 199999,
@@ -2096,8 +2097,8 @@
    "price": 709900,
    "first_price": 719900,
    "first_seen": "2026-08-21",
-   "status": "off_market",
-   "dom": 68,
+   "status": "active",
+   "dom": 72,
    "dropped": "2026-09-28"
   },
   "https://www.realtor.com/realestateandhomes-detail/714-Wagon-Wheel-Cir_Brea_CA_92821_M10442-55437": {
