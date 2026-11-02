@@ -2220,8 +2220,9 @@
    "price": 639000,
    "first_price": 639000,
    "first_seen": "2026-08-27",
-   "status": "active",
-   "dom": 67
+   "status": "sold",
+   "dom": 67,
+   "sold_price": 615000
   },
   "https://www.realtor.com/realestateandhomes-detail/1044-Gothic-Way_Pomona_CA_91768_M16793-73301": {
    "price": 699000,
@@ -2738,8 +2739,8 @@
    "price": 275000,
    "first_price": 275000,
    "first_seen": "2026-09-29",
-   "status": "off_market",
-   "dom": 34
+   "status": "active",
+   "dom": 0
   },
   "https://www.realtor.com/realestateandhomes-detail/1414-W-Central-Ave-Spc-89_Brea_CA_92821_M20456-93021": {
    "price": 269000,
