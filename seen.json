@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-11-01T10:59:01.462068",
+ "last_email": "2026-11-02T08:45:23.353318",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -3636,6 +3636,14 @@
    "last_seen": "2026-11-02",
    "status": "active",
    "dom": 48
+  },
+  "https://www.realtor.com/realestateandhomes-detail/16153-Three-Palms-St_Hacienda-Heights_CA_91745_M19305-31232": {
+   "price": 650000,
+   "first_price": 650000,
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
