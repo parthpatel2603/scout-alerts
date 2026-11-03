@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-11-03T01:59:33.522458",
+ "last_email": "2026-11-03T09:13:02.591012",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -981,9 +981,9 @@
    "price": 750000,
    "first_price": 780000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-11-02",
-   "status": "off_market",
-   "dom": 136,
+   "last_seen": "2026-11-03",
+   "status": "active",
+   "dom": 137,
    "dropped": "2026-09-10"
   },
   "https://www.realtor.com/realestateandhomes-detail/1450-W-9th-St_Pomona_CA_91766_M14967-32917": {
@@ -1241,13 +1241,13 @@
    "sold_price": 525000
   },
   "https://www.realtor.com/realestateandhomes-detail/1082-Fremont-St_Pomona_CA_91766_M13358-55843": {
-   "price": 689000,
+   "price": 649000,
    "first_price": 720000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-11-03",
    "status": "active",
    "dom": 126,
-   "dropped": "2026-08-21"
+   "dropped": "2026-11-03"
   },
   "https://www.realtor.com/realestateandhomes-detail/1551-Stratus-Dr_Pomona_CA_91768_M93950-57894": {
    "price": 559000,
@@ -1736,9 +1736,10 @@
    "first_price": 775000,
    "first_seen": "2026-07-20",
    "last_seen": "2026-11-03",
-   "status": "active",
+   "status": "sold",
    "dom": 106,
-   "dropped": "2026-09-18"
+   "dropped": "2026-09-18",
+   "sold_price": 765000
   },
   "https://www.realtor.com/realestateandhomes-detail/21217-Washington-Ave-Spc-18_Walnut_CA_91789_M21259-97643": {
    "price": 280000,
@@ -3321,8 +3322,9 @@
    "first_price": 699999,
    "first_seen": "2026-10-12",
    "last_seen": "2026-11-03",
-   "status": "active",
-   "dom": 97
+   "status": "sold",
+   "dom": 97,
+   "sold_price": 600000
   },
   "https://www.realtor.com/realestateandhomes-detail/15111-Pipeline-Ave-Spc-12_Chino-Hills_CA_91709_M12408-79871": {
    "price": 237000,
