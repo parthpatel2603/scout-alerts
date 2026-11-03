@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-11-03T09:13:02.591012",
+ "last_email": "2026-11-03T22:47:47.000126",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -580,13 +580,13 @@
    "sold_price": 790000
   },
   "https://www.realtor.com/realestateandhomes-detail/3825-Valley-Blvd-Spc-20_Walnut_CA_91789_M99242-66252": {
-   "price": 190000,
+   "price": 175000,
    "first_price": 210000,
    "first_seen": "2026-07-16",
    "last_seen": "2026-11-03",
    "status": "active",
    "dom": 120,
-   "dropped": "2026-09-11"
+   "dropped": "2026-11-03"
   },
   "https://www.realtor.com/realestateandhomes-detail/15232-Murray-Ave_Chino-Hills_CA_91709_M18161-38974": {
    "price": 645000,
@@ -3146,13 +3146,13 @@
    "dom": 33
   },
   "https://www.realtor.com/realestateandhomes-detail/11281-Wesley-Ave_Pomona_CA_91766_M27294-64064": {
-   "price": 700000,
+   "price": 690000,
    "first_price": 715000,
    "first_seen": "2026-10-02",
    "last_seen": "2026-11-03",
    "status": "active",
-   "dom": 19,
-   "dropped": "2026-10-15"
+   "dom": 0,
+   "dropped": "2026-11-03"
   },
   "https://www.realtor.com/realestateandhomes-detail/124-E-Roland-St_Azusa_CA_91702_M13664-42958": {
    "price": 600000,
@@ -3167,8 +3167,9 @@
    "first_price": 749000,
    "first_seen": "2026-10-02",
    "last_seen": "2026-11-03",
-   "status": "active",
-   "dom": 32
+   "status": "sold",
+   "dom": 32,
+   "sold_price": 612100
   },
   "https://www.realtor.com/realestateandhomes-detail/14617-Palm-Ave_Hacienda-Heights_CA_91745_M12277-32822": {
    "price": 778000,
@@ -3655,6 +3656,14 @@
    "last_seen": "2026-11-03",
    "status": "active",
    "dom": 16
+  },
+  "https://www.realtor.com/realestateandhomes-detail/952-Locust-St_Pomona_CA_91766_M29961-39485": {
+   "price": 629000,
+   "first_price": 629000,
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
