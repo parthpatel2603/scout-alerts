@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-11-04T13:39:50.627405",
+ "last_email": "2026-11-04T20:39:03.869306",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -2312,9 +2312,9 @@
    "price": 739000,
    "first_price": 749000,
    "first_seen": "2026-08-21",
-   "last_seen": "2026-10-26",
-   "status": "off_market",
-   "dom": 67,
+   "last_seen": "2026-11-04",
+   "status": "active",
+   "dom": 76,
    "dropped": "2026-10-06"
   },
   "https://www.realtor.com/realestateandhomes-detail/15714-Marwood-St_La-Puente_CA_91745_M10400-98802": {
@@ -3194,8 +3194,9 @@
    "first_price": 700,
    "first_seen": "2026-10-05",
    "last_seen": "2026-11-04",
-   "status": "active",
-   "dom": 31
+   "status": "sold",
+   "dom": 31,
+   "sold_price": 750000
   },
   "https://www.realtor.com/realestateandhomes-detail/24254-Doeskin-Pl_Diamond-Bar_CA_91765_M19677-54834": {
    "price": 4450,
@@ -3669,6 +3670,14 @@
   "https://www.realtor.com/realestateandhomes-detail/10154-Marion-Ave_Montclair_CA_91763_M25634-81556": {
    "price": 699000,
    "first_price": 699000,
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/333-W-Grand-Ave_Pomona_CA_91766_M12555-85003": {
+   "price": 695000,
+   "first_price": 695000,
    "first_seen": "2026-11-04",
    "last_seen": "2026-11-04",
    "status": "active",
