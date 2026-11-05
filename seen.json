@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-11-05T08:58:59.397095",
+ "last_email": "2026-11-05T17:48:54.497637",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -2270,9 +2270,9 @@
    "price": 525000,
    "first_price": 525000,
    "first_seen": "2026-08-15",
-   "last_seen": "2026-10-31",
-   "status": "off_market",
-   "dom": 77
+   "last_seen": "2026-11-05",
+   "status": "active",
+   "dom": 82
   },
   "https://www.realtor.com/realestateandhomes-detail/429-Jansu-Pl_Pomona_CA_91768_M20915-52295": {
    "price": 775000,
@@ -3707,6 +3707,14 @@
   "https://www.realtor.com/realestateandhomes-detail/5393-Yale-St_Montclair_CA_91763_M23066-81948": {
    "price": 699900,
    "first_price": 699900,
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/9943-Del-Mar-Ave_Montclair_CA_91763_M25702-26692": {
+   "price": 685000,
+   "first_price": 685000,
    "first_seen": "2026-11-05",
    "last_seen": "2026-11-05",
    "status": "active",
