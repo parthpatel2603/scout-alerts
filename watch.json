@@ -269,8 +269,9 @@
    "price": 145000,
    "first_price": 145000,
    "first_seen": "2026-07-16",
-   "status": "active",
-   "dom": 204
+   "status": "sold",
+   "dom": 204,
+   "sold_price": 138000
   },
   "https://www.realtor.com/realestateandhomes-detail/1560-Otterbein-Ave-Spc-20_Rowland-Heights_CA_91748_M92677-85385": {
    "price": 250000,
@@ -2473,11 +2474,12 @@
    "dropped": "2026-09-26"
   },
   "https://www.realtor.com/realestateandhomes-detail/600-W-Gladstone-St-Spc-45_Azusa_CA_91702_M98628-60429": {
-   "price": 300000,
+   "price": 289900,
    "first_price": 300000,
    "first_seen": "2026-09-11",
    "status": "active",
-   "dom": 57
+   "dom": 57,
+   "dropped": "2026-11-06"
   },
   "https://www.realtor.com/realestateandhomes-detail/15111-Pipeline-Ave-Spc-260_Chino-Hills_CA_91709_M11350-66055": {
    "price": 279900,
@@ -3294,6 +3296,20 @@
   "https://www.realtor.com/realestateandhomes-detail/2179-W-Orange-Grove-Ave_Pomona_CA_91768_M15128-69070": {
    "price": 699750,
    "first_price": 699750,
+   "first_seen": "2026-11-06",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/760-E-Juanita-Ave_Glendora_CA_91740_M26757-44582": {
+   "price": 789000,
+   "first_price": 789000,
+   "first_seen": "2026-11-06",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/6003-N-Goodway-Dr_Azusa_CA_91702_M18935-32449": {
+   "price": 725000,
+   "first_price": 725000,
    "first_seen": "2026-11-06",
    "status": "active",
    "dom": 0
