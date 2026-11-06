@@ -388,12 +388,12 @@
    "dropped": "2026-09-29"
   },
   "https://www.realtor.com/realestateandhomes-detail/1560-Otterbein-Ave-Spc-124_Rowland-Heights_CA_91748_M98899-83982": {
-   "price": 318000,
+   "price": 318880,
    "first_price": 318000,
    "first_seen": "2026-07-16",
-   "last_seen": "2026-10-04",
-   "status": "off_market",
-   "dom": 183
+   "last_seen": "2026-11-06",
+   "status": "active",
+   "dom": 0
   },
   "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-245_Rowland-Heights_CA_91748_M25417-92593": {
    "price": 199990,
@@ -3541,9 +3541,9 @@
    "price": 719000,
    "first_price": 719000,
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-05",
-   "status": "off_market",
-   "dom": 7
+   "last_seen": "2026-11-06",
+   "status": "active",
+   "dom": 8
   },
   "https://www.realtor.com/realestateandhomes-detail/1839-Miramar-St_Pomona_CA_91767_M25416-81316": {
    "price": 680000,
