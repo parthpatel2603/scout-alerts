@@ -3321,6 +3321,13 @@
    "first_seen": "2026-11-07",
    "status": "active",
    "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1523-Annadel-Ave_Rowland-Heights_CA_91748_M22046-05792": {
+   "price": 780000,
+   "first_price": 780000,
+   "first_seen": "2026-11-07",
+   "status": "active",
+   "dom": 0
   }
  }
 }
