@@ -300,9 +300,10 @@
    "price": 179999,
    "first_price": 188000,
    "first_seen": "2026-07-16",
-   "status": "active",
+   "status": "sold",
    "dom": 138,
-   "dropped": "2026-09-08"
+   "dropped": "2026-09-08",
+   "sold_price": 170000
   },
   "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-64_Rowland-Heights_CA_91748_M23183-24024": {
    "price": 233000,
