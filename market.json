@@ -3,8 +3,8 @@
  "window_days": 60,
  "cities": {
   "Brea": {
-   "ppsf": 575,
-   "n": 51
+   "ppsf": 578,
+   "n": 52
   },
   "La Habra": {
    "ppsf": 537,
@@ -32,7 +32,7 @@
   },
   "Pomona": {
    "ppsf": 443,
-   "n": 102
+   "n": 104
   },
   "Glendora": {
    "ppsf": 558,
@@ -40,11 +40,11 @@
   },
   "Azusa": {
    "ppsf": 452,
-   "n": 50
+   "n": 51
   },
   "Claremont": {
-   "ppsf": 529,
-   "n": 41
+   "ppsf": 523,
+   "n": 42
   },
   "Montclair": {
    "ppsf": 424,

@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-11-10T12:03:43.917718",
+ "last_email": "2026-11-10T20:41:30.906002",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -3787,6 +3787,14 @@
   "https://www.realtor.com/realestateandhomes-detail/1460-Delany-St_Pomona_CA_91767_M25280-41981": {
    "price": 670000,
    "first_price": 670000,
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1414-W-Central-Ave-Spc-10_Brea_CA_92821_M11268-80390": {
+   "price": 250000,
+   "first_price": 250000,
    "first_seen": "2026-11-10",
    "last_seen": "2026-11-10",
    "status": "active",
