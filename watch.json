@@ -1868,8 +1868,9 @@
    "price": 770000,
    "first_price": 770000,
    "first_seen": "2026-08-08",
-   "status": "active",
-   "dom": 129
+   "status": "sold",
+   "dom": 129,
+   "sold_price": 765000
   },
   "https://www.realtor.com/realestateandhomes-detail/503-Garden-Ave_Pomona_CA_91767_M21710-49597": {
    "price": 785000,
@@ -2367,7 +2368,7 @@
    "first_price": 757990,
    "first_seen": "2026-09-04",
    "status": "active",
-   "dom": 29
+   "dom": 25
   },
   "https://www.realtor.com/realestateandhomes-detail/1719-Calatina-Dr_Pomona_CA_91766_M13003-78666": {
    "price": 650000,
@@ -2875,8 +2876,9 @@
    "price": 158000,
    "first_price": 158000,
    "first_seen": "2026-10-07",
-   "status": "active",
-   "dom": 36
+   "status": "sold",
+   "dom": 36,
+   "sold_price": 158000
   },
   "https://www.realtor.com/realestateandhomes-detail/1811-James-Pl_Pomona_CA_91767_M26478-14721": {
    "price": 699000,
@@ -3385,6 +3387,20 @@
   "https://www.realtor.com/realestateandhomes-detail/423-E-Lee-Dr_Azusa_CA_91702_M13700-57754": {
    "price": 660000,
    "first_price": 660000,
+   "first_seen": "2026-11-11",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/4345-Los-Serranos-Blvd_Chino-Hills_CA_91709_M19519-73334": {
+   "price": 769000,
+   "first_price": 769000,
+   "first_seen": "2026-11-11",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/728-Remuda-Dr_Glendora_CA_91740_M26314-35376": {
+   "price": 780000,
+   "first_price": 780000,
    "first_seen": "2026-11-11",
    "status": "active",
    "dom": 0
