@@ -27,16 +27,16 @@
    "n": 40
   },
   "Chino Hills": {
-   "ppsf": 477,
-   "n": 79
+   "ppsf": 482,
+   "n": 80
   },
   "Pomona": {
    "ppsf": 441,
-   "n": 106
+   "n": 108
   },
   "Glendora": {
-   "ppsf": 558,
-   "n": 55
+   "ppsf": 555,
+   "n": 56
   },
   "Azusa": {
    "ppsf": 452,
@@ -48,7 +48,7 @@
   },
   "Montclair": {
    "ppsf": 408,
-   "n": 23
+   "n": 24
   }
  }
 }

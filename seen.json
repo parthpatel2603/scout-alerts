@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-11-12T14:30:20.066793",
+ "last_email": "2026-11-12T22:00:53.940463",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -1745,13 +1745,13 @@
    "sold_price": 765000
   },
   "https://www.realtor.com/realestateandhomes-detail/21217-Washington-Ave-Spc-18_Walnut_CA_91789_M21259-97643": {
-   "price": 280000,
+   "price": 275000,
    "first_price": 310000,
    "first_seen": "2026-07-21",
    "last_seen": "2026-11-12",
    "status": "active",
    "dom": 114,
-   "dropped": "2026-10-28"
+   "dropped": "2026-11-12"
   },
   "https://www.realtor.com/realestateandhomes-detail/243-E-Harrison-Ave_Pomona_CA_91767_M18378-28089": {
    "price": 750000,
@@ -2888,13 +2888,13 @@
    "dom": 56
   },
   "https://www.realtor.com/realestateandhomes-detail/114-W-Olive-St_Pomona_CA_91766_M13613-83013": {
-   "price": 719900,
+   "price": 680000,
    "first_price": 750000,
    "first_seen": "2026-09-17",
    "last_seen": "2026-11-12",
    "status": "active",
    "dom": 56,
-   "dropped": "2026-09-24"
+   "dropped": "2026-11-12"
   },
   "https://www.realtor.com/realestateandhomes-detail/17735-E-Newburgh-St_Azusa_CA_91702_M16612-16563": {
    "price": 749000,
@@ -3858,6 +3858,22 @@
    "last_seen": "2026-11-12",
    "status": "active",
    "dom": 79
+  },
+  "https://www.realtor.com/realestateandhomes-detail/2947-Adelita-Dr_Hacienda-Heights_CA_91745_M15687-04824": {
+   "price": 762000,
+   "first_price": 762000,
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/830-S-Azusa-Ave-Trlr-5_Azusa_CA_91702_M17271-90088": {
+   "price": 149900,
+   "first_price": 149900,
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
+   "status": "active",
+   "dom": 22
   }
  },
  "drops": []
