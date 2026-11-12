@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "window_days": 60,
  "cities": {
   "Brea": {
@@ -20,7 +20,7 @@
   },
   "Hacienda Heights": {
    "ppsf": 508,
-   "n": 57
+   "n": 56
   },
   "Walnut": {
    "ppsf": 565,
@@ -35,8 +35,8 @@
    "n": 106
   },
   "Glendora": {
-   "ppsf": 555,
-   "n": 54
+   "ppsf": 558,
+   "n": 55
   },
   "Azusa": {
    "ppsf": 452,
