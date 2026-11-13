@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-11-13T11:47:57.546576",
+ "last_email": "2026-11-13T19:04:59.539453",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -1649,9 +1649,10 @@
    "first_price": 734900,
    "first_seen": "2026-07-16",
    "last_seen": "2026-11-13",
-   "status": "active",
+   "status": "sold",
    "dom": 37,
-   "dropped": "2026-09-08"
+   "dropped": "2026-09-08",
+   "sold_price": 715000
   },
   "https://www.realtor.com/realestateandhomes-detail/4444-Merle-St_Montclair_CA_91763_M26967-44567": {
    "price": 777998,
@@ -3732,13 +3733,13 @@
    "dom": 8
   },
   "https://www.realtor.com/realestateandhomes-detail/2179-W-Orange-Grove-Ave_Pomona_CA_91768_M15128-69070": {
-   "price": 689750,
+   "price": 669950,
    "first_price": 699750,
    "first_seen": "2026-11-06",
    "last_seen": "2026-11-13",
    "status": "active",
    "dom": 7,
-   "dropped": "2026-11-07"
+   "dropped": "2026-11-13"
   },
   "https://www.realtor.com/realestateandhomes-detail/760-E-Juanita-Ave_Glendora_CA_91740_M26757-44582": {
    "price": 789000,
