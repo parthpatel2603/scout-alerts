@@ -3554,9 +3554,9 @@
    "price": 719000,
    "first_price": 719000,
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-13",
-   "status": "off_market",
-   "dom": 15
+   "last_seen": "2026-11-14",
+   "status": "active",
+   "dom": 16
   },
   "https://www.realtor.com/realestateandhomes-detail/1839-Miramar-St_Pomona_CA_91767_M25416-81316": {
    "price": 680000,
