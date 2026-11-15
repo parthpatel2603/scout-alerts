@@ -3452,6 +3452,13 @@
    "first_seen": "2026-11-14",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/4524-Bird-Farm-Rd_Chino-Hills_CA_91709_M25824-32802": {
+   "price": 624900,
+   "first_price": 624900,
+   "first_seen": "2026-11-15",
+   "status": "active",
+   "dom": 0
   }
  }
 }
