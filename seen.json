@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-11-15T22:24:29.632618",
+ "last_email": "2026-11-16T23:57:19.036171",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -1755,7 +1755,7 @@
    "dropped": "2026-11-12"
   },
   "https://www.realtor.com/realestateandhomes-detail/243-E-Harrison-Ave_Pomona_CA_91767_M18378-28089": {
-   "price": 750000,
+   "price": 760000,
    "first_price": 775000,
    "first_seen": "2026-07-21",
    "last_seen": "2026-11-16",
@@ -2385,13 +2385,13 @@
    "sold_price": 770000
   },
   "https://www.realtor.com/realestateandhomes-detail/1051-Site-Dr-Spc-262_Brea_CA_92821_M27037-65482": {
-   "price": 199500,
+   "price": 198500,
    "first_price": 210000,
    "first_seen": "2026-08-22",
    "last_seen": "2026-11-16",
    "status": "active",
    "dom": 87,
-   "dropped": "2026-09-16"
+   "dropped": "2026-11-16"
   },
   "https://www.realtor.com/realestateandhomes-detail/232-Lois-St_La-Habra_CA_90631_M29293-66437": {
    "price": 750000,
@@ -2740,9 +2740,10 @@
    "price": 650000,
    "first_price": 650000,
    "first_seen": "2026-09-09",
-   "last_seen": "2026-09-17",
-   "status": "off_market",
-   "dom": 8
+   "last_seen": "2026-11-16",
+   "status": "sold",
+   "dom": 8,
+   "sold_price": 710000
   },
   "https://www.realtor.com/realestateandhomes-detail/1944-Lancewood-Ave_Hacienda-Heights_CA_91745_M20419-93666": {
    "price": 650000,
@@ -3379,12 +3380,13 @@
    "dom": 33
   },
   "https://www.realtor.com/realestateandhomes-detail/2533-Trudy-Pl_Pomona_CA_91766_M28641-06251": {
-   "price": 765000,
+   "price": 700000,
    "first_price": 765000,
    "first_seen": "2026-10-15",
    "last_seen": "2026-11-16",
    "status": "active",
-   "dom": 32
+   "dom": 32,
+   "dropped": "2026-11-16"
   },
   "https://www.realtor.com/realestateandhomes-detail/190-E-Arrow-Hwy_Claremont_CA_91711_M23232-65628": {
    "price": 759800,
@@ -3894,7 +3896,7 @@
    "first_seen": "2026-11-13",
    "last_seen": "2026-11-16",
    "status": "active",
-   "dom": null
+   "dom": 0
   },
   "https://www.realtor.com/realestateandhomes-detail/3019-Blandford-Dr_Rowland-Heights_CA_91748_M28695-21185": {
    "price": 780000,
@@ -3911,6 +3913,14 @@
    "last_seen": "2026-11-16",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1850-Fairway-Dr-Spc-99_Chino-Hills_CA_91709_M18284-84392": {
+   "price": 775000,
+   "first_price": 775000,
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "status": "active",
+   "dom": 4
   }
  },
  "drops": []
