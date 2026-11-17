@@ -2235,8 +2235,8 @@
    "price": 699000,
    "first_price": 699000,
    "first_seen": "2026-08-27",
-   "status": "off_market",
-   "dom": 61
+   "status": "active",
+   "dom": 83
   },
   "https://www.realtor.com/realestateandhomes-detail/2020-Nichols-St_Pomona_CA_91768_M16051-76809": {
    "price": 700500,
@@ -3469,6 +3469,13 @@
    "first_seen": "2026-11-16",
    "status": "active",
    "dom": 5
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1587-Meserve-St_Pomona_CA_91766_M14599-88697": {
+   "price": 639000,
+   "first_price": 639000,
+   "first_seen": "2026-11-17",
+   "status": "active",
+   "dom": 0
   }
  }
 }

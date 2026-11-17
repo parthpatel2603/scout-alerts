@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-11-16T23:57:19.036171",
+ "last_email": "2026-11-17T17:18:06.360418",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -2519,9 +2519,9 @@
    "price": 699000,
    "first_price": 699000,
    "first_seen": "2026-08-27",
-   "last_seen": "2026-10-26",
-   "status": "off_market",
-   "dom": 61
+   "last_seen": "2026-11-17",
+   "status": "active",
+   "dom": 83
   },
   "https://www.realtor.com/realestateandhomes-detail/2020-Nichols-St_Pomona_CA_91768_M16051-76809": {
    "price": 700500,
@@ -3922,6 +3922,14 @@
    "last_seen": "2026-11-17",
    "status": "active",
    "dom": 5
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1587-Meserve-St_Pomona_CA_91766_M14599-88697": {
+   "price": 639000,
+   "first_price": 639000,
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
