@@ -43,11 +43,11 @@
    "dropped": "2026-08-29"
   },
   "https://www.realtor.com/realestateandhomes-detail/4645-Bandera-St_Montclair_CA_91763_M24438-20615": {
-   "price": 600000,
+   "price": 758000,
    "first_price": 0,
    "first_seen": "2026-07-16",
-   "status": "sold",
-   "dom": 26,
+   "status": "active",
+   "dom": 0,
    "sold_price": 600000
   },
   "https://www.realtor.com/realestateandhomes-detail/716-E-6th-St_Pomona_CA_91766_M91019-38006": {
