@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-11-18T00:23:55.004857",
+ "last_email": "2026-11-18T09:38:53.188794",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -2224,8 +2224,9 @@
    "first_price": 784900,
    "first_seen": "2026-08-14",
    "last_seen": "2026-11-18",
-   "status": "active",
-   "dom": 96
+   "status": "sold",
+   "dom": 96,
+   "sold_price": 800000
   },
   "https://www.realtor.com/realestateandhomes-detail/5564-Valencia-Dr_Ontario_CA_91762_M99184-79729": {
    "price": 649000,
@@ -3939,6 +3940,14 @@
    "last_seen": "2026-11-18",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/131-Newman-St_Pomona_CA_91768_M13475-57349": {
+   "price": 525000,
+   "first_price": 525000,
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []

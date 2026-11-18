@@ -1973,8 +1973,9 @@
    "price": 784900,
    "first_price": 784900,
    "first_seen": "2026-08-14",
-   "status": "active",
-   "dom": 96
+   "status": "sold",
+   "dom": 96,
+   "sold_price": 800000
   },
   "https://www.realtor.com/realestateandhomes-detail/5564-Valencia-Dr_Ontario_CA_91762_M99184-79729": {
    "price": 649000,
@@ -3484,6 +3485,13 @@
    "first_seen": "2026-11-18",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/131-Newman-St_Pomona_CA_91768_M13475-57349": {
+   "price": 525000,
+   "first_price": 525000,
+   "first_seen": "2026-11-18",
+   "status": "active",
+   "dom": 0
   }
  }
 }
