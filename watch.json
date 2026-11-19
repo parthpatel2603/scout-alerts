@@ -2761,7 +2761,7 @@
    "first_price": 275000,
    "first_seen": "2026-09-29",
    "status": "active",
-   "dom": 17
+   "dom": 1
   },
   "https://www.realtor.com/realestateandhomes-detail/1414-W-Central-Ave-Spc-89_Brea_CA_92821_M20456-93021": {
    "price": 269000,
@@ -3508,6 +3508,13 @@
    "first_seen": "2026-11-19",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/1441-Paso-Real-Ave-Spc-211_Rowland-Heights_CA_91748_M97352-65396": {
+   "price": 168000,
+   "first_price": 168000,
+   "first_seen": "2026-11-19",
+   "status": "active",
+   "dom": 0
   }
  }
 }
