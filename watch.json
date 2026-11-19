@@ -3515,6 +3515,27 @@
    "first_seen": "2026-11-19",
    "status": "active",
    "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/15243-Carmelita-Ave_Chino-Hills_CA_91709_M18337-28499": {
+   "price": 698800,
+   "first_price": 698800,
+   "first_seen": "2026-11-19",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/511-W-Phillips-Blvd_Pomona_CA_91766_M12096-36096": {
+   "price": 635000,
+   "first_price": 635000,
+   "first_seen": "2026-11-19",
+   "status": "active",
+   "dom": 0
+  },
+  "https://www.realtor.com/realestateandhomes-detail/10243-Saratoga-Ave_Montclair_CA_91763_M25629-59833": {
+   "price": 724900,
+   "first_price": 724900,
+   "first_seen": "2026-11-19",
+   "status": "active",
+   "dom": 0
   }
  }
 }
