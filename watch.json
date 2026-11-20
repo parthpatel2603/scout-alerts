@@ -2089,9 +2089,10 @@
    "price": 649000,
    "first_price": 690000,
    "first_seen": "2026-08-21",
-   "status": "active",
+   "status": "sold",
    "dom": 92,
-   "dropped": "2026-09-30"
+   "dropped": "2026-09-30",
+   "sold_price": 630000
   },
   "https://www.realtor.com/realestateandhomes-detail/18426-Santar-St_Rowland-Heights_CA_91748_M10698-62918": {
    "price": 588000,
