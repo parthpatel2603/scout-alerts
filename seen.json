@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-11-21T09:05:31.912968",
+ "last_email": "2026-11-21T17:03:46.329710",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -2346,9 +2346,10 @@
    "first_price": 299000,
    "first_seen": "2026-08-21",
    "last_seen": "2026-11-21",
-   "status": "active",
+   "status": "sold",
    "dom": 17,
-   "dropped": "2026-10-11"
+   "dropped": "2026-10-11",
+   "sold_price": 263000
   },
   "https://www.realtor.com/realestateandhomes-detail/371-Fowler-Ave_Pomona_CA_91766_M27777-61062": {
    "price": 649000,
@@ -4010,6 +4011,14 @@
    "last_seen": "2026-11-21",
    "status": "active",
    "dom": 1
+  },
+  "https://www.realtor.com/realestateandhomes-detail/18620-Marimba-St_Rowland-Heights_CA_91748_M25365-87255": {
+   "price": 750000,
+   "first_price": 750000,
+   "first_seen": "2026-11-21",
+   "last_seen": "2026-11-21",
+   "status": "active",
+   "dom": 0
   }
  },
  "drops": []
