@@ -2902,11 +2902,12 @@
    "dom": 46
   },
   "https://www.realtor.com/realestateandhomes-detail/15050-Monte-Vista-Ave-Spc-40_Chino-Hills_CA_91709_M21878-90684": {
-   "price": 235000,
+   "price": 230000,
    "first_price": 235000,
    "first_seen": "2026-10-08",
    "status": "active",
-   "dom": 46
+   "dom": 46,
+   "dropped": "2026-11-22"
   },
   "https://www.realtor.com/realestateandhomes-detail/1300-W-Mission-Blvd_Pomona_CA_91766_M26285-74273": {
    "price": 100000,
