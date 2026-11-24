@@ -3092,9 +3092,9 @@
    "price": 679900,
    "first_price": 679900,
    "first_seen": "2026-09-25",
-   "last_seen": "2026-11-23",
-   "status": "off_market",
-   "dom": 59
+   "last_seen": "2026-11-24",
+   "status": "active",
+   "dom": 60
   },
   "https://www.realtor.com/realestateandhomes-detail/1281-Colony-Dr_Pomona_CA_91766_M13862-02131": {
    "price": 699000,
