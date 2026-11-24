@@ -1,6 +1,6 @@
 {
  "backlog": [],
- "last_email": "2026-11-22T20:33:23.692470",
+ "last_email": "2026-11-24T21:50:50.702859",
  "tracked": {
   "https://www.realtor.com/realestateandhomes-detail/1509-Evans-Ave_Pomona_CA_91766_M28085-79997": {
    "price": 709000,
@@ -2159,12 +2159,13 @@
    "sold_price": 730000
   },
   "https://www.realtor.com/realestateandhomes-detail/2211-Angela-St_Pomona_CA_91766_M28891-48964": {
-   "price": 760000,
+   "price": 740000,
    "first_price": 760000,
    "first_seen": "2026-08-13",
    "last_seen": "2026-11-24",
    "status": "active",
-   "dom": 104
+   "dom": 104,
+   "dropped": "2026-11-24"
   },
   "https://www.realtor.com/realestateandhomes-detail/766-Cactus-Ct_Brea_CA_92821_M10600-93463": {
    "price": 699000,
@@ -2412,9 +2413,10 @@
    "first_price": 778800,
    "first_seen": "2026-08-22",
    "last_seen": "2026-11-24",
-   "status": "active",
+   "status": "sold",
    "dom": 95,
-   "dropped": "2026-10-28"
+   "dropped": "2026-10-28",
+   "sold_price": 680000
   },
   "https://www.realtor.com/realestateandhomes-detail/5014-Birch_Montclair_CA_91763_M98073-66085": {
    "price": 709000,
@@ -2989,9 +2991,10 @@
    "first_price": 790000,
    "first_seen": "2026-09-22",
    "last_seen": "2026-11-24",
-   "status": "active",
+   "status": "sold",
    "dom": 63,
-   "dropped": "2026-10-23"
+   "dropped": "2026-10-23",
+   "sold_price": 775000
   },
   "https://www.realtor.com/realestateandhomes-detail/17848-Cassidy-Pl_Chino-Hills_CA_91709_M22146-23697": {
    "price": 650000,
